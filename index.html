@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Nepal News Hub Pro</title>
+    
+    <!-- Tailwind CSS & Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 px-5 py-3 flex flex-col gap-2" id="app-header">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2" id="brand-area">
+                    <div class="w-7 h-7 bg-rose-600 rounded-lg flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
+                    </div>
+                    <span class="font-extrabold text-lg tracking-tight">Nepal<span class="text-rose-600">Hub</span></span>
+                </div>
+                
+                <div class="flex items-center gap-3">
+                    <!-- Thumbnail Toggle -->
+                    <div class="flex items-center gap-2 mr-1" id="thumb-toggle-area">
+                        <span class="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">Images</span>
+                        <div class="relative inline-block w-8 align-middle select-none transition duration-200 ease-in">
+                            <input type="checkbox" name="toggle" id="thumb-toggle" class="toggle-checkbox absolute block w-4 h-4 rounded-full bg-white border-4 appearance-none cursor-pointer outline-none transition-all duration-300 left-0 border-slate-200"/>
+                            <label for="thumb-toggle" class="toggle-label block overflow-hidden h-4 rounded-full bg-slate-200 cursor-pointer transition-colors duration-300"></label>
+                        </div>
+                    </div>
+
+                    <div class="hidden" id="search-container">
+                        <input class="w-full px-4 py-1.5 bg-slate-100 rounded-full text-xs outline-none border border-transparent focus:border-rose-200" id="search-input" placeholder="Search news..." type="text" />
+                    </div>
+                    <button class="p-2 text-slate-500 hover:text-rose-600 transition-colors" id="search-toggle">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    </button>
+                    <div class="text-[9px] font-bold bg-slate-100 px-2 py-1 rounded-full text-slate-500 whitespace-nowrap" id="header-count">
+                        0 News
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex items-center justify-between border-t border-slate-50 pt-2">
+                <div class="flex items-center gap-1.5 text-slate-500">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    <span class="text-[10px] font-bold uppercase tracking-wider" id="current-date">Loading...</span>
+                </div>
+                <div class="flex items-center gap-1.5 text-rose-600">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                    <span class="text-[10px] font-bold uppercase tracking-wider" id="current-time">00:00:00</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Category Scroll Bar -->
+        <div class="sticky top-[95px] z-40 bg-white/80 backdrop-blur-md px-4 py-3 flex gap-2 overflow-x-auto no-scrollbar border-b border-slate-50" id="category-bar">
+            <button class="category-pill active" id="cat-all" onclick="setCategory('all')">All News</button>
+            <button class="category-pill" id="cat-sports" onclick="setCategory('sports')">Sports</button>
+            <button class="category-pill" id="cat-finance" onclick="setCategory('finance')">Finance</button>
+            <button class="category-pill" id="cat-tech" onclick="setCategory('tech')">Tech</button>
+            <button class="category-pill" id="cat-entertainment" onclick="setCategory('entertainment')">Entertainment</button>
+        </div>
+
+        <!-- Content -->
+        <main class="min-h-screen" id="content-area">
+            <!-- Content injected via JS -->
+        </main>
+
+        <!-- Infinite Scroll Anchor -->
+        <div class="h-24 flex items-center justify-center" id="infinite-anchor">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- Back to Top -->
+        <button class="fixed bottom-24 right-5 z-[90] w-12 h-12 bg-rose-600 text-white rounded-full shadow-lg hidden items-center justify-center active:scale-90 transition-transform" id="back-to-top" onclick="scrollToTop()">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
+        </button>
+
+        <!-- Navigation -->
+        <nav class="fixed bottom-0 left-0 right-0 z-[100] bg-white border-t border-slate-100 flex items-center justify-around h-[70px] max-w-[500px] mx-auto px-2">
+            <button class="nav-item active flex flex-col items-center gap-1" id="nav-home" onclick="switchTab('home')">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Home</span>
+            </button>
+            <button class="nav-item flex flex-col items-center gap-1" id="nav-reels" onclick="switchTab('reels')">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></path></svg>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Reels</span>
+            </button>
+            <button class="nav-item flex flex-col items-center gap-1" id="nav-sources" onclick="switchTab('sources')">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Sources</span>
+            </button>
+            <button class="nav-item flex flex-col items-center gap-1" id="nav-notifications" onclick="switchTab('notifications')">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[10px] font-bold uppercase tracking-widest">Alerts</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script src="js/feeds.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
