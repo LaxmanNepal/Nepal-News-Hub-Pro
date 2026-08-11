@@ -5,107 +5,1075 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Nepal News Hub Pro</title>
     
-    <!-- Tailwind CSS & Fonts -->
+    <!-- Tailwind CSS & Google Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
 
-    <div class="app-container">
-        <!-- Header -->
-        <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 px-5 py-3 flex flex-col gap-2" id="app-header">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center gap-2" id="brand-area">
-                    <div class="w-7 h-7 bg-rose-600 rounded-lg flex items-center justify-center">
+        /* Scrollbar Tweaks */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Custom Animations */
+        .animate-in {
+            animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Box UI Card Transitions */
+        .box-card {
+            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+        }
+        .box-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px -6px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+            border-color: #cbd5e1;
+        }
+
+        /* Category Pill Buttons */
+        .category-pill {
+            padding: 7px 18px;
+            border-radius: 9999px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            color: #64748b;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+            cursor: pointer;
+        }
+
+        .category-pill:hover {
+            background-color: #f8fafc;
+            color: #0f172a;
+            border-color: #cbd5e1;
+        }
+
+        .category-pill.active {
+            background-color: #e11d48;
+            color: #ffffff;
+            border-color: #e11d48;
+            box-shadow: 0 4px 14px rgba(225, 29, 72, 0.3);
+        }
+
+        /* View Mode Toggle Buttons */
+        .view-btn {
+            padding: 6px;
+            border-radius: 8px;
+            color: #64748b;
+            transition: all 0.15s ease;
+            cursor: pointer;
+        }
+        .view-btn.active {
+            background-color: #ffffff;
+            color: #e11d48;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Source Sub-Feed Tabs */
+        .source-feed-tab {
+            padding: 8px 16px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            color: #475569;
+            transition: all 0.2s;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+
+        .source-feed-tab.active {
+            background-color: #0f172a;
+            color: #ffffff;
+            border-color: #0f172a;
+        }
+
+        /* Modal Sheet Animation */
+        .modal-backdrop {
+            background-color: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(4px);
+            transition: opacity 0.2s ease;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            width: 18px;
+            height: 18px;
+            border: 2.5px solid #f3f3f3;
+            border-top: 2.5px solid #e11d48;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Custom Toggle Switch */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: #e11d48;
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #e11d48;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- App Wrapper with Desktop Sidebar & Content Grid -->
+    <div class="max-w-7xl mx-auto flex min-h-screen">
+
+        <!-- Sidebar Navigation (Desktop) -->
+        <aside class="hidden lg:flex flex-col w-64 border-r border-slate-200 bg-white sticky top-0 h-screen p-6 justify-between z-50">
+            <div class="space-y-8">
+                <!-- Brand Header -->
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 bg-rose-600 rounded-xl flex items-center justify-center shadow-lg shadow-rose-600/30">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
+                    </div>
+                    <span class="font-extrabold text-xl tracking-tight text-slate-900">Nepal<span class="text-rose-600">Hub</span></span>
+                </div>
+
+                <!-- Navigation Links -->
+                <nav class="space-y-2">
+                    <button class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl font-extrabold text-xs uppercase tracking-wider text-slate-600 hover:bg-slate-50 hover:text-rose-600 transition-all" id="d-nav-home" onclick="switchTab('home')">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        Feed Home
+                    </button>
+                    <button class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl font-extrabold text-xs uppercase tracking-wider text-slate-600 hover:bg-slate-50 hover:text-rose-600 transition-all" id="d-nav-sources" onclick="switchTab('sources')">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        News Outlets
+                    </button>
+                    <button class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl font-extrabold text-xs uppercase tracking-wider text-slate-600 hover:bg-slate-50 hover:text-rose-600 transition-all" id="d-nav-saved" onclick="switchTab('saved')">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        Bookmarks
+                        <span id="saved-badge-count" class="ml-auto text-[10px] bg-rose-100 text-rose-700 px-2 py-0.5 rounded-full font-bold">0</span>
+                    </button>
+                    <button class="nav-btn w-full flex items-center gap-3 px-4 py-3 rounded-xl font-extrabold text-xs uppercase tracking-wider text-slate-600 hover:bg-slate-50 hover:text-rose-600 transition-all" id="d-nav-notifications" onclick="switchTab('notifications')">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        Alerts
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Background Sync Status -->
+            <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 flex items-center justify-between">
+                <div>
+                    <p class="text-[10px] font-black uppercase text-slate-400">Background Sync</p>
+                    <p class="text-xs font-bold text-emerald-600 flex items-center gap-1.5 mt-0.5">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Active Engine
+                    </p>
+                </div>
+                <div class="spinner"></div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <div class="flex-1 min-w-0 pb-24 lg:pb-12">
+            
+            <!-- Header Bar -->
+            <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-100 px-4 lg:px-8 py-3.5 flex items-center justify-between gap-3" id="app-header">
+                <!-- Mobile Brand -->
+                <div class="flex items-center gap-2 lg:hidden shrink-0" id="brand-area">
+                    <div class="w-7 h-7 bg-rose-600 rounded-lg flex items-center justify-center shadow-md shadow-rose-600/30">
                         <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
                     </div>
-                    <span class="font-extrabold text-lg tracking-tight">Nepal<span class="text-rose-600">Hub</span></span>
+                    <span class="font-extrabold text-base tracking-tight">Nepal<span class="text-rose-600">Hub</span></span>
                 </div>
-                
-                <div class="flex items-center gap-3">
-                    <!-- Thumbnail Toggle -->
-                    <div class="flex items-center gap-2 mr-1" id="thumb-toggle-area">
-                        <span class="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">Images</span>
-                        <div class="relative inline-block w-8 align-middle select-none transition duration-200 ease-in">
-                            <input type="checkbox" name="toggle" id="thumb-toggle" class="toggle-checkbox absolute block w-4 h-4 rounded-full bg-white border-4 appearance-none cursor-pointer outline-none transition-all duration-300 left-0 border-slate-200"/>
-                            <label for="thumb-toggle" class="toggle-label block overflow-hidden h-4 rounded-full bg-slate-200 cursor-pointer transition-colors duration-300"></label>
-                        </div>
+
+                <!-- Global Search Input -->
+                <div class="flex-1 max-w-md relative">
+                    <input type="text" id="global-search" placeholder="Search news headlines or sources..." class="w-full bg-slate-100/90 border border-transparent focus:border-rose-300 focus:bg-white rounded-full px-4 py-2 text-xs font-semibold outline-none transition-all pl-9">
+                    <svg class="w-4 h-4 text-slate-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                </div>
+
+                <!-- Controls: Layout Mode, Images Toggle & Counter -->
+                <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+                    <!-- Layout Mode Switcher -->
+                    <div class="hidden sm:flex items-center bg-slate-100 p-1 rounded-xl border border-slate-200/60" id="layout-toggle-group">
+                        <button class="view-btn active" id="view-grid-btn" onclick="setViewLayout('grid')" title="Grid Card View">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        </button>
+                        <button class="view-btn" id="view-list-btn" onclick="setViewLayout('list')" title="Compact List View">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                        </button>
                     </div>
 
-                    <div class="hidden" id="search-container">
-                        <input class="w-full px-4 py-1.5 bg-slate-100 rounded-full text-xs outline-none border border-transparent focus:border-rose-200" id="search-input" placeholder="Search news..." type="text" />
+                    <!-- Images Toggle -->
+                    <div class="flex items-center gap-1.5 bg-slate-100 px-2.5 py-1.5 rounded-full border border-slate-200/60" id="thumb-toggle-area">
+                        <span class="text-[10px] font-extrabold text-slate-500 uppercase hidden sm:inline">Images</span>
+                        <div class="relative inline-block w-7 align-middle select-none">
+                            <input type="checkbox" id="thumb-toggle" class="toggle-checkbox absolute block w-3.5 h-3.5 rounded-full bg-white border-2 appearance-none cursor-pointer outline-none left-0 border-slate-300 transition-all duration-300"/>
+                            <label for="thumb-toggle" class="toggle-label block overflow-hidden h-3.5 rounded-full bg-slate-200 cursor-pointer"></label>
+                        </div>
                     </div>
-                    <button class="p-2 text-slate-500 hover:text-rose-600 transition-colors" id="search-toggle">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                    </button>
-                    <div class="text-[9px] font-bold bg-slate-100 px-2 py-1 rounded-full text-slate-500 whitespace-nowrap" id="header-count">
+                    
+                    <div class="text-[10px] font-black bg-rose-50 text-rose-600 px-3 py-1.5 rounded-full border border-rose-100 whitespace-nowrap shadow-sm" id="header-count">
                         0 News
                     </div>
                 </div>
-            </div>
-            
-            <div class="flex items-center justify-between border-t border-slate-50 pt-2">
-                <div class="flex items-center gap-1.5 text-slate-500">
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                    <span class="text-[10px] font-bold uppercase tracking-wider" id="current-date">Loading...</span>
-                </div>
-                <div class="flex items-center gap-1.5 text-rose-600">
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                    <span class="text-[10px] font-bold uppercase tracking-wider" id="current-time">00:00:00</span>
-                </div>
-            </div>
-        </header>
+            </header>
 
-        <!-- Category Scroll Bar -->
-        <div class="sticky top-[95px] z-40 bg-white/80 backdrop-blur-md px-4 py-3 flex gap-2 overflow-x-auto no-scrollbar border-b border-slate-50" id="category-bar">
-            <button class="category-pill active" id="cat-all" onclick="setCategory('all')">All News</button>
-            <button class="category-pill" id="cat-sports" onclick="setCategory('sports')">Sports</button>
-            <button class="category-pill" id="cat-finance" onclick="setCategory('finance')">Finance</button>
-            <button class="category-pill" id="cat-tech" onclick="setCategory('tech')">Tech</button>
-            <button class="category-pill" id="cat-entertainment" onclick="setCategory('entertainment')">Entertainment</button>
+            <!-- Category Scroll Bar (Home View) -->
+            <div class="bg-white px-4 lg:px-8 py-3 flex gap-2 overflow-x-auto no-scrollbar border-b border-slate-100 sticky top-[61px] z-30" id="category-bar">
+                <button class="category-pill active" id="cat-all" onclick="setCategory('all')">🔥 All News</button>
+                <button class="category-pill" id="cat-sports" onclick="setCategory('sports')">⚽ Sports</button>
+                <button class="category-pill" id="cat-finance" onclick="setCategory('finance')">📈 Finance</button>
+                <button class="category-pill" id="cat-tech" onclick="setCategory('tech')">💻 Tech</button>
+                <button class="category-pill" id="cat-entertainment" onclick="setCategory('entertainment')">🎬 Entertainment</button>
+            </div>
+
+            <!-- Main Content Container -->
+            <main class="p-4 lg:p-8" id="content-area">
+                <!-- Injected via JavaScript -->
+            </main>
+
+            <!-- Quick Article Reader Modal Sheet -->
+            <div id="article-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+                <div class="modal-backdrop absolute inset-0" onclick="closeArticleModal()"></div>
+                <div class="relative bg-white w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden border border-slate-200 z-10 animate-in max-h-[90vh] flex flex-col">
+                    <div class="relative h-56 sm:h-64 bg-slate-900 shrink-0" id="modal-img-container">
+                        <img id="modal-img" src="" class="w-full h-full object-cover opacity-90" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+                        <button onclick="closeArticleModal()" class="absolute top-4 right-4 bg-slate-900/70 text-white hover:bg-slate-900 p-2 rounded-full backdrop-blur transition-all">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+                        </button>
+                        <div class="absolute bottom-4 left-6 right-6">
+                            <span id="modal-source" class="px-2.5 py-1 bg-rose-600 text-white text-[10px] font-black uppercase tracking-widest rounded-md shadow-sm">SOURCE</span>
+                            <span id="modal-date" class="ml-2 text-slate-300 text-xs font-semibold">Just now</span>
+                        </div>
+                    </div>
+                    <div class="p-6 overflow-y-auto space-y-4 flex-1">
+                        <h2 id="modal-title" class="text-xl sm:text-2xl font-black text-slate-900 leading-snug">Headline Loading...</h2>
+                        <p id="modal-desc" class="text-sm text-slate-600 leading-relaxed font-medium">Article summary details...</p>
+                    </div>
+                    <div class="p-4 sm:p-6 bg-slate-50 border-t border-slate-100 flex items-center justify-between gap-3 shrink-0">
+                        <button id="modal-bookmark-btn" onclick="" class="px-4 py-2.5 bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl font-extrabold text-xs flex items-center gap-2 transition-all">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            <span id="modal-bookmark-label">Save Card</span>
+                        </button>
+                        <a id="modal-link-btn" href="#" target="_blank" class="px-6 py-2.5 bg-rose-600 hover:bg-rose-700 text-white rounded-xl font-extrabold text-xs uppercase tracking-wider flex items-center gap-2 shadow-lg shadow-rose-600/30 transition-all">
+                            Read Original Article
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infinite Scroll Intersection Anchor -->
+            <div class="h-20 flex items-center justify-center" id="infinite-anchor">
+                <div class="spinner"></div>
+            </div>
         </div>
 
-        <!-- Content -->
-        <main class="min-h-screen" id="content-area">
-            <!-- Content injected via JS -->
-        </main>
-
-        <!-- Infinite Scroll Anchor -->
-        <div class="h-24 flex items-center justify-center" id="infinite-anchor">
-            <div class="spinner"></div>
-        </div>
-
-        <!-- Back to Top -->
-        <button class="fixed bottom-24 right-5 z-[90] w-12 h-12 bg-rose-600 text-white rounded-full shadow-lg hidden items-center justify-center active:scale-90 transition-transform" id="back-to-top" onclick="scrollToTop()">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></svg>
-        </button>
-
-        <!-- Navigation -->
-        <nav class="fixed bottom-0 left-0 right-0 z-[100] bg-white border-t border-slate-100 flex items-center justify-around h-[70px] max-w-[500px] mx-auto px-2">
-            <button class="nav-item active flex flex-col items-center gap-1" id="nav-home" onclick="switchTab('home')">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                <span class="text-[10px] font-bold uppercase tracking-widest">Home</span>
+        <!-- Navigation Bar (Mobile) -->
+        <nav class="mobile-bottom-nav lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-slate-200 flex items-center justify-around h-16 px-2 shadow-lg">
+            <button class="nav-item flex flex-col items-center gap-1 text-slate-400 active:text-rose-600" id="m-nav-home" onclick="switchTab('home')">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[9px] font-black uppercase tracking-wider">Home</span>
             </button>
-            <button class="nav-item flex flex-col items-center gap-1" id="nav-reels" onclick="switchTab('reels')">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></path></svg>
-                <span class="text-[10px] font-bold uppercase tracking-widest">Reels</span>
+            <button class="nav-item flex flex-col items-center gap-1 text-slate-400 active:text-rose-600" id="m-nav-sources" onclick="switchTab('sources')">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[9px] font-black uppercase tracking-wider">Sources</span>
             </button>
-            <button class="nav-item flex flex-col items-center gap-1" id="nav-sources" onclick="switchTab('sources')">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                <span class="text-[10px] font-bold uppercase tracking-widest">Sources</span>
+            <button class="nav-item flex flex-col items-center gap-1 text-slate-400 active:text-rose-600" id="m-nav-saved" onclick="switchTab('saved')">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[9px] font-black uppercase tracking-wider">Saved</span>
             </button>
-            <button class="nav-item flex flex-col items-center gap-1" id="nav-notifications" onclick="switchTab('notifications')">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                <span class="text-[10px] font-bold uppercase tracking-widest">Alerts</span>
+            <button class="nav-item flex flex-col items-center gap-1 text-slate-400 active:text-rose-600" id="m-nav-notifications" onclick="switchTab('notifications')">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <span class="text-[9px] font-black uppercase tracking-wider">Alerts</span>
             </button>
         </nav>
     </div>
 
-    <!-- Custom Scripts -->
-    <script src="js/feeds.js"></script>
-    <script src="js/app.js"></script>
+    <!-- Application Script Engine -->
+    <script>
+        // Master Feeds Registry
+        const MASTER_FEEDS = {
+            all: [
+                "https://www.onlinekhabar.com/feed", 
+                "https://ratopati.com/feed",
+                "https://www.setopati.com/feed", 
+                "https://gorkhapatraonline.com/rss", 
+                "https://www.annapurnapost.com/rss", 
+                "https://rajdhanidaily.com/feed/", 
+                "https://ujyaaloonline.com/rss"
+            ],
+            sports: [
+                "https://www.hamrokhelkud.com/feed", 
+                "https://www.khelpati.com/feed",
+                "https://www.cricnepal.com/feed"
+            ],
+            finance: [
+                "https://www.sharesansar.com/rss", 
+                "https://clickmandu.com/feed", 
+                "https://arthasarokar.com/feed", 
+                "https://bankingkhabar.com/feed"
+            ],
+            tech: [
+                "https://www.techpana.com/feed", 
+                "https://www.nepalitelecom.com/feed", 
+                "https://techsathi.com/feed"
+            ],
+            entertainment: [
+                "https://www.merofilm.com/feed", 
+                "https://www.lensnepal.com/feed"
+            ]
+        };
+
+        // Source Outlets Directory
+        const SOURCE_OUTLETS = [
+            {
+                id: "ONLINEKHABAR",
+                name: "Onlinekhabar",
+                domain: "onlinekhabar.com",
+                feeds: [
+                    { name: "Main", url: "https://www.onlinekhabar.com/feed" },
+                    { name: "Sports", url: "https://www.onlinekhabar.com/content/sports/feed" },
+                    { name: "Business", url: "https://www.onlinekhabar.com/content/business/feed" },
+                    { name: "Tech", url: "https://www.onlinekhabar.com/content/technology/feed" },
+                    { name: "Entertainment", url: "https://www.onlinekhabar.com/content/entertainment/feed" }
+                ]
+            },
+            {
+                id: "RATOPATI",
+                name: "Ratopati",
+                domain: "ratopati.com",
+                feeds: [
+                    { name: "Main Feed", url: "https://ratopati.com/feed" }
+                ]
+            },
+            {
+                id: "SETOPATI",
+                name: "Setopati",
+                domain: "setopati.com",
+                feeds: [
+                    { name: "Main Feed", url: "https://www.setopati.com/feed" }
+                ]
+            },
+            {
+                id: "HAMROKHELKUD",
+                name: "Hamro Khelkud",
+                domain: "hamrokhelkud.com",
+                feeds: [
+                    { name: "Sports Stream", url: "https://www.hamrokhelkud.com/feed" }
+                ]
+            },
+            {
+                id: "SHARESANSAR",
+                name: "ShareSansar",
+                domain: "sharesansar.com",
+                feeds: [
+                    { name: "Markets & Finance", url: "https://www.sharesansar.com/rss" }
+                ]
+            },
+            {
+                id: "TECHPANA",
+                name: "TechPana",
+                domain: "techpana.com",
+                feeds: [
+                    { name: "Technology Stream", url: "https://www.techpana.com/feed" }
+                ]
+            }
+        ];
+
+        // Inline Web Worker String for Background Prefetching
+        const workerScript = `
+            const RSS_PROXY = "https://api.rss2json.com/v1/api.json?rss_url=";
+
+            self.onmessage = async function(e) {
+                const { action, feeds } = e.data;
+                if (action === 'PREFETCH_ALL') {
+                    const results = await fetchAllFeeds(feeds);
+                    self.postMessage({ action: 'FEEDS_UPDATED', items: results });
+                }
+            };
+
+            async function fetchAllFeeds(feedsObject) {
+                const allUrls = Array.from(new Set(Object.values(feedsObject).flat()));
+                const batchSize = 4; 
+                let allItems = [];
+
+                for (let i = 0; i < allUrls.length; i += batchSize) {
+                    const chunk = allUrls.slice(i, i + batchSize);
+                    const promises = chunk.map(url => 
+                        fetch(RSS_PROXY + encodeURIComponent(url))
+                            .then(res => res.json())
+                            .then(data => data.status === 'ok' ? data.items.map(item => parseItem(item, url, feedsObject)) : [])
+                            .catch(() => [])
+                    );
+
+                    const results = await Promise.all(promises);
+                    allItems = [...allItems, ...results.flat()];
+                }
+
+                return allItems;
+            }
+
+            function parseItem(item, feedUrl, feedsObject) {
+                let category = 'all';
+                for (const [cat, urls] of Object.entries(feedsObject)) {
+                    if (urls.includes(feedUrl)) {
+                        category = cat;
+                        break;
+                    }
+                }
+
+                let thumb = item.thumbnail || item.enclosure?.link;
+                if (!thumb) {
+                    const combined = (item.content || "") + (item.description || "");
+                    const match = combined.match(/<img[^>]+src="([^">]+)"/);
+                    if (match && match[1]) thumb = match[1];
+                }
+                if (!thumb || thumb.includes('avatar') || thumb.length < 10) {
+                    thumb = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80";
+                }
+
+                const sourceDomain = feedUrl.replace(/^https?:\\/\\//, '').replace(/^www\\./, '').split('/')[0];
+                const sourceName = sourceDomain.split('.')[0].toUpperCase();
+
+                return {
+                    title: item.title,
+                    link: item.link,
+                    pubDate: item.pubDate,
+                    source: sourceName,
+                    sourceUrl: feedUrl,
+                    category: category,
+                    thumb: thumb,
+                    desc: (item.description || "").replace(/<[^>]*>/g, '').substring(0, 140).trim() + '...'
+                };
+            }
+        `;
+
+        // State Management
+        const CACHE_KEY = "nepal_hub_pro_v7_cache";
+        const THUMB_PREF_KEY = "nepal_hub_thumb_visible";
+        const SAVED_BOOKMARKS_KEY = "nepal_hub_saved_bookmarks";
+
+        let allNews = [];
+        let savedBookmarks = JSON.parse(localStorage.getItem(SAVED_BOOKMARKS_KEY) || '[]');
+        let currentTab = 'home';
+        let activeCategory = 'all';
+        let selectedSource = null;
+        let activeSourceFeedUrl = 'ALL';
+        let itemsToShow = 12;
+        let searchQuery = "";
+        let worker = null;
+        let viewLayout = 'grid'; // 'grid' or 'list'
+        let activeModalItem = null;
+
+        let showThumbnails = localStorage.getItem(THUMB_PREF_KEY) !== 'false';
+
+        window.addEventListener('DOMContentLoaded', () => {
+            init();
+        });
+
+        function init() {
+            loadCache();
+            setupWorker();
+            setupThumbToggle();
+            setupSearch();
+            setupInfiniteScroll();
+            updateSavedCountBadge();
+            switchTab('home');
+        }
+
+        function loadCache() {
+            try {
+                const cached = localStorage.getItem(CACHE_KEY);
+                if (cached) {
+                    allNews = JSON.parse(cached);
+                    updateHeaderCount();
+                }
+            } catch (e) {
+                console.error("Cache load error:", e);
+            }
+        }
+
+        function setupWorker() {
+            try {
+                const blob = new Blob([workerScript], { type: 'application/javascript' });
+                worker = new Worker(URL.createObjectURL(blob));
+                worker.onmessage = function(e) {
+                    if (e.data.action === 'FEEDS_UPDATED' && Array.isArray(e.data.items)) {
+                        const map = new Map();
+                        [...e.data.items, ...allNews].forEach(item => {
+                            if (item && item.link && !map.has(item.link)) {
+                                map.set(item.link, item);
+                            }
+                        });
+                        allNews = Array.from(map.values());
+                        allNews.sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
+                        
+                        localStorage.setItem(CACHE_KEY, JSON.stringify(allNews));
+                        updateHeaderCount();
+                        renderTab(currentTab);
+                    }
+                };
+                worker.postMessage({ action: 'PREFETCH_ALL', feeds: MASTER_FEEDS });
+            } catch (err) {
+                console.warn("Worker error, falling back to direct fetch", err);
+                fallbackDirectFetch();
+            }
+        }
+
+        async function fallbackDirectFetch() {
+            const proxy = "https://api.rss2json.com/v1/api.json?rss_url=";
+            const urls = Array.from(new Set(Object.values(MASTER_FEEDS).flat()));
+            let items = [];
+            for (const url of urls.slice(0, 5)) {
+                try {
+                    const res = await fetch(proxy + encodeURIComponent(url));
+                    const data = await res.json();
+                    if (data.status === 'ok' && data.items) {
+                        const parsed = data.items.map(item => parseRssItem(item, url));
+                        items.push(...parsed);
+                    }
+                } catch (e) {
+                    console.error("Direct fetch failed:", e);
+                }
+            }
+            if (items.length > 0) {
+                const map = new Map();
+                [...items, ...allNews].forEach(i => map.set(i.link, i));
+                allNews = Array.from(map.values());
+                localStorage.setItem(CACHE_KEY, JSON.stringify(allNews));
+                updateHeaderCount();
+                renderTab(currentTab);
+            }
+        }
+
+        function parseRssItem(item, feedUrl) {
+            let category = 'all';
+            for (const [cat, urls] of Object.entries(MASTER_FEEDS)) {
+                if (urls.includes(feedUrl)) {
+                    category = cat;
+                    break;
+                }
+            }
+            let thumb = item.thumbnail || item.enclosure?.link;
+            if (!thumb) {
+                const combined = (item.content || "") + (item.description || "");
+                const match = combined.match(/<img[^>]+src="([^">]+)"/);
+                if (match && match[1]) thumb = match[1];
+            }
+            if (!thumb || thumb.includes('avatar') || thumb.length < 10) {
+                thumb = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80";
+            }
+            const sourceDomain = feedUrl.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0];
+            const sourceName = sourceDomain.split('.')[0].toUpperCase();
+
+            return {
+                title: item.title || 'Untitled Article',
+                link: item.link || '#',
+                pubDate: item.pubDate || new Date().toISOString(),
+                source: sourceName,
+                sourceUrl: feedUrl,
+                category: category,
+                thumb: thumb,
+                desc: (item.description || "").replace(/<[^>]*>/g, '').substring(0, 140).trim() + '...'
+            };
+        }
+
+        function updateHeaderCount() {
+            const el = document.getElementById('header-count');
+            if (el) el.innerText = `${allNews.length} News`;
+        }
+
+        function saveBookmarksToStorage() {
+            localStorage.setItem(SAVED_BOOKMARKS_KEY, JSON.stringify(savedBookmarks));
+            updateSavedCountBadge();
+        }
+
+        function updateSavedCountBadge() {
+            const badge = document.getElementById('saved-badge-count');
+            if (badge) badge.innerText = savedBookmarks.length;
+        }
+
+        function isBookmarked(link) {
+            return savedBookmarks.some(item => item.link === link);
+        }
+
+        function toggleBookmark(link, event) {
+            if (event) event.stopPropagation();
+            const index = savedBookmarks.findIndex(item => item.link === link);
+            if (index > -1) {
+                savedBookmarks.splice(index, 1);
+            } else {
+                const targetItem = allNews.find(item => item.link === link);
+                if (targetItem) savedBookmarks.unshift(targetItem);
+            }
+            saveBookmarksToStorage();
+            if (activeModalItem && activeModalItem.link === link) {
+                updateModalBookmarkButton();
+            }
+            renderTab(currentTab);
+        }
+
+        function setCategory(cat) {
+            activeCategory = cat;
+            document.querySelectorAll('.category-pill').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const activeBtn = document.getElementById(`cat-${cat}`);
+            if (activeBtn) activeBtn.classList.add('active');
+            itemsToShow = 12;
+            renderTab('home');
+        }
+
+        function setViewLayout(mode) {
+            viewLayout = mode;
+            document.getElementById('view-grid-btn').classList.toggle('active', mode === 'grid');
+            document.getElementById('view-list-btn').classList.toggle('active', mode === 'list');
+            renderTab(currentTab);
+        }
+
+        function setupThumbToggle() {
+            const toggle = document.getElementById('thumb-toggle');
+            if (toggle) {
+                toggle.checked = showThumbnails;
+                toggle.onchange = (e) => {
+                    showThumbnails = e.target.checked;
+                    localStorage.setItem(THUMB_PREF_KEY, showThumbnails);
+                    renderTab(currentTab);
+                };
+            }
+        }
+
+        function setupSearch() {
+            const input = document.getElementById('global-search');
+            if (input) {
+                input.addEventListener('input', (e) => {
+                    searchQuery = e.target.value.toLowerCase().trim();
+                    renderTab(currentTab);
+                });
+            }
+        }
+
+        function setupInfiniteScroll() {
+            const anchor = document.getElementById('infinite-anchor');
+            if (!anchor) return;
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    if (currentTab === 'home' && itemsToShow < allNews.length) {
+                        itemsToShow += 6;
+                        renderTab('home');
+                    }
+                }
+            }, { threshold: 0.1 });
+            observer.observe(anchor);
+        }
+
+        function switchTab(tab) {
+            currentTab = tab;
+            selectedSource = null;
+            itemsToShow = 12;
+            
+            document.querySelectorAll('.nav-btn, .nav-item').forEach(el => el.classList.remove('text-rose-600', 'bg-rose-50'));
+            
+            const desktopBtn = document.getElementById(`d-nav-${tab}`);
+            const mobileBtn = document.getElementById(`m-nav-${tab}`);
+            if (desktopBtn) desktopBtn.classList.add('text-rose-600', 'bg-rose-50');
+            if (mobileBtn) mobileBtn.classList.add('text-rose-600');
+
+            const catBar = document.getElementById('category-bar');
+            if (catBar) catBar.style.display = tab === 'home' ? 'flex' : 'none';
+
+            renderTab(tab);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function renderTab(tab) {
+            const container = document.getElementById('content-area');
+            if (!container) return;
+
+            if (tab === 'home') {
+                renderHomeFeed(container);
+            } else if (tab === 'sources') {
+                if (selectedSource) {
+                    renderSourceDetailView(container);
+                } else {
+                    renderSourcesDirectory(container);
+                }
+            } else if (tab === 'saved') {
+                renderSavedView(container);
+            } else if (tab === 'notifications') {
+                renderAlertsView(container);
+            }
+        }
+
+        function renderHomeFeed(container) {
+            let data = allNews;
+
+            if (activeCategory !== 'all') data = data.filter(i => i.category === activeCategory);
+            if (searchQuery) data = data.filter(i => i.title.toLowerCase().includes(searchQuery) || i.source.toLowerCase().includes(searchQuery));
+
+            const gridClass = viewLayout === 'grid' 
+                ? 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6' 
+                : 'space-y-4 max-w-4xl mx-auto';
+
+            container.innerHTML = `
+                <div class="space-y-6 animate-in">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-xl font-black text-slate-900 flex items-center gap-2.5">
+                            <span class="w-2.5 h-6 bg-rose-600 rounded-full"></span>
+                            ${activeCategory === 'all' ? 'Latest Headlines' : activeCategory.toUpperCase()}
+                        </h2>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">${data.length} Stories</span>
+                    </div>
+                    
+                    <div class="${gridClass}">
+                        ${data.length > 0 ? data.slice(0, itemsToShow).map(item => newsCard(item)).join('') : 
+                        `<div class="col-span-full py-20 text-center text-slate-400 font-bold bg-white rounded-3xl border border-slate-200/80 p-8">Syncing latest feeds...</div>`}
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderSavedView(container) {
+            let data = savedBookmarks;
+            if (searchQuery) data = data.filter(i => i.title.toLowerCase().includes(searchQuery));
+
+            const gridClass = viewLayout === 'grid' 
+                ? 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6' 
+                : 'space-y-4 max-w-4xl mx-auto';
+
+            container.innerHTML = `
+                <div class="space-y-6 animate-in">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-xl font-black text-slate-900">Bookmarked News Boxes</h2>
+                            <p class="text-xs font-bold text-slate-400 mt-0.5">Your saved reading list (${data.length})</p>
+                        </div>
+                    </div>
+
+                    ${data.length === 0 ? `
+                        <div class="py-16 text-center bg-white rounded-3xl border border-slate-200 p-8">
+                            <div class="w-12 h-12 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            </div>
+                            <h3 class="font-extrabold text-slate-800 text-sm">No Saved Articles Yet</h3>
+                            <p class="text-xs text-slate-400 mt-1 max-w-xs mx-auto font-medium">Click the bookmark icon on any news box to save articles for later reading.</p>
+                        </div>
+                    ` : `
+                        <div class="${gridClass}">
+                            ${data.map(item => newsCard(item)).join('')}
+                        </div>
+                    `}
+                </div>
+            `;
+        }
+
+        function newsCard(item) {
+            const bookmarked = isBookmarked(item.link);
+            const estReadTime = Math.max(1, Math.ceil((item.desc || '').split(' ').length / 30));
+
+            const catColors = {
+                sports: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+                finance: 'bg-amber-50 text-amber-700 border-amber-200',
+                tech: 'bg-indigo-50 text-indigo-700 border-indigo-200',
+                entertainment: 'bg-purple-50 text-purple-700 border-purple-200',
+                all: 'bg-slate-100 text-slate-700 border-slate-200'
+            };
+            const catClass = catColors[item.category] || catColors.all;
+
+            if (viewLayout === 'list') {
+                return `
+                    <div onclick="openArticleModal('${encodeURIComponent(item.link)}')" class="box-card bg-white p-4 rounded-2xl border border-slate-200/80 shadow-sm hover:border-slate-300 cursor-pointer flex flex-col sm:flex-row gap-4 items-stretch justify-between">
+                        ${showThumbnails ? `
+                            <div class="w-full sm:w-32 h-32 sm:h-auto bg-slate-100 rounded-xl overflow-hidden shrink-0 relative">
+                                <img src="${item.thumb}" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&q=80'">
+                            </div>` : ''}
+                        <div class="flex-1 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="px-2 py-0.5 rounded-md text-[9px] font-black uppercase tracking-wider bg-rose-50 text-rose-600 border border-rose-100">${item.source}</span>
+                                    <span class="px-2 py-0.5 rounded-md text-[9px] font-extrabold uppercase border ${catClass}">${item.category}</span>
+                                    <span class="text-[10px] font-semibold text-slate-400 ml-auto">${formatPubDate(item.pubDate)}</span>
+                                </div>
+                                <h3 class="text-sm font-extrabold text-slate-900 leading-snug line-clamp-2 hover:text-rose-600 transition-colors">${item.title}</h3>
+                                <p class="text-xs text-slate-500 font-medium line-clamp-2 mt-1">${item.desc}</p>
+                            </div>
+                            <div class="flex items-center justify-between pt-3 mt-2 border-t border-slate-100">
+                                <span class="text-[10px] font-extrabold text-slate-400 flex items-center gap-1">
+                                    <svg class="w-3 h-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                    ${estReadTime} min read
+                                </span>
+                                <div class="flex items-center gap-2">
+                                    <button onclick="toggleBookmark('${item.link}', event)" class="p-1.5 rounded-lg border ${bookmarked ? 'bg-rose-50 border-rose-200 text-rose-600' : 'bg-slate-50 border-slate-200 text-slate-400 hover:text-slate-600'}">
+                                        <svg class="w-4 h-4" fill="${bookmarked ? 'currentColor' : 'none'}" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                    </button>
+                                    <a href="${item.link}" target="_blank" onclick="event.stopPropagation()" class="px-3 py-1 bg-slate-900 text-white rounded-lg text-[10px] font-black uppercase tracking-wider hover:bg-rose-600 transition-colors">
+                                        Read
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            return `
+                <div onclick="openArticleModal('${encodeURIComponent(item.link)}')" class="box-card bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-sm flex flex-col justify-between cursor-pointer">
+                    <div>
+                        ${showThumbnails ? `
+                            <div class="relative h-44 bg-slate-900 overflow-hidden group">
+                                <img src="${item.thumb}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80'">
+                                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-80"></div>
+                                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                                    <span class="bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-lg text-[9px] font-black uppercase text-rose-600 shadow-sm">${item.source}</span>
+                                    <button onclick="toggleBookmark('${item.link}', event)" class="p-1.5 rounded-lg bg-white/90 backdrop-blur text-slate-700 hover:text-rose-600 shadow-sm transition-all">
+                                        <svg class="w-4 h-4" fill="${bookmarked ? '#e11d48' : 'none'}" stroke="${bookmarked ? '#e11d48' : 'currentColor'}" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                    </button>
+                                </div>
+                                <div class="absolute bottom-3 left-3">
+                                    <span class="px-2 py-0.5 rounded-md text-[9px] font-extrabold uppercase bg-white/20 backdrop-blur text-white border border-white/20">${item.category}</span>
+                                </div>
+                            </div>` : ''}
+
+                        <div class="p-5">
+                            <div class="flex items-center justify-between gap-2 mb-2 text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                                <span class="flex items-center gap-1">
+                                    <svg class="w-3 h-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                    ${formatPubDate(item.pubDate)}
+                                </span>
+                                <span>${estReadTime} min read</span>
+                            </div>
+                            <h3 class="text-base font-extrabold text-slate-900 leading-snug mb-2 line-clamp-2 hover:text-rose-600 transition-colors">${item.title}</h3>
+                            <p class="text-xs text-slate-500 font-medium line-clamp-3 leading-relaxed">${item.desc}</p>
+                        </div>
+                    </div>
+
+                    <div class="p-5 pt-0 flex items-center gap-2">
+                        <button onclick="openArticleModal('${encodeURIComponent(item.link)}')" class="flex-1 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-xl text-[10px] font-extrabold uppercase tracking-widest transition-colors">
+                            Quick Preview
+                        </button>
+                        <a href="${item.link}" target="_blank" onclick="event.stopPropagation()" class="p-2.5 bg-slate-900 hover:bg-rose-600 text-white rounded-xl transition-colors" title="Read Full Story">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7-7 7M5 12h14"/></svg>
+                        </a>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderSourcesDirectory(container) {
+            container.innerHTML = `
+                <div class="space-y-6 animate-in">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-xl font-black text-slate-900">Nepalese News Outlets</h2>
+                            <p class="text-xs font-bold text-slate-400 mt-0.5">Select a publisher to explore dedicated RSS channels</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        ${SOURCE_OUTLETS.map(outlet => {
+                            const count = allNews.filter(i => i.source === outlet.id || (i.sourceUrl && i.sourceUrl.includes(outlet.domain))).length;
+                            return `
+                                <div onclick="selectSource('${outlet.id}')" class="box-card bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm cursor-pointer flex flex-col justify-between hover:border-rose-300">
+                                    <div class="space-y-3">
+                                        <div class="flex items-center justify-between">
+                                            <div class="w-10 h-10 bg-slate-900 text-white rounded-xl flex items-center justify-center font-black text-base shadow-md">
+                                                ${outlet.name.charAt(0)}
+                                            </div>
+                                            <span class="text-[10px] font-black uppercase px-2.5 py-1 bg-rose-50 text-rose-600 rounded-md border border-rose-100">
+                                                ${outlet.feeds.length} Channels
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-extrabold text-slate-900 text-base">${outlet.name}</h3>
+                                            <p class="text-xs text-slate-400 font-semibold mt-0.5">${outlet.domain}</p>
+                                        </div>
+                                    </div>
+                                    <div class="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-500">
+                                        <span>${count} Articles loaded</span>
+                                        <span class="text-rose-600 font-extrabold flex items-center gap-1 hover:translate-x-1 transition-transform">
+                                            Browse →
+                                        </span>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        function selectSource(sourceId) {
+            selectedSource = SOURCE_OUTLETS.find(s => s.id === sourceId);
+            activeSourceFeedUrl = 'ALL';
+            renderTab('sources');
+        }
+
+        function renderSourceDetailView(container) {
+            if (!selectedSource) return renderSourcesDirectory(container);
+
+            let sourceItems = allNews.filter(i => i.source === selectedSource.id || (i.sourceUrl && i.sourceUrl.includes(selectedSource.domain)));
+
+            if (activeSourceFeedUrl !== 'ALL') {
+                sourceItems = sourceItems.filter(i => i.sourceUrl === activeSourceFeedUrl);
+            }
+
+            if (searchQuery) {
+                sourceItems = sourceItems.filter(i => i.title.toLowerCase().includes(searchQuery));
+            }
+
+            const gridClass = viewLayout === 'grid' 
+                ? 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6' 
+                : 'space-y-4 max-w-4xl mx-auto';
+
+            container.innerHTML = `
+                <div class="space-y-6 animate-in">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-3xl border border-slate-200">
+                        <div class="flex items-center gap-4">
+                            <button onclick="selectedSource = null; renderTab('sources');" class="p-2.5 bg-slate-100 hover:bg-slate-200 rounded-xl text-slate-700 transition-colors" title="Back to Outlets">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+                            </button>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h2 class="text-xl font-black text-slate-900">${selectedSource.name}</h2>
+                                    <span class="text-xs font-semibold text-slate-400">(${selectedSource.domain})</span>
+                                </div>
+                                <p class="text-xs font-bold text-slate-400 mt-0.5">Showing ${sourceItems.length} news stories</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+                            <button onclick="setSourceFeed('ALL')" class="source-feed-tab ${activeSourceFeedUrl === 'ALL' ? 'active' : ''}">
+                                All Channels (${selectedSource.feeds.length})
+                            </button>
+                            ${selectedSource.feeds.map(feed => `
+                                <button onclick="setSourceFeed('${feed.url}')" class="source-feed-tab ${activeSourceFeedUrl === feed.url ? 'active' : ''}">
+                                    ${feed.name}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <div class="${gridClass}">
+                        ${sourceItems.length > 0 ? sourceItems.slice(0, itemsToShow).map(item => newsCard(item)).join('') : 
+                        `<div class="col-span-full py-16 text-center text-slate-400 font-bold bg-white rounded-3xl border border-slate-200 p-8">No articles loaded for this channel yet.</div>`}
+                    </div>
+                </div>
+            `;
+        }
+
+        function setSourceFeed(feedUrl) {
+            activeSourceFeedUrl = feedUrl;
+            renderTab('sources');
+        }
+
+        function renderAlertsView(container) {
+            const breaking = allNews.slice(0, 6);
+            container.innerHTML = `
+                <div class="space-y-6 animate-in max-w-3xl mx-auto">
+                    <div class="bg-gradient-to-r from-rose-600 to-rose-700 text-white p-6 rounded-3xl shadow-xl shadow-rose-600/20">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="p-2 bg-white/20 rounded-xl">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            </span>
+                            <div>
+                                <h2 class="text-xl font-black">Live Nepal News Bulletin</h2>
+                                <p class="text-xs text-rose-100 font-semibold">Real-time priority alerts synced from verified RSS feeds</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-xs font-black uppercase tracking-widest text-slate-400 px-1">Recent Priority Stories</h3>
+                        ${breaking.length > 0 ? breaking.map(item => `
+                            <div onclick="openArticleModal('${encodeURIComponent(item.link)}')" class="box-card bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm cursor-pointer hover:border-rose-200 flex items-start gap-4">
+                                <div class="w-2.5 h-2.5 rounded-full bg-rose-600 shrink-0 mt-2 animate-pulse"></div>
+                                <div class="flex-1 min-w-0">
+                                    <div class="flex items-center gap-2 mb-1">
+                                        <span class="text-[10px] font-black text-rose-600 uppercase bg-rose-50 px-2 py-0.5 rounded">${item.source}</span>
+                                        <span class="text-[10px] font-semibold text-slate-400">${formatPubDate(item.pubDate)}</span>
+                                    </div>
+                                    <h4 class="text-sm font-extrabold text-slate-900 hover:text-rose-600 leading-snug">${item.title}</h4>
+                                    <p class="text-xs text-slate-500 font-medium line-clamp-2 mt-1">${item.desc}</p>
+                                </div>
+                            </div>
+                        `).join('') : `<div class="py-12 text-center text-slate-400 font-bold bg-white rounded-3xl border border-slate-200">No alerts available</div>`}
+                    </div>
+                </div>
+            `;
+        }
+
+        function openArticleModal(encodedLink) {
+            const link = decodeURIComponent(encodedLink);
+            const item = allNews.find(i => i.link === link) || savedBookmarks.find(i => i.link === link);
+            if (!item) return;
+
+            activeModalItem = item;
+            document.getElementById('modal-img').src = item.thumb;
+            document.getElementById('modal-source').innerText = item.source;
+            document.getElementById('modal-date').innerText = formatPubDate(item.pubDate);
+            document.getElementById('modal-title').innerText = item.title;
+            document.getElementById('modal-desc').innerText = item.desc;
+            document.getElementById('modal-link-btn').href = item.link;
+
+            updateModalBookmarkButton();
+
+            const modal = document.getElementById('article-modal');
+            modal.classList.remove('hidden');
+        }
+
+        function updateModalBookmarkButton() {
+            if (!activeModalItem) return;
+            const bookmarked = isBookmarked(activeModalItem.link);
+            const label = document.getElementById('modal-bookmark-label');
+            const btn = document.getElementById('modal-bookmark-btn');
+
+            label.innerText = bookmarked ? 'Saved to Bookmarks' : 'Save Card';
+            btn.onclick = () => toggleBookmark(activeModalItem.link);
+            if (bookmarked) {
+                btn.className = "px-4 py-2.5 bg-rose-50 border border-rose-200 text-rose-600 rounded-xl font-extrabold text-xs flex items-center gap-2 transition-all";
+            } else {
+                btn.className = "px-4 py-2.5 bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl font-extrabold text-xs flex items-center gap-2 transition-all";
+            }
+        }
+
+        function closeArticleModal() {
+            document.getElementById('article-modal').classList.add('hidden');
+            activeModalItem = null;
+        }
+
+        function formatPubDate(dateString) {
+            if (!dateString) return 'Recent';
+            const date = new Date(dateString);
+            if (isNaN(date.getTime())) return 'Recent';
+            const seconds = Math.floor((new Date() - date) / 1000);
+            if (seconds < 60) return 'Just now';
+            const minutes = Math.floor(seconds / 60);
+            if (minutes < 60) return `${minutes}m ago`;
+            const hours = Math.floor(minutes / 60);
+            if (hours < 24) return `${hours}h ago`;
+            const days = Math.floor(hours / 24);
+            if (days < 30) return `${days}d ago`;
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+    </script>
 </body>
 </html>
