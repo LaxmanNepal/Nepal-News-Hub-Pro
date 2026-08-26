@@ -1,0 +1,60 @@
+name: Nepal News Engine
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/news-engine.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-engine
+  cancel-in-progress: true
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch RSS feeds
+        run: python scripts/fetch_news.py
+
+      - name: Run intelligence layer
+        run: python scripts/news_intelligence.py
+
+      - name: Generate source health
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          data=json.loads(Path('news.json').read_text(encoding='utf-8'))
+          health=[]
+          failed={x['url']:x.get('error','unknown') for x in data.get('failedSources',[])}
+          from scripts.fetch_news import FEEDS
+          for category, urls in FEEDS.items():
+              for url in urls:
+                  health.append({'url':url,'category':category,'ok':url not in failed,'error':failed.get(url)})
+          Path('data/source-health.json').write_text(json.dumps({'updatedAt':datetime.now(timezone.utc).isoformat(),'sources':health},ensure_ascii=False,indent=2),encoding='utf-8')
+          PY
+
+      - name: Commit generated data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news.json data/source-health.json
+          git diff --cached --quiet || git commit -m 'chore: refresh news data'
+          git push
