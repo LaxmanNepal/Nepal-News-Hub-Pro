@@ -1,0 +1,3748 @@
+{
+  "version": 3,
+  "updatedAt": "2026-08-26T11:06:26.417206+00:00",
+  "count": 216,
+  "sourcesAttempted": 22,
+  "failedSources": [
+    {
+      "url": "https://ujyaaloonline.com/rss",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.cricnepal.com/feed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.goalnepal.com/rss",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.sharesansar.com/rss",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nepalitelecom.com/feed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.merofilm.com/feed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.lensnepal.com/feed",
+      "error": "syntax error: line 1, column 0"
+    },
+    {
+      "url": "https://www.dcnepal.com/category/entertainment/feed",
+      "error": "XML or text declaration not at start of entity: line 2, column 0"
+    }
+  ],
+  "items": [
+    {
+      "title": "रसुवा बाढी: १६ जनाको शव फेला",
+      "link": "https://www.setopati.com/social/396798",
+      "pubDate": "Wed, 26 Aug 2026 16:49:49 +0545",
+      "source": "SETOPATI",
+      "sourceUrl": "https://www.setopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बुधबार बिहान ९ बजेतिर चीनको तिब्बत क्षेत्रबाट आएको बाढीमा परी ज्यान गुमाउनेको संख्या १६ पुगेको हो।",
+      "storyId": "रसुवा बाढी ७९ सुरक्षाकर्मी सम्पर्कविहीन ९ शव फेला",
+      "sourceCount": 4,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "CLICKMANDU",
+        "ONLINEKHABAR",
+        "SETOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी: ७९ सुरक्षाकर्मी सम्पर्कविहीन, ९ शव फेला",
+      "link": "https://clickmandu.com/2026/08/485778.html",
+      "pubDate": "Wed, 26 Aug 2026 10:58:54 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । परराष्ट्रमन्त्री शिशिर खनालले रसुवाको भोटेकोशी नदीमा आएको बाढीका कारण ठूलो जनधनको क्षति भएको जानकारी प्रतिनिधिसभालाई गराएका छन् । प्रतिनिधिसभाको बैठकमा सरकारको तर्फबाट बोल्दै मन्त्री खनालले मनसुन कमाण्ड पोस्टक",
+      "storyId": "रसुवा बाढी ७९ सुरक्षाकर्मी सम्पर्कविहीन ९ शव फेला",
+      "sourceCount": 4,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "CLICKMANDU",
+        "ONLINEKHABAR",
+        "SETOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : धादिङमा भेटियो ६ जनाको शव",
+      "link": "https://www.onlinekhabar.com/2026/08/2004179/rasuwa-flood-bodies-of-6-people-found-in-dhading",
+      "pubDate": "Wed, 26 Aug 2026 09:43:35 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवा बाढीमा परेकाहरूमध्ये धादिङमा ६ जनाको शव फेला परेको छ।",
+      "storyId": "रसुवा बाढी ७९ सुरक्षाकर्मी सम्पर्कविहीन ९ शव फेला",
+      "sourceCount": 4,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "CLICKMANDU",
+        "ONLINEKHABAR",
+        "SETOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : ९ जनाको शव फेला",
+      "link": "http://annapurnapost.com/story/506142",
+      "pubDate": "2026-08-26T11:06:04.139627+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : भोटेकोशीको बाढीमा फसेका नौजनाको शव फेला परेको छ। नेपाल प्रहरीका अनुसार धादिङको बैरेनीमा एक,गल्छीमा दुई र गजुरीमा एक गरी चार शव फेला परेका हुन्। त्यसैगरी नुवाकोटमा चार र रसुवामा एक शव फेला परेको नेपाल प्रहरीका ",
+      "storyId": "रसुवा बाढी ७९ सुरक्षाकर्मी सम्पर्कविहीन ९ शव फेला",
+      "sourceCount": 4,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "CLICKMANDU",
+        "ONLINEKHABAR",
+        "SETOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "क्यारिबियनमा अमेरिकी आक्रमणमा चारको मृत्यु",
+      "link": "https://gorkhapatraonline.com/news/219966",
+      "pubDate": "Wed, 26 Aug 2026 16:45:40 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "वासिङ्टन, भदौ १० गते । क्यारिबियन सागरमा लागूऔषध तस्करीमा संलग्न रहेको आशङ्का गरिएको डुङ्गामाथि अमेरिकी सेनाले गरेको आक्रमणमा चार जनाको मृत्यु भएको छ । ट्रम्प प्रशासनले क्यारिबियन...",
+      "storyId": "क्यारिबियनमा अमेरिकी आक्रमणमा चारको मृत्यु",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "‘२०७२ को भूकम्प र कोभिड–१९ को अनुभवका आधारमा सङ्कट व्यवस्थापन गर्दैछौँ’",
+      "link": "https://www.ratopati.com/story/587597/we-are-managing-the-crisis-based-on-the-experience-of-the-2072-earthquake-and-covid-19",
+      "pubDate": "Wed, 26 Aug 2026 11:03:47 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ। प्राकृतिक विपत्तिका कारण नुवाकोट र रसुवा लगायतका जिल्लाहरूमा बाढी पहिरोले ठुलो जनधनको क्षति पुर्‍याएको छ । केही स्वास्थ्य संस्थाहरू प्रभावित भई सञ्चार सम्पर्कसमेत विच्छेद भएको स्थिति छ । हालसम्म विभिन्न अस्पताल",
+      "storyId": "२०७२ को भूकम्प र कोभिड १९ को अनुभवका आधारमा सङ्कट व्यवस्थापन गर्दैछौँ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "स्थानीय सरकार र नागरिक जोड्न ‘डिजिटल प्लेटफर्म’ सञ्चालन",
+      "link": "https://www.ratopati.com/story/587595/digital-platform-launched-to-connect-local-government-and-citizens",
+      "pubDate": "Wed, 26 Aug 2026 11:00:36 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । ओखलढुङ्गा जिल्लावासीलाई स्थानीय सरकार र सरकारी सेवासम्म सहज पहुँच पुर्‍याउने उद्देश्यले एक निःशुल्क डिजिटल ‘प्लेटफर्म’ सञ्चालनमा ल्याइएको छ । ‘ओखलढुङ्गा कनेक्ट’ नामक सो डिजिटल प्लेटफर्म हालै सञ्चालनमा ल्याइएको",
+      "storyId": "स्थानीय सरकार र नागरिक जोड्न डिजिटल प्लेटफर्म सञ्चालन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "हवाई भाडा वृद्धि गम्भीर र आपत्तिजनक, तत्काल नियन्त्रण गर्न राप्रपा सांसद खुश्बु ओलीको माग",
+      "link": "https://www.ratopati.com/story/587594/airfare-hike-is-serious-and-objectionable-rpp-mp-khushbu-oli-demands-immediate-control",
+      "pubDate": "Wed, 26 Aug 2026 10:58:56 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । राष्ट्रिय प्रजातन्त्र पार्टी (राप्रपा) की सांसद खुश्बु ओलीले मुलुक प्राकृतिक विपद् र राष्ट्रिय संकटको घडीमा रहेका बेला निजी वायुसेवा कम्पनीहरूले हवाई भाडामा गरेको अस्वाभाविक वृद्धि गरेको भन्दै विरोध गरेकी छन् ",
+      "storyId": "हवाई भाडा वृद्धि गम्भीर र आपत्तिजनक तत्काल नियन्त्रण गर्न राप्रपा सांसद खुश्बु ओलीको माग",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "इरानमाथि तत्काल नयाँ आक्रमण नगर्ने अमेरिकी नीति",
+      "link": "https://www.ratopati.com/story/587591/us-policy-of-not-immediately-attacking-iran",
+      "pubDate": "Wed, 26 Aug 2026 10:52:58 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडाैँ। अमेरिकी विदेशमन्त्री मार्को रुबियोले सहयोगी मुलुकका विदेशमन्त्रीहरूलाई वासिङ्टनले तत्काल इरानमाथि नयाँ सैन्य आक्रमण गर्ने योजना नराखेको जानकारी दिएका छन्। त्यसको सट्टा अमेरिकाले इरानमाथि आर्थिक दबाब, नौसैनिक न",
+      "storyId": "इरानमाथि तत्काल नयाँ आक्रमण नगर्ने अमेरिकी नीति",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "अमेरिकामा अध्यागमनका एजेन्टद्वारा जुलाईमा ४९ हजार ५०० भन्दा धेरै गिरफ्तार",
+      "link": "https://www.ratopati.com/story/587587/immigration-agents-in-the-us-arrested-more-than-49500-people-in-july",
+      "pubDate": "Wed, 26 Aug 2026 10:46:19 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "वाशिङ्टन डीसी । अमेरिकी अध्यागमन तथा भन्सार प्रवर्तन (आईसीई)ले जुलाईमा ४९ हजार ५७१ जनालाई पक्राउ गरेको छ । राष्ट्रपति डोनाल्ड ट्रम्प दोस्रो कार्यकालका लागि ह्वाइट हाउस फर्किएपछि एकै महिनामा गरिएको यो सबैभन्दा धेरै गिरफ्त",
+      "storyId": "अमेरिकामा अध्यागमनका एजेन्टद्वारा जुलाईमा ४९ हजार ५०० भन्दा धेरै गिरफ्तार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "विनाशकारी बाढी : १६ जनाको मृत्यु, ३५ घाइतेको उद्धार",
+      "link": "https://www.ratopati.com/story/587577/devastating-floods-16-dead-35-injured-rescued",
+      "pubDate": "Wed, 26 Aug 2026 10:23:09 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । तिब्बततर्फबाट रसुवाको त्रिशूली नदीमा आएको बाढीबाट १६ जनाको मृत्यु भएको छ । त्यस्तै ३६ जना घाइते भएको बागमती प्रदेश प्रहरी कार्यालयले बुधबार पौने चार बजे दिएको जानकारीमा उल्लेख छ । प्रदेश प्रहरीका अनुसार",
+      "storyId": "विनाशकारी बाढी १६ जनाको मृत्यु ३५ घाइतेको उद्धार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "हेलिकप्टर र ड्रोन सञ्चालकसँग सरकारको अपिल- ‘बाढी क्षेत्रमा तत्काल सघाउनुहोस्’",
+      "link": "https://techpana.com/2026/158713/government-appeal-helicopter-drone-operators-help-flood-affected-areas",
+      "pubDate": "Wed, 26 Aug 2026 09:35:43 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । बुधबार बिहान रसुवाको भोटेकोशी र त्रिशुली नदीमा आएको भीषण बाढीका कारण प्रभावित क्षेत्रमा खोज तथा उद्धार कार्यलाई तीव्र बनाउन सरकारले नेपाल ड्रोन संघ तथा वायुसेवा सञ्चालकलाई सहयोगका लागि अपिल गरेको छ । बुधबार वि",
+      "storyId": "हेलिकप्टर र ड्रोन सञ्चालकसँग सरकारको अपिल बाढी क्षेत्रमा तत्काल सघाउनुहोस्",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": true,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "आइटी उद्यमीलाई अर्थमन्त्रीको आग्रह- ‘निर्धक्क भएर लगानी बढाउनुस्, सरकार साथमा छ’",
+      "link": "https://arthasarokar.com/2026/08/finance-minister-urges-it-entrepreneurs-to-increase-investment-without-any-fear-government-is-with-them.html",
+      "pubDate": "Wed, 26 Aug 2026 02:07:32 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । अर्थमन्त्री डा. स्वर्णिम वाग्लेले सूचना प्रविधि क्षेत्रमा काम गर्ने युवा उद्यमीहरूलाई निर्धक्क भएर स्वदेशमा लगानी बढाउन आग्रह गरेका छन् । अर्थ मन्त्रालयमा सूचना प्रविधि क्षेत्रमा काम गरिरहेका युवा उद्यमीहरूसँग",
+      "storyId": "आइटी उद्यमीलाई अर्थमन्त्रीको आग्रह निर्धक्क भएर लगानी बढाउनुस् सरकार साथमा छ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": true,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "रसुवाको बाढीपछि मुख्यमन्त्री थापाको ‘एक्सन’ : उद्धारदेखि राहतसम्म तत्काल जुट्न निर्देशन",
+      "link": "http://annapurnapost.com/story/506140",
+      "pubDate": "2026-08-26T11:06:04.139700+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "हेटौंडा : बागमती प्रदेशका मुख्यमन्त्री किरण थापा मगरले रसुवामा आएको भिषण बाढीपछि विपद् प्रभावित क्षेत्रमा तत्काल उद्धार, राहत तथा आवश्यक स्वास्थ्य सेवा उपलब्ध गराउन निर्देशन दिएका छन् । प्रदेश विपद् व्यवस्थापन कार्यकारी ",
+      "storyId": "रसुवाको बाढीपछि मुख्यमन्त्री थापाको एक्सन उद्धारदेखि राहतसम्म तत्काल जुट्न निर्देशन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": true,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "गोसाइँकुण्ड तीर्थयात्रामा हिँडेका ३२ जना सम्पर्कविहीन",
+      "link": "https://gorkhapatraonline.com/news/219963",
+      "pubDate": "Wed, 26 Aug 2026 16:24:16 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "गुणबहादुर रोका सुलीकोट, (गोरखा) भदौ १० गते । गोरखाको पालुङटार नगरपालिका –५ र ४ ठाँटीपोखरीबाट गोसाइँकुण्ड तीर्थयात्राका लागि छुटेको मिनीबस सम्पर्कविहीन भएको छ । बुधबार बिहान ५ बजे ठ...",
+      "storyId": "पालुङटारबाट गोसाइँकुण्ड गएका ३३ जना यात्रु सम्पर्कविहीन",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "प्रधानमन्त्रीलाई सामाजिक सञ्जालमार्फत् ज्यान मार्ने धम्की दिने युवक पक्राउ",
+      "link": "https://nepallive.com/story/349099",
+      "pubDate": "Wed, 26 Aug 2026 16:09:00 +0545",
+      "source": "NEPALLIVE",
+      "sourceUrl": "https://nepallive.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "उनलाई प्रहरीले बुधबार कीर्तिपुरको नयाँ बजारबाट नियन्त्रणमा लिएको हो । उनले सामाविक सञ्जालमा अश्लिल गालीसहित प्रधानमन्त्री शाहलाई भदौ २३ गते हत्या गर्ने दाबी गर्दै पोस्ट गरेका थिए । त्यसपछि प्रहरीले उनलाई पक्राउ गरेको हो ",
+      "storyId": "प्रधानमन्त्रीलाई सामाजिक सञ्जालमार्फत् ज्यान मार्ने धम्की दिने युवक पक्राउ",
+      "sourceCount": 2,
+      "relatedSources": [
+        "NEPALLIVE",
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "त्रिशूलीको बाढीले धादिङका तीन पुल बगायो: बैरेनी बजार जलमग्न, आवागमन प्रभावित",
+      "link": "https://www.onlinekhabar.com/2026/08/2004250/trishuli-floods-wash-away-three-bridges-in-dhading-baireni-bazaar-submerged-traffic-affected",
+      "pubDate": "Wed, 26 Aug 2026 10:32:27 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवा हुँदै त्रिशूली नदीमा बुधबार बिहान आएको भीषण बाढीले धादिङका तीनवटा पुल बगाएको छ।",
+      "storyId": "बाढीले धादिङका तीन पुल बगायो सदरमुकामसँगको आवागमन प्रभावित",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : हेलिकप्टरमार्फत सेनाले गर्‍यो ८८ जनाको उद्धार",
+      "link": "https://www.onlinekhabar.com/2026/08/2004247/rasuwa-flood-army-rescues-88-people-via-helicopter",
+      "pubDate": "Wed, 26 Aug 2026 10:29:23 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बाढी प्रभावित विभिन्न ठाउँहरुबाट ८८ जनाको हेलिकप्टरमार्फत उद्धार गरिएको सैनिक मुख्यालय जंगी अड्डाले बताएको छ ।",
+      "storyId": "रसुवा बाढी हेलिकप्टरमार्फत सेनाले गर् यो ८८ जनाको उद्धार",
+      "sourceCount": 2,
+      "relatedSources": [
+        "NEPALPRESS",
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "प्रधानमन्त्रीलाई ज्यान मार्ने धम्की दिएकाे आरोपमा एक युवक पक्राउ",
+      "link": "https://www.onlinekhabar.com/2026/08/2004241/youth-arrested-for-threatening-to-kill-prime-minister",
+      "pubDate": "Wed, 26 Aug 2026 10:25:49 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "पक्राउ पर्नेमा झापाको भद्रपुर–९ घर भई कीर्तिपुर बस्दै आएका २३ वर्षीय पुस्कर दहाल छन्।",
+      "storyId": "प्रधानमन्त्रीलाई सामाजिक सञ्जालमार्फत् ज्यान मार्ने धम्की दिने युवक पक्राउ",
+      "sourceCount": 2,
+      "relatedSources": [
+        "NEPALLIVE",
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा ३ दिन एनसेलको डेटा र भ्वाइस निःशुल्क",
+      "link": "https://nepalpress.com/2026/08/26/757321/ncells-data-and-voice-are-free-for-3-days-in-flood-affected-areas/",
+      "pubDate": "Wed, 26 Aug 2026 09:52:43 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । एनसेलले बुधबार बिहानको भीषण बाढीबाट प्रभावित क्षेत्रहरुमा तीन दिनका लागि भ्वाइस र डेटा सेवा निःशुल्क उपलब्ध गराउने जनाएको छ । त्यसबाहेक प्रभावित क्षेत्रका सर्वसाधारणलाई तीन दिन समयावधि रहेको १०० वटा एसएमएस पनि",
+      "storyId": "बाढी प्रभावित क्षेत्रमा ३ दिन एनसेलको डेटा र भ्वाइस निःशुल्क",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीबाट प्रभावित स्थानीय तहलाई तीन महिनाका लागि संकटग्रस्त क्षेत्र घोषणा गरिने",
+      "link": "https://nepalpress.com/2026/08/26/757307/local-levels-affected-by-floods-will-be-declared-disaster-areas-for-three-months/",
+      "pubDate": "Wed, 26 Aug 2026 08:55:59 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । सरकारले बाढीबाट प्रभावित स्थानीय तहलाई तीन महिनाका लागि विपद् संकटग्रस्त क्षेत्र घोषणा गरेको छ। बुधवार बसेको मन्त्रिपरिषद् बैठकले विपद्बाट प्रभावित स्थानीय तहलाई विपद् संकटग्रस्त क्षेत्र घोषणा गर्ने निर्णय गरे",
+      "storyId": "बाढीबाट प्रभावित स्थानीय तहलाई तीन महिनाका लागि संकटग्रस्त क्षेत्र घोषणा गरिने",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "श्रीलंकाका अलराउन्डर सहन काठमान्डु गोर्खाजमा आबद्ध",
+      "link": "https://www.hamrokhelkud.com/detail/174661",
+      "pubDate": "Wed, 26 Aug 2026 08:51:20 +0545",
+      "source": "HAMROKHELKUD",
+      "sourceUrl": "https://www.hamrokhelkud.com/feed",
+      "category": "sports",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "काठमान्डु गोर्खाजमा श्रीलंकाका अलराउन्डर सहन",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "HAMROKHELKUD"
+      ],
+      "isBreaking": false,
+      "storyCategory": "sports"
+    },
+    {
+      "title": "रसुवा बाढीबाट प्रभावित स्थानीय तहलाई संकटग्रस्त क्षेत्र घोषणा गर्ने सरकारको निर्णय",
+      "link": "https://nepalpress.com/2026/08/26/757299/governments-decision-to-declare-local-levels-affected-by-rasuwa-floods-as-disaster-areas/",
+      "pubDate": "Wed, 26 Aug 2026 08:31:05 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "सरकारले विपद्बाट प्रभावित स्थानीय तहलाई विपद् संकटग्रस्त क्षेत्र घोषणा गरेको छ।",
+      "storyId": "बाढीबाट प्रभावित स्थानीय तहलाई तीन महिनाका लागि संकटग्रस्त क्षेत्र घोषणा गरिने",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा भन्सार कार्यालयका १४ कर्मचारी सम्पर्क विहीन",
+      "link": "https://nepalpress.com/2026/08/26/757292/14-employees-of-rasuwa-customs-office-missing/",
+      "pubDate": "Wed, 26 Aug 2026 08:22:42 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवाको टिमुरेस्थित भन्सार कार्यालयमा कार्यरत १४ जना कर्मचारी सम्पर्क विहीन भएका छन् । रसुवास्थित भोटेकोशी नदीमा आज बिहान आएको बाढीपछि उनहरू सम्पर्क विहीन भएका हुन् । अर्थमन्त्री डा। स्वर्णिम वाग्लेको सचिवालयक",
+      "storyId": "रसुवा भन्सार कार्यालयका १४ कर्मचारी सम्पर्क विहीन",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा एनसेलको तीन दिन निःशुल्क भ्वाइस र डेटा सेवा",
+      "link": "https://arthasarokar.com/2026/08/ncell-provides-free-voice-and-data-service-for-three-days-in-flood-affected-areas.html",
+      "pubDate": "Wed, 26 Aug 2026 08:08:48 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । दूरसञ्चार सेवा प्रदायक एनसेलले रसुवा जिल्लामा बुधबार बिहान आएको भीषण बाढीबाट प्रभावित क्षेत्रमा तीन दिनका लागि भ्वाइस तथा डेटा सेवा निःशुल्क उपलब्ध गराउने भएको छ । कम्पनीका अनुसार प्रभावित क्षेत्रका सर्वसाधारण",
+      "storyId": "बाढी प्रभावित क्षेत्रमा ३ दिन एनसेलको डेटा र भ्वाइस निःशुल्क",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा भन्सार कार्यालयका १४ कर्मचारी सम्पर्क विहीन",
+      "link": "https://arthasarokar.com/2026/08/14-staffers-of-rasuwa-customs-office-out-of-contact.html",
+      "pubDate": "Wed, 26 Aug 2026 07:39:36 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । रसुवाको टिमुरेस्थित भन्सार कार्यालयमा कार्यरत १४ जना कर्मचारी सम्पर्क विहीन भएका छन् । रसुवास्थित भोटेकोशी नदीमा आज बिहान आएको बाढीपछि उनीहरु सम्पर्क विहीन भएका हुन् । अर्थमन्त्री डा. स्वर्णिम वाग्लेको सचिवालय",
+      "storyId": "रसुवा भन्सार कार्यालयका १४ कर्मचारी सम्पर्क विहीन",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "चार जिल्लामा नेपाल टेलिकमको फोन र डेटा सेवा निःशुल्क",
+      "link": "https://bankingkhabar.com/archives/167380",
+      "pubDate": "Wed, 26 Aug 2026 07:32:55 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / भोटेकोशीमा आएको भीषण बाढीपछि उद्धार, राहत तथा खोजीकार्यलाई सहज बनाउन सरकारले चार जिल्लामा नेपाल टेलिकमको फोन तथा डेटा सेवा निःशुल्क गर्ने निर्णय गरेको छ । अर्थ मन्त्रालयका अनुसार बाढी प्रभावित चार जिल्लामा न",
+      "storyId": "चार जिल्लामा नेपाल टेलिकमको फोन र डेटा सेवा निःशुल्क",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "रसुवाबाट १२ जनाको सेनाले गर्‍यो उद्धार",
+      "link": "https://nepalpress.com/2026/08/26/757259/army-rescues-12-people-from-rasuwa/",
+      "pubDate": "Wed, 26 Aug 2026 07:28:19 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "नेपाली सेनाले रसुवाको बाढीमा फसेका १२ जनाको हेलिकप्टरबाट उद्धार गरेको छ ।",
+      "storyId": "रसुवा बाढी हेलिकप्टरमार्फत सेनाले गर् यो ८८ जनाको उद्धार",
+      "sourceCount": 2,
+      "relatedSources": [
+        "NEPALPRESS",
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा २ दिनसम्म एनटीसीको भ्वाइस कल, डाटा र ५० एसएमएस निःशुल्क",
+      "link": "https://nepalpress.com/2026/08/26/757256/ntcs-voice-calls-data-and-50-sms-are-free-for-2-days-in-flood-affected-areas/",
+      "pubDate": "Wed, 26 Aug 2026 07:21:34 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । नेपाल दूरसञ्चार कम्पनी लिमिटेड (नेपाल टेलिकम) ले भोटेकोशीमा आएको बाढीबाट प्रभावित क्षेत्रका बासिन्दाका लागि टेलिफोन, एसएमएस तथा इन्टरनेट सेवा निःशुल्क गरेको छ। नेपाल टेलिकमले सो क्षेत्रका बासिन्दालाई हालका लाग",
+      "storyId": "बाढी प्रभावित क्षेत्रमा ३ दिन एनसेलको डेटा र भ्वाइस निःशुल्क",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "चार जिल्लामा नेपाल टेलिकमको फोन र डेटा निःशुल्क",
+      "link": "https://arthasarokar.com/2026/08/nepal-telecoms-phone-and-data-free-in-four-districts.html",
+      "pubDate": "Wed, 26 Aug 2026 07:13:15 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । चार जिल्लामा नेपाल टेलिकमको फोन र डेटा निःशुल्क गरिएको छ । भोटेकोशीमा आएको भीषण बाढीपछि उद्धार र खोजीमा सहजीकरण गर्न सरकारले चार जिल्लामा नेपाल टेलिकमको फोन र डेटा निःशुल्क गरेको हो । चार जिल्लामा फोन र डेटा न",
+      "storyId": "चार जिल्लामा नेपाल टेलिकमको फोन र डेटा सेवा निःशुल्क",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ARTHASAROKAR",
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "रसुवा बाढीबाट प्रभावित स्थानीय तहलाई संकटग्रस्त क्षेत्र घोषणा गर्ने सरकारको निर्णय",
+      "link": "http://annapurnapost.com/story/506148",
+      "pubDate": "2026-08-26T11:06:04.139422+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : सरकारले रसुवा बाढीबाट प्रभावित स्थानीय तहहरूमा संकटग्रस्त क्षेत्र घोषणा गर्ने निर्णय गरेको छ। बुधबार बसेको मन्त्रिपरिषद्को आकस्मिक बैठकले प्रभावित जिल्लाका स्थानीय तहहरूमा तीन महिनाका लागि संकटग्रस्त क्षेत्र घ",
+      "storyId": "बाढीबाट प्रभावित स्थानीय तहलाई तीन महिनाका लागि संकटग्रस्त क्षेत्र घोषणा गरिने",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीले धादिङका तीन पुल बगायो,सदरमुकामसँगको आवागमन प्रभावित",
+      "link": "http://annapurnapost.com/story/506150",
+      "pubDate": "2026-08-26T11:06:04.139357+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "धादिङ : रसुवातर्फबाट त्रिशूली नदीमा आएको बाढीले धादिङका तीनवटा मोटरेबल पुल बगाएपछि ग्रामीण क्षेत्रको सडक सम्पर्क प्रभावित भएको छ। बाढीले गजुरी गाउँपालिका-२ र सिद्धलेक गाउँपालिका-६ जोड्ने फुर्केखोला पुल, गजुरी-५ र सिद्धले",
+      "storyId": "बाढीले धादिङका तीन पुल बगायो सदरमुकामसँगको आवागमन प्रभावित",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "काठमान्डु गोर्खाजमा श्रीलंकाका अलराउन्डर सहन",
+      "link": "http://annapurnapost.com/story/506156",
+      "pubDate": "2026-08-26T11:06:04.139145+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : श्रीलंकाका अलराउन्डर सहन अराचचिगेले काठमान्डु गोर्खाजबाट नेपाल प्रिमियर लिग (एनपीएल) क्रिकेट खेल्ने भएका छन्। एनपिएलको फ्रेन्चाइज टोली गोर्खाजले बुधबार आफ्नो समाजिक सञ्जालबाट तेस्रो सिजनको लागि सहनलाई अनुबन्धन",
+      "storyId": "काठमान्डु गोर्खाजमा श्रीलंकाका अलराउन्डर सहन",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "HAMROKHELKUD"
+      ],
+      "isBreaking": false,
+      "storyCategory": "sports"
+    },
+    {
+      "title": "पालुङटारबाट गोसाइँकुण्ड गएका ३३ जना यात्रु सम्पर्कविहीन",
+      "link": "http://annapurnapost.com/story/506158",
+      "pubDate": "2026-08-26T11:06:04.139025+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "गोरखा : गोरखाको पालुङटार नगरपालिकाकाबाट रसुवाको गोसाइँकुण्ड तीर्थ यात्रामा गएकाहरू सम्पर्कविहीन भएका छन् । पालुङ्टार नगरपालिका- ५ ठाँटीपोखरीबाट गोसाइकुण्ड यात्रामा गएका यात्रुहरू बुधबार बिहानदेखि सम्पर्कविहीन भएको पालिका",
+      "storyId": "पालुङटारबाट गोसाइँकुण्ड गएका ३३ जना यात्रु सम्पर्कविहीन",
+      "sourceCount": 2,
+      "relatedSources": [
+        "ANNAPURNAPOST",
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "घुस लिएको आरोपमा सिँचाइ विकास सर्लाहीका प्रमुख र मेकानिकल अधिकृत विरूद्ध मुद्दा दर्ता",
+      "link": "https://www.setopati.com/social/396796",
+      "pubDate": "Wed, 26 Aug 2026 16:48:49 +0545",
+      "source": "SETOPATI",
+      "sourceUrl": "https://www.setopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "घुस लिएको आरोपमा सिँचाइ विकास सर्लाहीका प्रमुख र मेकानिकल अधिकृत विरूद्ध मुद्दा दर्ता",
+      "sourceCount": 1,
+      "relatedSources": [
+        "SETOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "त्यहाँ म थिइनँ!",
+      "link": "https://www.setopati.com/literature/396799",
+      "pubDate": "Wed, 26 Aug 2026 16:46:00 +0545",
+      "source": "SETOPATI",
+      "sourceUrl": "https://www.setopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "तब थाहा भयो म जहाँ पुगेँ, त्यहाँ म थिइनँ; किनकि म सधैँ अर्कै ठाउँमा पुग्न खोजिरहेको थिएँ",
+      "storyId": "त्यहाँ म थिइनँ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "SETOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "सप्तरीको एकै परिवारका तीन दाजुभाइ सम्पर्कविहीन",
+      "link": "https://gorkhapatraonline.com/news/219967",
+      "pubDate": "Wed, 26 Aug 2026 16:45:46 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "विनय कर्णकल्याणपुर (सप्तरी), भदौ १० गते । रसुवामा बुधबार बिहानै बाढी आउँदा सप्तरीको एकै परिवारका तीन दाजुभाइ सम्पर्कविहीन भएका छन् । जिल्लाको बोदेबरसाइन नगरपालिका वडा नम्बर ८ काचनट...",
+      "storyId": "सप्तरीको एकै परिवारका तीन दाजुभाइ सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रास्वपाले बोलायो सचिवालय बैठक",
+      "link": "https://www.setopati.com/politics/396797",
+      "pubDate": "Wed, 26 Aug 2026 16:42:22 +0545",
+      "source": "SETOPATI",
+      "sourceUrl": "https://www.setopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "रास्वपाले बोलायो सचिवालय बैठक",
+      "sourceCount": 1,
+      "relatedSources": [
+        "SETOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा र नुवाकोटलाई एक करोड निकासा, धादिङलाई ५० लाख",
+      "link": "https://nepallive.com/story/349102",
+      "pubDate": "Wed, 26 Aug 2026 16:42:22 +0545",
+      "source": "NEPALLIVE",
+      "sourceUrl": "https://nepallive.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "उनले प्रतिनिधिसभाको बैठकमा जानकारी दिँदै दुई जिल्लालाई उक्त रकम दिइएको हो । त्यस्तै धादिङलाई ५० लाख निकासा गरिएको छ । बाढीले धादिङका विभिन्न क्षेत्रमा समेत क्षति पुर्‍याएको छ ।",
+      "storyId": "रसुवा र नुवाकोटलाई एक करोड निकासा धादिङलाई ५० लाख",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALLIVE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "कार्यालय प्रमुख र अधिकृतविरुद्ध भ्रष्टाचार मुद्दा",
+      "link": "https://gorkhapatraonline.com/news/219965",
+      "pubDate": "Wed, 26 Aug 2026 16:40:54 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ, भदौ १० गते । भूमिगत जलस्रोत तथा सिँचाइ विकास डिभिजन कार्यालय, सर्लाहीका कार्यालय प्रमुख अनुप ढकाल र मेकानिकल अधिकृत तुलाकान्त चौधरीविरुद्ध भ्रष्टाचार मुद्दा दायर भएको छ ।...",
+      "storyId": "कार्यालय प्रमुख र अधिकृतविरुद्ध भ्रष्टाचार मुद्दा",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवामा बाढी: अहिलेसम्म प्रभावित ३ जिल्लामा १६ जनाको शव भेटियो",
+      "link": "https://nepallive.com/story/349101",
+      "pubDate": "Wed, 26 Aug 2026 16:36:54 +0545",
+      "source": "NEPALLIVE",
+      "sourceUrl": "https://nepallive.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बाढीपछि उद्धारमा खटिएको प्रहरीले रसुवा, नुवाकोट र धादिङमा गरी १६ जनाको शव फेला पारेको जानकारी दिएको छ ।",
+      "storyId": "रसुवामा बाढी अहिलेसम्म प्रभावित ३ जिल्लामा १६ जनाको शव भेटियो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALLIVE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "उद्धारमा खटिन चीनका राष्ट्रपति सीको निर्देशन",
+      "link": "https://gorkhapatraonline.com/news/219964",
+      "pubDate": "Wed, 26 Aug 2026 16:33:52 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "चाँदनी हमालकाठमाडौँ, भदौ १० गते । चीनका राष्ट्रपति सी चिनफिङले नेपाल चीन सीमामा उच्च बाढीका कारण उत्पन्न विपदमा राहत तथा उद्धारमा खटिन निर्देशन दिनु भएको छ। चिनियाँ समाचार संस्था स...",
+      "storyId": "उद्धारमा खटिन चीनका राष्ट्रपति सीको निर्देशन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "गण्डक बराज क्षेत्रमा उच्च सुरक्षा सतर्कता",
+      "link": "https://www.setopati.com/social/396795",
+      "pubDate": "Wed, 26 Aug 2026 16:33:41 +0545",
+      "source": "SETOPATI",
+      "sourceUrl": "https://www.setopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "गण्डक बराज क्षेत्रमा उच्च सुरक्षा सतर्कता",
+      "sourceCount": 1,
+      "relatedSources": [
+        "SETOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "भोटेकोशी बाढीपछि संसद्को आजको सम्पूर्ण कार्यसूची हटाइयो, प्रधानमन्त्रीसँगको प्रश्नोत्तर पनि नहुने",
+      "link": "https://nepallive.com/story/349100",
+      "pubDate": "Wed, 26 Aug 2026 16:28:51 +0545",
+      "source": "NEPALLIVE",
+      "sourceUrl": "https://nepallive.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बुधबारको बैठकमा सभामुख अर्यालले बाढीबाट भएको जनधनको क्षतिप्रति दुःख व्यक्त गर्दै विपद्को यस घडीमा घाइतेको उद्धार तथा उपचार, बेपत्ताको खोजी र प्रभावित नागरिकलाई राहत उपलब्ध गराउन आवश्यक समन्वय तीव्र बनाउन सरकारको ध्यानाकर",
+      "storyId": "भोटेकोशी बाढीपछि संसद्को आजको सम्पूर्ण कार्यसूची हटाइयो प्रधानमन्त्रीसँगको प्रश्नोत्तर पनि नहुने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALLIVE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "अमेरिकाले विश्वव्यापी भिसा समय रोकेको रिपोर्ट",
+      "link": "https://gorkhapatraonline.com/news/219962",
+      "pubDate": "Wed, 26 Aug 2026 16:23:59 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "वासिङ्टन, भदौ १० गते । राष्ट्रपति डोनाल्ड ट्रम्प नेतृत्वको अमेरिकी प्रशासनले आप्रवासन सम्बन्धी छानविन कडा बनाइरहेका बेला विश्वभरका अमेरिकी दूतावास तथा वाणिज्य दूतावासमा भिसा अन्तर्...",
+      "storyId": "अमेरिकाले विश्वव्यापी भिसा समय रोकेको रिपोर्ट",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीबाट १९ पुल क्षतिग्रस्त, ४० किलोमिटर सडक अवरुद्ध",
+      "link": "https://gorkhapatraonline.com/news/219961",
+      "pubDate": "Wed, 26 Aug 2026 16:20:26 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ, भदौ १० गते । रसुवा बाढीका कारण त्रिशुली नदीका १९ भन्दा बढी पुलमा क्षति पुगेको छ । सडक विभागका प्रवक्ता शुभराज न्यौपानेले हालसम्म कम्तीमा १९ वटा पुलमा क्षति पुगेको बताउनुभ...",
+      "storyId": "बाढीबाट १९ पुल क्षतिग्रस्त ४० किलोमिटर सडक अवरुद्ध",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "अमेरिकी सामानमा क्यानाडाको प्रतिशुल्क",
+      "link": "https://gorkhapatraonline.com/news/219960",
+      "pubDate": "Wed, 26 Aug 2026 16:14:30 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "ओटावा, भदौ १० गते । अमेरिका-क्यानाडा व्यापार विवाद थप चर्किएको छ । क्यानाडाले अमेरिकी सामानमा १५ देखि ५० प्रतिशतसम्म प्रतिशुल्क लगाउने घोषणा गरेको छ । यो कदम अमेरिकी राष्ट्रपति डोन...",
+      "storyId": "अमेरिकी सामानमा क्यानाडाको प्रतिशुल्क",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : घाइतेको उपचारका लागि वीर र टिचिङसहित पाँच अस्पताल तयारी अवस्थामा",
+      "link": "https://nepallive.com/story/349098",
+      "pubDate": "Wed, 26 Aug 2026 16:02:36 +0545",
+      "source": "NEPALLIVE",
+      "sourceUrl": "https://nepallive.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "परराष्ट्रमन्त्री शिशिर खनालले प्रतिनिधि सभाको बैठकमा सरकारले गरिरहेको कामका बारेमा जानकारी दिँदै उद्धार गरिएका विपत् क्षेत्रका नागरिकको उपचारका लागि वीर, त्रिवि शिक्षण अस्पताल र ट्रमा सेन्टरसहित पाँचवटा अस्पताल तयारी अवस",
+      "storyId": "रसुवा बाढी घाइतेको उपचारका लागि वीर र टिचिङसहित पाँच अस्पताल तयारी अवस्थामा",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALLIVE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "प्रभावित क्षेत्रमा स्वास्थ्यकर्मी परिचालन",
+      "link": "https://gorkhapatraonline.com/news/219959",
+      "pubDate": "Wed, 26 Aug 2026 16:01:58 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "अनिल पराजुलीहेटौँडा, भदौ १० गते । रसुवामा आएको भीषण बाढीबाट प्रभावित क्षेत्रमा आपत्कालीन स्वास्थ्य उपचारका लागि बागमती प्रदेश सरकारले स्वास्थ्यकर्मी परिचालन गरेको छ । प्रदेशका प्रा...",
+      "storyId": "प्रभावित क्षेत्रमा स्वास्थ्यकर्मी परिचालन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "सम्भव भएका सबै स्रोत साधन प्रभावित क्षेत्रमा परिचालन गर्न आग्रह",
+      "link": "https://gorkhapatraonline.com/news/219957",
+      "pubDate": "Wed, 26 Aug 2026 16:00:38 +0545",
+      "source": "GORKHAPATRAONLINE",
+      "sourceUrl": "https://gorkhapatraonline.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ, भदौ १० गते । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) सभापति रवि लामिछानेले बाढी प्रभावित क्षेत्रमा सम्भव भएका सबै स्रोत साधन परिचालन गर्न आग्रह गर्नुभएको छ । प्रतिनिधिसभाको...",
+      "storyId": "सम्भव भएका सबै स्रोत साधन प्रभावित क्षेत्रमा परिचालन गर्न आग्रह",
+      "sourceCount": 1,
+      "relatedSources": [
+        "GORKHAPATRAONLINE"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "१४औँ सागमा ४ हजार बढीको सहभागिता रहने",
+      "link": "https://www.hamrokhelkud.com/detail/174665",
+      "pubDate": "Wed, 26 Aug 2026 14:43:32 +0545",
+      "source": "HAMROKHELKUD",
+      "sourceUrl": "https://www.hamrokhelkud.com/feed",
+      "category": "sports",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "१४औँ सागमा ४ हजार बढीको सहभागिता रहने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "HAMROKHELKUD"
+      ],
+      "isBreaking": false,
+      "storyCategory": "sports"
+    },
+    {
+      "title": "नेपाल `ए´ टप एन्डमा चौथो खेल खेल्दै",
+      "link": "https://www.hamrokhelkud.com/detail/174664",
+      "pubDate": "Wed, 26 Aug 2026 11:56:00 +0545",
+      "source": "HAMROKHELKUD",
+      "sourceUrl": "https://www.hamrokhelkud.com/feed",
+      "category": "sports",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "नेपाल ए टप एन्डमा चौथो खेल खेल्दै",
+      "sourceCount": 1,
+      "relatedSources": [
+        "HAMROKHELKUD"
+      ],
+      "isBreaking": false,
+      "storyCategory": "sports"
+    },
+    {
+      "title": "संखुवासभा गोल्डकप कात्तिक दोस्रो साता, विजेतालाई ५ लाख",
+      "link": "https://www.hamrokhelkud.com/detail/174663",
+      "pubDate": "Wed, 26 Aug 2026 11:50:16 +0545",
+      "source": "HAMROKHELKUD",
+      "sourceUrl": "https://www.hamrokhelkud.com/feed",
+      "category": "sports",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "संखुवासभा गोल्डकप कात्तिक दोस्रो साता विजेतालाई ५ लाख",
+      "sourceCount": 1,
+      "relatedSources": [
+        "HAMROKHELKUD"
+      ],
+      "isBreaking": false,
+      "storyCategory": "sports"
+    },
+    {
+      "title": "नेपालको बाढीले भारतमा पनि त्रास : यूपी र बिहारमा उच्च सतर्कता",
+      "link": "https://www.ratopati.com/story/587596/nepal-floods-cause-panic-in-india-too-high-alert-in-up-and-bihar",
+      "pubDate": "Wed, 26 Aug 2026 11:03:19 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । नेपालमा भीषण बाढीले जनधनको ठुलो क्षति पुर्‍याएपछि भारतको उत्तर प्रदेश र बिहार राज्यका प्रशासनले तल्लो तटीय क्षेत्रमा हुनसक्ने जोखिमलाई ध्यानमा राख्दै पूर्वतयारी तीव्र बनाएका छन्। नेपालको रसुवा जिल्लामा बुधबार ",
+      "storyId": "नेपालको बाढीले भारतमा पनि त्रास यूपी र बिहारमा उच्च सतर्कता",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "हेलिकप्टरमार्फत सय बढीको उद्धार",
+      "link": "https://www.onlinekhabar.com/2026/08/2004273/more-than-a-hundred-rescued-by-helicopter",
+      "pubDate": "Wed, 26 Aug 2026 10:58:57 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "उनीहरू सबैको नेपाली सेना र निजी कम्पनीका हेलिकप्टरमार्फत उद्धार गरिएको हो।",
+      "storyId": "हेलिकप्टरमार्फत सय बढीको उद्धार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "राहत र उद्धारका लागि सरकारले राष्ट्रिय र अन्तरराष्ट्रियस्तरमा समन्वय गरिरहेको छ : परराष्ट्रमन्त्री",
+      "link": "https://www.ratopati.com/story/587593/government-is-coordinating-at-national-and-international-levels-for-relief-and-rescue-foreign-minister",
+      "pubDate": "Wed, 26 Aug 2026 10:58:49 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । परराष्ट्रमन्त्री शिशिर खनालले भोटेकोशी नदीमा गएको बाढीका कारण रसुवालगायत तल्लो तटीय क्षेत्रमा भएको जनधनको क्षतिप्रति दुःख व्यक्त गर्दै राहत र उद्धारमा सरकार केन्द्रित रहेको बताएका छन् । विपद्को पछिल्लो अवस्थाब",
+      "storyId": "राहत र उद्धारका लागि सरकारले राष्ट्रिय र अन्तरराष्ट्रियस्तरमा समन्वय गरिरहेको छ परराष्ट्रमन्त्री",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीपछि काठमाडौं महानगरले ४ एम्बुलेन्स नुवाकोट पठायो",
+      "link": "https://clickmandu.com/2026/08/485774.html",
+      "pubDate": "Wed, 26 Aug 2026 10:55:04 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । बुधबार भोटेकोशी नदीमा आएको ठुलो आकस्मिक बाढीले जनधनको ठूलो क्षति भएको अवस्थामा काठमाडौं महानगरपालिकाका विपद व्यवस्थापन समितिको बैठक बसेर आफ्नो भूमिकाको तयारीका विषयमा छलफल गरेको छ । कार्यवाहक प्रमुख सुनिता डंग",
+      "storyId": "बाढीपछि काठमाडौं महानगरले ४ एम्बुलेन्स नुवाकोट पठायो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "बाढीबाट बचे नुवाकोट केन्द्रीय कारागारका एक हजार कैदीबन्दी",
+      "link": "https://www.onlinekhabar.com/2026/08/2004268/1000-inmates-of-nuwakot-central-jail-survive-flood",
+      "pubDate": "Wed, 26 Aug 2026 10:54:03 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "१० भदौ, नुवाकोट । चीनको तिब्बतदेखि रसुवा, नुवाकोट, धादिङ भइ चितवनसम्म तहसनहस बनाउँदै आएको बाढीले त्रिशूली नदी किनारमा भएको केन्द्रीय कारागार भने जोगिएको छ । विदुर वडा नं. ३ स्थित खम्पाक्याम्पमा रहेको उक्त कारागारमा बाढील",
+      "storyId": "बाढीबाट बचे नुवाकोट केन्द्रीय कारागारका एक हजार कैदीबन्दी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीपीडितको उद्धार र पुन:स्थापनाका लागि प्रगतिशील लोकतान्त्रिक पार्टीको माग",
+      "link": "https://www.ratopati.com/story/587592/progressive-democratic-party-demands-rescue-and-rehabilitation-of-flood-victims",
+      "pubDate": "Wed, 26 Aug 2026 10:52:54 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । प्रगतिशील लोकतान्त्रिक पार्टी (प्रलोपा) ले रसुवा र नुवाकोट लगायतका क्षेत्रमा विनाशकारी बाढीले पुर्‍याएको क्षतिप्रति गहिरो दुःख व्यक्त गर्दै पीडितहरूको तत्काल उद्धार, राहत र सुरक्षित पुन:स्थापनाका लागि सरकारसँग",
+      "storyId": "बाढीपीडितको उद्धार र पुन स्थापनाका लागि प्रगतिशील लोकतान्त्रिक पार्टीको माग",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "एक मिनेटको सूचनाले जोगाउन सक्छ ज्यान: अन्तरदेशीय पूर्वसूचना प्रणाली स्थापना गर्न माग",
+      "link": "https://www.ratopati.com/story/587590/one-minutes-notice-can-save-lives-demand-to-establish-an-international-early-warning-system",
+      "pubDate": "Wed, 26 Aug 2026 10:52:06 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । हिमाली क्षेत्रमा सीमापार (माथिल्लो तटीय क्षेत्र) बाट आउने बाढी र हिमताल विस्फोटको जोखिम न्यूनीकरण गर्न ‘अन्तरदेशीय पूर्वसूचना प्रणाली’ तत्काल स्थापना गर्नुपर्नेमा विज्ञहरूले जोड दिएका छन्। विपद् आउनुपूर्वको छो",
+      "storyId": "एक मिनेटको सूचनाले जोगाउन सक्छ ज्यान अन्तरदेशीय पूर्वसूचना प्रणाली स्थापना गर्न माग",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "विपद्‍बाट प्रभावित जिल्लाका स्थानीय तह विपद् सङ्कटग्रस्त क्षेत्र घोषणा, यस्ता छन् प्रावधान",
+      "link": "https://www.ratopati.com/story/587589/local-levels-in-disaster-affected-districts-declared-disaster-affected-areas-here-are-the-provisions",
+      "pubDate": "Wed, 26 Aug 2026 10:49:13 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । सरकारले विपद्‍बाट प्रभावित जिल्लाका स्थानीय तहहरुलाई तीन महिना अवधिका लागि विपद् सङ्कटग्रस्त क्षेत्र घोषणा गरेको छ । विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन ऐन २०७४ को दफा ३२ बमोजिम सरकारले विपद् सङ्कटग्रस्त क्षे",
+      "storyId": "विपद् बाट प्रभावित जिल्लाका स्थानीय तह विपद् सङ्कटग्रस्त क्षेत्र घोषणा यस्ता छन् प्रावधान",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "१४ औँ साग तोकिएकै समयमा हुनेमा आशङ्का नगर्न नेपाल ओलम्पिक कमिटीको आग्रह",
+      "link": "https://www.ratopati.com/story/587588/nepal-olympic-committee-urges-people-not-to-doubt-that-the-14th-sag-will-be-held-on-time",
+      "pubDate": "Wed, 26 Aug 2026 10:49:01 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । पाकिस्तानमा तय १४ औँ दक्षिण एसियाली खेलकुद (साग) निर्धारित समयमै हुनेबारे आशङ्का नगर्न नेपाल ओलम्पिक कमिटी (एनओसी) का अध्यक्ष जीवनराम श्रेष्ठले आग्रह गरेका छन्। गत आइतबार पाकिस्तानको इस्लामावादमा बसेको दक्षिण ",
+      "storyId": "१४ औँ साग तोकिएकै समयमा हुनेमा आशङ्का नगर्न नेपाल ओलम्पिक कमिटीको आग्रह",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवागढी–केरुङ बाढीपछिको पुनःस्थापनका लागि चीनले पठायो उपप्रधानमन्त्री नेतृत्वको टोली",
+      "link": "https://clickmandu.com/2026/08/485769.html",
+      "pubDate": "Wed, 26 Aug 2026 10:48:46 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । नेपाल चीन सिमाक्षेत्र रसुवागढी/केरुङमा बाढीपछि ठूलो क्षति भएपछि चिनियाँ उपप्रधानमन्त्री झाङ गुओछिङले घटनास्थलको प्रत्यक्ष अनुगमन गर्ने भएका छन् । चिनियाँ राष्ट्रपति सी चिनफिङ र प्रधानमन्त्री ली छियाङको विशेष न",
+      "storyId": "रसुवागढी केरुङ बाढीपछिको पुनःस्थापनका लागि चीनले पठायो उपप्रधानमन्त्री नेतृत्वको टोली",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "काठमाडौं महानगरले ४ वटा एम्बुलेन्स नुवाकाेट पठायाे, २ वटा विमानस्थलमा स्ट्यान्डबाई",
+      "link": "https://nepalpress.com/2026/08/26/757329/kathmandu-metropolitan-city-sends-4-ambulances-to-nuwakot-2-on-standby-at-airport/",
+      "pubDate": "Wed, 26 Aug 2026 10:46:28 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "आज भोटेकोशी नदीमा आएको ठुलो आकस्मिक बाढीले जनधनको ठूलो क्षति भएको अवस्थामा काठमाडौं महानगरपालिकाका विपद व्यवस्थापन समितिको बैठक बसेर आफ्नो भूमिकाको तयारीका विषयमा छलफल गरेको छ ।",
+      "storyId": "काठमाडौं महानगरले ४ वटा एम्बुलेन्स नुवाकाेट पठायाे २ वटा विमानस्थलमा स्ट्यान्डबाई",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : गृहमन्त्रीलाई हेलिकप्टरसहित उद्धारका सबै साधन परिचालन गर्ने अधिकार",
+      "link": "https://www.onlinekhabar.com/2026/08/2004266/rasuwa-flood-home-minister-has-authority-to-mobilize-all-rescue-resources-including-helicopters",
+      "pubDate": "Wed, 26 Aug 2026 10:46:17 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "मन्त्रिपरिषद्को बैठकले गृहमन्त्री सुधन गुरुङलाई हेलिकप्टरसहित उद्धारका सबै साधन परिचालन गर्ने अधिकार दिएको छ ।",
+      "storyId": "रसुवा बाढी गृहमन्त्रीलाई हेलिकप्टरसहित उद्धारका सबै साधन परिचालन गर्ने अधिकार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रतिकार्यमा आर्थिक स्रोत परिचालनको जिम्मा अर्थमन्त्रीलाई वाग्लेलाई",
+      "link": "https://www.onlinekhabar.com/2026/08/2004265/finance-minister-wagle-given-responsibility-for-mobilizing-financial-resources-for-flood-response",
+      "pubDate": "Wed, 26 Aug 2026 10:45:26 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "यस्तै सरकारले रसुवा बाढीका कारण मृत्यु भएका परिवारलाई आर्थिक साहायता दिने भएको छ । मन्त्रिपरिषद्को बैठकले यस्तो निर्णय गरेको हो ।",
+      "storyId": "बाढी प्रतिकार्यमा आर्थिक स्रोत परिचालनको जिम्मा अर्थमन्त्रीलाई वाग्लेलाई",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "तिब्बत तर्फबाट विनाशकारी बाढी (Live Updates)",
+      "link": "https://www.ratopati.com/story/587391/large-flood-enters-bhotekoshi-from-tibet-urges-to-adopt-high-alert-up-to-muglin",
+      "pubDate": "Wed, 26 Aug 2026 10:45:00 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवा । भोटेकोसी नदी रसुवामा तिब्बत तर्फबाट ठुलो बाढी प्रवेश गरेको छ । बिहान ९ः१५ बजे तिब्बत तर्फबाट ठुलो बाढी प्रवेश गरेकोले अर्को सूचना नआउँदासम्म त्रिशूली नदीको तटीय क्षेत्र मुग्लिनसम्म उच्च सतर्कता अपनाउन बाढी पूर्वा",
+      "storyId": "तिब्बत तर्फबाट विनाशकारी बाढी live updates",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "कसरी गरिँदैछ बाढी प्रभावितको उपचार ?",
+      "link": "https://www.ratopati.com/story/587586/how-are-flood-victims-being-treated",
+      "pubDate": "Wed, 26 Aug 2026 10:44:20 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । रसुवा लगायतका विभिन्न जिल्लामा आएको भीषण बाढी र पहिरोका कारण ठूलो क्षति भएपछि स्वास्थ्य तथा खाद्य स्वच्छता मन्त्रालयले प्रभावितको उपचारमा कुनै कसर बाँकी नराख्ने बताएको छ । स्वास्थ्य मन्त्रालयका अनुसार सम्भावित",
+      "storyId": "कसरी गरिँदैछ बाढी प्रभावितको उपचार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "उद्धारमा खटिएका हेलिकप्टरमा इन्धन भर्न नुवाकोट पुग्यो ‘रिफ्युलर’ गाडी",
+      "link": "https://clickmandu.com/2026/08/485766.html",
+      "pubDate": "Wed, 26 Aug 2026 10:44:09 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवा बाढी तथा पहिरोबाट प्रभावित नागरिकको उद्धार र राहतमा खटिएका हेलिकप्टरलाई इन्धन भर्न सहज बनाउन नेपाल आयल निगमले नुवाकोटमा १६ हजार लिटर क्षमताको ‘रिफ्युलर’ गाडी पठाएको छ । काठमाडौंको सिनामंगलस्थित निगमको हव",
+      "storyId": "उद्धारमा खटिएका हेलिकप्टरमा इन्धन भर्न नुवाकोट पुग्यो रिफ्युलर गाडी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "७९ जना सुरक्षाकर्मी सम्पर्कविहीन",
+      "link": "https://www.ratopati.com/story/587585/79-security-personnel-missing",
+      "pubDate": "Wed, 26 Aug 2026 10:43:22 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । सरकारले रसुवाको भोटेकोशी नदीमा आएको भीषण बाढीबाट प्रभावित क्षेत्रका स्थानीय तहहरूलाई तीन महिनाका लागि 'विपद् सङ्कटग्रस्त क्षेत्र' घोषणा गरेको छ। परराष्ट्रमन्त्री शिशिर खनालले बुधबार प्रतिनिधि सभाको बैठकमा सम्ब",
+      "storyId": "७९ जना सुरक्षाकर्मी सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "भोटेकोशी बाढीः बाढी पीडितको उद्धार र राहतका लागि एक्यानले गर्यो सहयोगको अपिल",
+      "link": "https://arthasarokar.com/2026/08/bhotekoshi-floods-acan-appeals-for-help-in-rescue-and-relief-of-flood-victims.html",
+      "pubDate": "Wed, 26 Aug 2026 10:42:27 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । नेपाल चाटर्ड एकाउन्ट्न्ट्स संघ (एक्यान)ले भोटेकोशीमा आएको बाढीले पुर्याएको क्षतिप्रति दुःख व्यक्त गरेको छ । बुधबार एक अपिल जारी गर्दै संघले रसुवा, नुवाकोट तथा धादिङमा आएको विनाशकारी बाढीका कारण भएको जनधनको क्ष",
+      "storyId": "भोटेकोशी बाढीः बाढी पीडितको उद्धार र राहतका लागि एक्यानले गर्यो सहयोगको अपिल",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "बाढी प्रभावित जिल्लाका सबै स्थानीय तह संकटग्रस्त क्षेत्र घोषित",
+      "link": "https://www.onlinekhabar.com/2026/08/2004263/all-local-levels-in-flood-affected-districts-declared-disaster-zones",
+      "pubDate": "Wed, 26 Aug 2026 10:41:05 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवा बाढीका कारण प्रभावित जिल्लाका सबै स्थानीय तहलाई संकटग्रस्त क्षेत्र घोषणा गरिएको छ । आज बसेको आकस्मिक मन्त्रिपरिषद्को बैठकले यस्तो निर्णय गरेको हो ।",
+      "storyId": "बाढी प्रभावित जिल्लाका सबै स्थानीय तह संकटग्रस्त क्षेत्र घोषित",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "विनाशकारी बाढीबाट प्रभावित ८८ जनाको हवाई उद्धार",
+      "link": "https://www.ratopati.com/story/587584/88-people-affected-by-devastating-floods-rescued-by-air",
+      "pubDate": "Wed, 26 Aug 2026 10:40:50 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । रसुवास्थित भोटेकोसीमा आएको बाढीका कारण प्रभावित भएकाहरूलाई सुरक्षाकर्मीहरूले उद्धार गरिरहेका छन् । अहिलेसम्म ८८ जनालाई रसुवाबाट उद्धार गरिएको नेपाली सेनाले जनाएको छ । ६ वटा हेलिकप्टरबाट बाढी प्रभावितहरूको उद्ध",
+      "storyId": "विनाशकारी बाढीबाट प्रभावित ८८ जनाको हवाई उद्धार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "२०२५ मा पनि तिब्बती हिमताल फुटेर भोटेकोशीमा आएको थियो बाढी",
+      "link": "https://www.ratopati.com/story/587583/in-2025-a-tibetan-glacier-burst-and-flooded-the-bhotekoshi",
+      "pubDate": "Wed, 26 Aug 2026 10:39:37 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । चिनियाँ समाचारका अनुसार रसुवाको भोटेकोशी नदीमा बुधबार बिहान आएको आकस्मिक बाढीको खास कारण सोही दिन नेपाल–चीन सीमाको चिनियाँ भू–भागमा गएको गम्भीर पहिरोलाई जनाइएको छ । यही पहिरोकै कारण सडक, सञ्चार तथा विद्युत् से",
+      "storyId": "२०२५ मा पनि तिब्बती हिमताल फुटेर भोटेकोशीमा आएको थियो बाढी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "विपद्‌का बेला ‘भीआईपी’ मुभमेन्ट रोक्न रवि लामिछानेको आह्वान",
+      "link": "https://www.ratopati.com/story/587582/ravi-lamichhane-calls-for-stopping-vip-movement-during-disasters",
+      "pubDate": "Wed, 26 Aug 2026 10:38:53 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । सत्तारुढ दल राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सभापति रवि लामिछानेले विपद्का समयमा हुने ‘भीआईपी’ मुभमेन्टले सुरक्षा निकायलाई अतिरिक्त चुनौती थप्ने बताएका छन्। उनले आफ्नो र आफ्नो दलका सांसदका लागि कुनै पनि",
+      "storyId": "विपद् का बेला भीआईपी मुभमेन्ट रोक्न रवि लामिछानेको आह्वान",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रोयल स्पोर्ट्स पार्क ब्लूलाई किङ्स टि टेन उपाधि",
+      "link": "https://www.hamrokhelkud.com/detail/174662",
+      "pubDate": "Wed, 26 Aug 2026 10:37:00 +0545",
+      "source": "HAMROKHELKUD",
+      "sourceUrl": "https://www.hamrokhelkud.com/feed",
+      "category": "sports",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "",
+      "storyId": "रोयल स्पोर्ट्स पार्क ब्लूलाई किङ्स टि टेन उपाधि",
+      "sourceCount": 1,
+      "relatedSources": [
+        "HAMROKHELKUD"
+      ],
+      "isBreaking": false,
+      "storyCategory": "sports"
+    },
+    {
+      "title": "पूर्वाधारमन्त्रीको अनुमानः भौतिक क्षति दुई खर्ब हारहारी",
+      "link": "https://www.onlinekhabar.com/2026/08/2004256/infrastructure-minister-estimates-physical-damage-is-estimated-at-200-billion-rupees",
+      "pubDate": "Wed, 26 Aug 2026 10:35:46 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बुधबार बिहान आएको बाढीबाट पुर्‍याएको क्षतिबारे सोधिएको प्रश्नमा मन्त्री लम्सालले दुई खर्ब हारहारी पूर्वाधारमा क्षति भएको जानकारी आएको बताए ।",
+      "storyId": "पूर्वाधारमन्त्रीको अनुमानः भौतिक क्षति दुई खर्ब हारहारी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "उद्धार पहिलो प्राथमिकता : गृहमन्त्री गुरुङ",
+      "link": "https://www.ratopati.com/story/587581/rescue-first-priority-home-minister-gurung",
+      "pubDate": "Wed, 26 Aug 2026 10:35:06 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । रसुवा र नुवाकोटमा बाढीका कारण प्रभावितहरूको उद्धारलाई पहिलो प्राथमिकतामा राखिएको गृहमन्त्री सुधन गुरुङले बताएका छन् । एयरपोर्टमा बसेर खोज तथा उद्धारको नेतृत्व गरिरहेका मन्त्री गुरुङले भने– ‘हाम्रो पहिलो प्राथम",
+      "storyId": "उद्धार पहिलो प्राथमिकता गृहमन्त्री गुरुङ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "कांग्रेस संस्थापन इतर पक्षले भन्यो- बाढीमा बेपत्ता नागरिकको शीघ्र खोजी गरियोस्",
+      "link": "https://www.onlinekhabar.com/2026/08/2004251/congress-establishment-and-other-parties-say-search-for-missing-citizens-in-floods-should-be-done-immediately",
+      "pubDate": "Wed, 26 Aug 2026 10:33:14 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "उक्त समूहले चीनको तिब्बतर्फबाट आएको आकस्मिक बाढीका कारण नेपालका रसुवा, नुवाकोट, धादिङ, चितवनलगायतका जिल्लामा अकल्पनीय जनधनको क्षति भएको भन्दै दु:ख व्यक्त गरेको छ ।",
+      "storyId": "कांग्रेस संस्थापन इतर पक्षले भन्यो बाढीमा बेपत्ता नागरिकको शीघ्र खोजी गरियोस्",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "पार्टीका सबै कार्यक्रम रोकेर राहत र उद्धारमा केन्द्रित हुने कांग्रेसको निर्णय",
+      "link": "https://www.ratopati.com/story/587580/congress-decides-to-suspend-all-party-programs-and-focus-on-relief-and-rescue",
+      "pubDate": "Wed, 26 Aug 2026 10:32:27 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "ललितपुर । नेपाली कांग्रेसले पार्टीका सबै कार्यक्रम रोकेर राहत र उद्धारमा केन्द्रित हुने निर्णय गरेको छ । पार्टीको केन्द्रीय कार्यालय सानेपामा आज बसेको आकस्मिक केन्द्रीय समिति बैठकलाई सम्बोधन गर्दै सभापति गगनकुमार थापाले ",
+      "storyId": "पार्टीका सबै कार्यक्रम रोकेर राहत र उद्धारमा केन्द्रित हुने कांग्रेसको निर्णय",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीको जोखिम : सुस्ता गाउँ खाली गराइयो",
+      "link": "https://nepalpress.com/2026/08/26/757326/flood-risk-susta-village-evacuated/",
+      "pubDate": "Wed, 26 Aug 2026 10:31:53 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बाढीको जोखिमका कारण नारायणी नदीपारी रहेको नवलपरासीको सुस्ता गाउँ खाली गरिएको छ ।",
+      "storyId": "बाढीको जोखिम सुस्ता गाउँ खाली गराइयो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "Government Allows Drones to Fly Without Prior Permission in Flood-Hit Areas",
+      "link": "https://techpana.com/2026/158719/government-allows-drones-without-prior-permission-in-flood-hit-areas",
+      "pubDate": "Wed, 26 Aug 2026 10:30:43 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. The government has allowed drones to be flown without prior permission in flood-affected areas to support search and rescue operations following Wednesday morning&rsquo;s severe flooding. The decision has been",
+      "storyId": "government allows drones to fly without prior permission in flood hit areas",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "लाङटाङ भोटेकोशी हाइड्रोका ३५कामदार टनेलभित्रै फसे, इन्जिनियरसहित ६० सम्पर्कविहीन",
+      "link": "https://clickmandu.com/2026/08/485764.html",
+      "pubDate": "Wed, 26 Aug 2026 10:29:38 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवा बाढीका कारण लाङटाङ खोला जलविद्युत् आयोजनामा कार्यरत ३५ जना कामदार पेनस्टक टनेल (सुरङ) भित्रै फसेका छन् । यसैगरी, आयोजनाको क्याम्पमा रहेका इन्जिनियर, ओभरसियर, भान्छे, चालक र सुरक्षा गार्डसहित करिब २५ जना ",
+      "storyId": "लाङटाङ भोटेकोशी हाइड्रोका ३५कामदार टनेलभित्रै फसे इन्जिनियरसहित ६० सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "बाढीको वितण्डाबाट बचाउन राज्यका सम्पूर्ण संयन्त्र परिचालन गर्न सभामुखको निर्देशन",
+      "link": "https://www.ratopati.com/story/587579/speaker-directs-to-mobilize-all-state-mechanisms-to-save-lives-from-flood-disaster",
+      "pubDate": "Wed, 26 Aug 2026 10:29:32 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । सभामुख डोलप्रसाद अर्यालले रसुवाको भोटेकोसी नदीमा आएको विनाशकारी बाढीबाट भएको ठुलो धनजनको क्षतिप्रति गहिरो दुःख व्यक्त गरेका छन्। प्रतिनिधिसभाको आजको बैठकमा बोल्दै सभामुख अर्यालले घाइतेहरूको तत्काल उद्धार, बेपत",
+      "storyId": "बाढीको वितण्डाबाट बचाउन राज्यका सम्पूर्ण संयन्त्र परिचालन गर्न सभामुखको निर्देशन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "परराष्ट्र मन्त्रीले संसदमा भने–भूकम्पले हिमपहिरो झरेको र त्यसका कारण बाढी आएको प्रारम्भिक सूचना",
+      "link": "https://clickmandu.com/2026/08/485761.html",
+      "pubDate": "Wed, 26 Aug 2026 10:27:51 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । परराष्ट्र मन्त्री शिशिर खनालले तिब्बती क्षेत्रमा आएको भूकम्पपछिको हिमपहिरोका कारण रसुवामा बाढी आएको हुनसक्ने प्रारम्भिक सूचना प्राप्त भएको बताएका छन् । सरकारको तर्फबाट घटनाबारे जानकारी दिँदै खनालले बाढीका कारण",
+      "storyId": "परराष्ट्र मन्त्रीले संसदमा भने भूकम्पले हिमपहिरो झरेको र त्यसका कारण बाढी आएको प्रारम्भिक सूचना",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "बाढीले १४ हाइड्रोमा क्षति पुगेपछि अब लोडसेडिङ हुन्छ ?",
+      "link": "https://clickmandu.com/2026/08/485759.html",
+      "pubDate": "Wed, 26 Aug 2026 10:24:01 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । चीनको तिब्बततर्फबाट रसुवा जिल्लामा आएको आकस्मिक बाढीका कारण दर्जनौँ जलविद्युत् आयोजना, प्रसारण लाइन र त्रिशूली ३बी हब सबस्टेसनमा गम्भीर क्षति पुगेको छ । काठमाडौं उपत्यकालाई नजिकबाट विद्युत् आपूर्ति गर्ने र यहा",
+      "storyId": "बाढीले १४ हाइड्रोमा क्षति पुगेपछि अब लोडसेडिङ हुन्छ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "Bhotekoshi Flood Damages Six Early Warning Systems in Rasuwa, Nuwakot and Dhading",
+      "link": "https://techpana.com/2026/158718/bhotekoshi-flood-damages-six-early-warning-systems-rasuwa-nuwakot-dhading",
+      "pubDate": "Wed, 26 Aug 2026 10:23:40 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. The sudden flood in the Bhotekoshi River on Wednesday morning has damaged six early warning systems used to monitor river conditions in Rasuwa, Nuwakot and Dhading, disrupting the automatic flow of real-time d",
+      "storyId": "bhotekoshi flood damages six early warning systems in rasuwa nuwakot and dhading",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "'अध्ययन गरेर मात्रै भौतिक संरचना निर्माणका लागि बजेट बनाउँछौँ'",
+      "link": "https://www.ratopati.com/story/587578/we-will-prepare-a-budget-for-the-construction-of-physical-infrastructure-only-after-conducting-studies",
+      "pubDate": "Wed, 26 Aug 2026 10:22:59 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "धनगढी । सुदूरपश्चिम प्रदेशका नवनियुक्त भौतिक पूर्वाधार विकासमन्त्री ओमविक्रम भाट ‘सरल’ले अब हचुवाका भरमा योजना छनोट नगर्ने बताएका छन् । उनले आवश्यकता, सम्भाव्यता र परिणामका आधारमा मात्रै विकास योजना तथा बजेट निर्माण गर्न",
+      "storyId": "अध्ययन गरेर मात्रै भौतिक संरचना निर्माणका लागि बजेट बनाउँछौँ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीका घाइते भएकाहरूको सरकारले नि:शुल्क उपचार गर्ने",
+      "link": "https://www.onlinekhabar.com/2026/08/2004242/government-to-provide-free-treatment-to-flood-victims",
+      "pubDate": "Wed, 26 Aug 2026 10:21:36 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवा बाढीका कारण घाइते भएकाहरूको सरकारले नि:शुल्क उपचार गर्ने बताएको छ । आज बसेको मन्त्रिपरिषद्को आकस्मिक बैठकले यो निर्णय लिएको हो ।",
+      "storyId": "बाढीका घाइते भएकाहरूको सरकारले नि शुल्क उपचार गर्ने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा खोजी र उद्धारका लागि ड्रोन उडाउन अनुमति नचाहिने",
+      "link": "https://techpana.com/2026/158717/flood-affected-areas-drone-flights-for-search-and-rescue-without-permission",
+      "pubDate": "Wed, 26 Aug 2026 10:21:25 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । बुधबार आएको भीषण बाढीका कारण प्रभावित क्षेत्रमा खोजी तथा उद्धार कार्यलाई तीव्र बनाउन बिनाअनुमति ड्रोन उडाउन पाइने भएको छ । उद्धार कार्यमा सहजता ल्याउन सरकारले प्रभावित क्षेत्रमा ड्रोन उडाउन पूर्वअनुमति आवश्यक ",
+      "storyId": "बाढी प्रभावित क्षेत्रमा खोजी र उद्धारका लागि ड्रोन उडाउन अनुमति नचाहिने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "जनैपूर्णिमाका लागि ह्यान्डमेड ‘सुपरहिरो’ राखी बजारमा",
+      "link": "https://www.ratopati.com/story/587576/handmade-superhero-rakhi-on-display-in-market-for-janai-purnima",
+      "pubDate": "Wed, 26 Aug 2026 10:20:38 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रक्षाबन्धन तथा जनैपूर्णिमा नजिकिँदै गर्दा बजारमा विभिन्न प्रकारका राखी भित्रिएका छन्। यसैक्रममा नेपाली स्टार्टअप कम्पनी ‘स्विनो’ले नेपाली सीप र मौलिकता झल्कने हातले बनाइएका राखी बजारमा ल्याएको छ। बालबालिका तथा",
+      "storyId": "जनैपूर्णिमाका लागि ह्यान्डमेड सुपरहिरो राखी बजारमा",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "विपदका समयमा एकजुट हुन रवि लामिछानेको आग्रह",
+      "link": "https://clickmandu.com/2026/08/485757.html",
+      "pubDate": "Wed, 26 Aug 2026 10:17:37 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टीका सभापति रवि लामिछानेले विपद्का समयमा सबै दल र नागरिक समाजलाई एकजुट हुन आग्रह गरेका छन् । बुधवार प्रतिनिधि सभाको बैठकमा बोल्दै सभापति लामिछानेले मुलुकको यस्तो किठन समयमा सबै एकजुट भए",
+      "storyId": "विपदका समयमा एकजुट हुन रवि लामिछानेको आग्रह",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "रसुवा बाढीबारे सरकारका तर्फबाट संसद्लाई परराष्ट्रमन्त्रीले दिए जानकारी",
+      "link": "https://www.onlinekhabar.com/2026/08/2004237/foreign-minister-briefs-parliament-on-rasuwa-floods-on-behalf-of-government",
+      "pubDate": "Wed, 26 Aug 2026 10:17:27 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "यसअघि गृहमन्त्री सुधन गुरुङले जानकारी गराउने भनिएपनि उनी व्यस्त रहेको भन्दै परराष्ट्रमन्त्री खनालले जानकारी गराएका हुन् ।",
+      "storyId": "रसुवा बाढीबारे सरकारका तर्फबाट संसद्लाई परराष्ट्रमन्त्रीले दिए जानकारी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा ९ जनाको शव फेला, सनाखत हुन बाँकी : परराष्ट्रमन्त्री खनाल",
+      "link": "https://www.ratopati.com/story/587575/bodies-of-9-people-found-in-flood-affected-areas-identification-yet-to-be-done-foreign-minister-khanal",
+      "pubDate": "Wed, 26 Aug 2026 10:16:40 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । परराष्ट्रमन्त्री शिशिर खनालले रसुवाको भोटेकोसी नदीमा आएको भीषण बाढीका कारण हालसम्म ९ जनाको शव फेला परेको जानकारी दिएका छन् । प्रतिनिधिसभाको आजको बैठकमा विशेष सम्बोधन गर्दै मन्त्री खनालले उद्धार टोलीले प्रभावित",
+      "storyId": "बाढी प्रभावित क्षेत्रमा ९ जनाको शव फेला सनाखत हुन बाँकी परराष्ट्रमन्त्री खनाल",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीबाट प्रभावित २१ जनाको काठमाडौँमा उपचार हुँदै",
+      "link": "https://www.ratopati.com/story/587574/21-flood-affected-people-are-receiving-treatment-in-kathmandu",
+      "pubDate": "Wed, 26 Aug 2026 10:14:30 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ। बाढीबाट प्रभावित २१ जनाको काठमाडौँस्थित विभिन्न अस्पतालमा उपचार हुँदैछ । प्रहरीका अनुसार त्रिवि शिक्षण अस्पतालमा १७, ट्रमा सेन्टरमा तीन जना र मेडिसिटी अस्पतालमा एक जनाको उपचार भइरहेको छ । जिल्ला प्रहरी परिसर का",
+      "storyId": "बाढीबाट प्रभावित २१ जनाको काठमाडौँमा उपचार हुँदै",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "Government Seeks Drones, Helicopters to Intensify Search and Rescue in Flood-Hit Areas",
+      "link": "https://techpana.com/2026/158716/government-seeks-drones-helicopters-intensify-search-rescue-flood-hit-areas",
+      "pubDate": "Wed, 26 Aug 2026 10:13:45 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. The government has called on drone operators and helicopter service providers to support ongoing search and rescue operations following the severe flooding in the Bhotekoshi and Trishuli rivers on Wednesday mo",
+      "storyId": "government seeks drones helicopters to intensify search and rescue in flood hit areas",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "लाङटाङ जलविद्युत् आयोजनाको सुरुङभित्र फसे ३५ मजदुर",
+      "link": "https://www.ratopati.com/story/587573/35-workers-trapped-inside-tunnel-of-langtang-hydropower-project",
+      "pubDate": "Wed, 26 Aug 2026 10:13:16 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । रसुवामा आएको बाढीका कारण २० मेगावाट क्षमताको लाङटाङ जलविद्युत् आयोजनामा ठुलो क्षति पुगेको छ । बाढीका कारण आयोजनाको सुरुङ (टनेल) भित्र ३५ जना मजदुर फसेका छन् भने इन्जिनियरसहित अन्य २५ कर्मचारी सम्पर्कविहीन भएका",
+      "storyId": "लाङटाङ जलविद्युत् आयोजनाको सुरुङभित्र फसे ३५ मजदुर",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "सरकारले भन्यो– भूकम्पपछि पहिरो जाँदा भोटेकोसीमा भीषण बाढी",
+      "link": "https://www.ratopati.com/story/587572/government-says-landslides-after-earthquake-cause-severe-flooding-in-bhotekoshi",
+      "pubDate": "Wed, 26 Aug 2026 10:09:41 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ। परराष्ट्रमन्त्री शिशिर खनालले रसुवाको भोटेकोसी नदीमा आएको ठुलो बाढीको मुख्य कारण भूकम्प र त्यसपछिको पहिरो भएको जानकारी दिएका छन्। प्रतिनिधि सभाको बुधबारको बैठकमा बोल्दै मन्त्री खनालले आज बिहान करिब ८ बजेर ४० मि",
+      "storyId": "सरकारले भन्यो भूकम्पपछि पहिरो जाँदा भोटेकोसीमा भीषण बाढी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बागमती प्रदेश सरकारले खटायो आकस्मिक स्वास्थ्य टोली",
+      "link": "https://www.ratopati.com/story/587571/bagmati-province-government-deploys-emergency-health-team",
+      "pubDate": "Wed, 26 Aug 2026 10:08:01 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । रसुवामा आएको भीषण बाढी पहिरोबाट प्रभावित तथा घाइते नागरिकको उद्धार र उपचारलाई तीव्रता दिन बागमती प्रदेश सरकारले विभिन्न अस्पतालबाट आकस्मिक स्वास्थ्य टोली प्रभावित क्षेत्रमा परिचालन गरेको छ । मुख्यमन्त्री किरण ",
+      "storyId": "बागमती प्रदेश सरकारले खटायो आकस्मिक स्वास्थ्य टोली",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "उपचारमा जुट्न चिकित्सकलाई मेडिकल काउन्सिलको आह्वान",
+      "link": "https://www.onlinekhabar.com/2026/08/2004226/medical-council-calls-on-doctors-to-join-treatment",
+      "pubDate": "Wed, 26 Aug 2026 10:07:16 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "१० भदौ, काठमाडौं । नेपाल मेडिकल काउन्सिलले रसुवा बाढीबाट घाइते नागरिकको उपचारमा सक्रिय रूपमा जुट्न सम्पूर्ण चिकित्सक तथा स्वास्थ्यकर्मीलाई आह्वान गरेको छ। चीनको तिब्बत हुँदै भोटेकोशी नदीमा आएको बाढी तथा पहिरोका कारण नदी ",
+      "storyId": "उपचारमा जुट्न चिकित्सकलाई मेडिकल काउन्सिलको आह्वान",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "ग्यिरोङ पहिरोपछि उद्धारमा जुट्न चिनियाँ राष्ट्रपतिको निर्देशन",
+      "link": "https://www.ratopati.com/story/587570/chinese-president-directs-rescue-efforts-after-girong-landslide",
+      "pubDate": "Wed, 26 Aug 2026 10:07:13 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । चीनका राष्ट्रपति सी चिनफिङले तिब्बतको ग्यिरोङ सीमा नाकामा पहिरोपछि बेपत्ता भएकाहरूको खोज तथा उद्धारका लागि ‘सम्पूर्ण प्रयास’ लगाउन निर्देशन दिएका छन् । बुधबार बिहान ग्यिरोङ बन्दरगाह क्षेत्रमा पहिरो जाँदा मानवी",
+      "storyId": "ग्यिरोङ पहिरोपछि उद्धारमा जुट्न चिनियाँ राष्ट्रपतिको निर्देशन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "सामसुङले नेपालमा सार्वजनिक गर्‍यो नयाँ ग्यालेक्सी Z सिरिज र स्मार्टवाच",
+      "link": "https://nepalpress.com/2026/08/26/757323/samsung-launches-new-galaxy-z-series-and-smartwatch-in-nepal/",
+      "pubDate": "Wed, 26 Aug 2026 10:06:50 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । विश्वप्रसिद्ध प्रविधि कम्पनी सामसुङले नेपाली बजारमा आफ्ना बहुप्रतिक्षित फोल्डेबल स्मार्टफोन र स्मार्टवाचहरूको नयाँ संस्करण सार्वजनिक गरेको छ। कम्पनीले Galaxy Z Fold8 Ultra, Galaxy Z Fold8, Galaxy Z Flip8 का सा",
+      "storyId": "सामसुङले नेपालमा सार्वजनिक गर् यो नयाँ ग्यालेक्सी z सिरिज र स्मार्टवाच",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "त्रिभुवन त्रिशुली बहुमुखी क्याम्पस परीक्षा केन्द्रको एमबीएस तहको परीक्षा स्थगित",
+      "link": "https://www.ratopati.com/story/587569/mbs-level-exams-at-trishuli-multiple-campus-examination-center-postponed",
+      "pubDate": "Wed, 26 Aug 2026 10:05:56 +0000",
+      "source": "RATOPATI",
+      "sourceUrl": "https://ratopati.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ। त्रिभुवन विश्वविद्यालय, व्यवस्थापन सङ्काय, परीक्षा नियन्त्रण महाशाखाले नुवाकोटस्थित त्रिभुवन त्रिशुली बहुमुखी क्याम्पस परीक्षा केन्द्रको स्नातकोत्तर तहको अन्तर्राष्ट्रिय व्यापार विषयको परीक्षा स्थगित गरेको छ । ",
+      "storyId": "त्रिभुवन त्रिशुली बहुमुखी क्याम्पस परीक्षा केन्द्रको एमबीएस तहको परीक्षा स्थगित",
+      "sourceCount": 1,
+      "relatedSources": [
+        "RATOPATI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रास्वपाले राहत कोषमा एकमुस्ट रकम जम्मा गर्ने",
+      "link": "https://www.onlinekhabar.com/2026/08/2004225/rsp-to-deposit-lump-sum-in-relief-fund",
+      "pubDate": "Wed, 26 Aug 2026 10:05:38 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रास्वपाले राहत कोषमा एकमुस्ट रकम जम्मा गर्ने भएको छ ।",
+      "storyId": "रास्वपाले राहत कोषमा एकमुस्ट रकम जम्मा गर्ने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी: लाङटाङ खोला जलविद्युत् आयोजनाका ६० जना सम्पर्कविहिन",
+      "link": "https://clickmandu.com/2026/08/485755.html",
+      "pubDate": "Wed, 26 Aug 2026 10:05:04 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवाको भोटेकोशी नदी हुँदै आएको बाढीका कारण २० मेगावाटको लाङटाङ खोला जलविद्युत् आयोजनाका ६० जना सम्पर्कविहिन भएका छन् । भोटेकोशीमा आएको बाढीका कारण २५ जना इन्जिनियर, ड्राइभर, खानापकाउने व्यक्तिसहित टनेलमा काम ",
+      "storyId": "रसुवा बाढी लाङटाङ खोला जलविद्युत् आयोजनाका ६० जना सम्पर्कविहिन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "‘पलेँटी’ मा गुञ्जदै छन् नीर शाहका गीत",
+      "link": "https://www.onlinekhabar.com/2026/08/2004224/neer-shahs-songs-are-resonating-in-palenti",
+      "pubDate": "Wed, 26 Aug 2026 10:04:34 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । हरेक अंग्रेजी महीनाको अन्तिम शुक्रवार नेपालयको आरशालामा आयोजना हुँदै आएको साङ्गीतिक कार्यक्रम ‘पलेंटी’मा यसपाली गीतकार तथा अभिनेता नीर शाह प्रस्तुत हुने भएका छन् । कार्यक्रममा शाहद्वारा रचित झण्डै डेढ दर्जन गी",
+      "storyId": "पलेँटी मा गुञ्जदै छन् नीर शाहका गीत",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "एकाएक खण्डहर बन्यो त्रिशूली बजार (तस्वीरहरू)",
+      "link": "https://www.onlinekhabar.com/2026/08/2004211/trishuli-bazaar-suddenly-turned-into-ruins-photos",
+      "pubDate": "Wed, 26 Aug 2026 10:03:25 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "एकाएक आएको बाढीले बजारको पूरै स्वरूप बदलिदिएको छ । चकाचौँध बजारलाई खण्डहरमा परिणत गर्न एक निमेष पनि लागेन् ।",
+      "storyId": "एकाएक खण्डहर बन्यो त्रिशूली बजार तस्वीरहरू",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीको वितण्डा: क्षणभरमै बगर बन्यो त्रिशूली बजार, बस्तीसँगै नागरिकका सपना पनि बगे… (तस्विरहरू)",
+      "link": "https://arthasarokar.com/2026/08/flood-devastation-trishuli-bazaar-turned-into-a-river-in-a-moment-peoples-dreams-swept-away-along-with-the-settlement-photos.html",
+      "pubDate": "Wed, 26 Aug 2026 10:01:56 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । तिब्बत हुँदै भोटेकोशी नदीमा आएको बाढीले नुवाकोटको त्रिशूली बजार क्षतिग्रस्त भएको छ । बाढीले त्रिशूली बजार नै तहसनहस पारिदिएको छ । यहाँ घर, गाडीसहित ठूलो भौतिक क्षति भएको छ । बाढीले माथिल्लो क्षेत्रको सडक बगाउँ",
+      "storyId": "बाढीको वितण्डा क्षणभरमै बगर बन्यो त्रिशूली बजार बस्तीसँगै नागरिकका सपना पनि बगे तस्विरहरू",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "संकटका बेला सरकारलाई साथ दिनुपर्छ : गगन थापा",
+      "link": "https://www.onlinekhabar.com/2026/08/2004210/government-should-be-supported-in-times-of-crisis-gagan-thapa",
+      "pubDate": "Wed, 26 Aug 2026 10:01:37 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "नेपाली कांग्रेसका सभापति गगन थापाले विपद् र संकटका बेला सबै राजनीतिक दल एकजुट भएर सरकारलाई सहयोग गर्नुपर्ने बताएका छन् ।",
+      "storyId": "संकटका बेला सरकारलाई साथ दिनुपर्छ गगन थापा",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "नुवाकोटमा बाढी प्रभावित केन्द्रको परीक्षा स्थगित गर्ने त्रिविको निर्णय",
+      "link": "https://www.onlinekhabar.com/2026/08/2004206/tu-decides-to-postpone-exams-at-flood-affected-centers-in-nuwakot",
+      "pubDate": "Wed, 26 Aug 2026 09:59:13 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "अर्को सूचना जारी नभएसम्म उक्त केन्द्रको परीक्षा स्थगित गरिएको छ ।",
+      "storyId": "नुवाकोटमा बाढी प्रभावित केन्द्रको परीक्षा स्थगित गर्ने त्रिविको निर्णय",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा, धादिङ र नुवाकोटका ६ स्थानका बाढी पूर्वसूचना प्रणालीमा क्षति",
+      "link": "https://techpana.com/2026/158715/rasuwa-dhading-nuwakot-flood-early-warning-systems-damaged",
+      "pubDate": "Wed, 26 Aug 2026 09:58:51 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । बुधबार बिहान भोटेकोशी नदीमा आएको बाढीका कारण ६ ओटा बाढी पूर्वसूचना प्रणाली (अर्ली वार्निङ सिस्टम) मा क्षति पुगेको छ । जल तथा मौसम विज्ञान विभाग, बाढी पूर्वानुमान महाशाखाका अनुसार रसुवा, धादिङ र नुवाकोटमा रहेका",
+      "storyId": "रसुवा धादिङ र नुवाकोटका ६ स्थानका बाढी पूर्वसूचना प्रणालीमा क्षति",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "रसुवा बाढीका कारण धादिङमा ६ जनाको शव फेला",
+      "link": "https://clickmandu.com/2026/08/485753.html",
+      "pubDate": "Wed, 26 Aug 2026 09:56:34 +0000",
+      "source": "CLICKMANDU",
+      "sourceUrl": "https://clickmandu.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवा बाढीमा परेकाहरूमध्ये धादिङमा ६ जनाको शव फेला परेको छ । जिल्ला प्रहरी कार्यालय धादिङका अनुसार दिउँसो ३ बजेसम्म गल्छी गाउँपालिका महेश दोभानमा एक महिलाको, गल्छी कै कोल्फु खोला पुलनजिकै २ जना पुरुषको, सिद्धल",
+      "storyId": "रसुवा बाढीका कारण धादिङमा ६ जनाको शव फेला",
+      "sourceCount": 1,
+      "relatedSources": [
+        "CLICKMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "बाढीपछि रसुवाका ६ स्वास्थ्यकर्मी सम्पर्कविहीन, दुई स्वास्थ्य चौकी बगायो",
+      "link": "https://www.onlinekhabar.com/2026/08/2004203/six-health-workers-in-rasuwa-are-out-of-contact-after-floods-two-health-posts-washed-away",
+      "pubDate": "Wed, 26 Aug 2026 09:56:26 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "१० भदौ, काठमाडौं । आज बिहान आएको बाढीपछि रसुवाका ६ जना स्वास्थ्यकर्मी सम्पर्कविहीन भएका छन् । जनस्वास्थ्य कार्यालय रसुवाका प्रमुख निरध्वज घर्ती मगरले दिएको जानकारी अनुसार टिमुरे र स्याप्रुबेसीमा रहेको स्वास्थ्यचौकी बाढील",
+      "storyId": "बाढीपछि रसुवाका ६ स्वास्थ्यकर्मी सम्पर्कविहीन दुई स्वास्थ्य चौकी बगायो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "Authorities Warn of Continued Flood Risk Along Bhotekoshi-Trishuli for 24 Hours",
+      "link": "https://techpana.com/2026/158714/authorities-warn-continued-flood-risk-bhotekoshi-trishuli-24-hours",
+      "pubDate": "Wed, 26 Aug 2026 09:54:23 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. The National Disaster Risk Reduction and Management Authority (NDRRMA) has urged residents living along the Bhotekoshi-Trishuli river corridor to remain on high alert for the next 24 hours following a sudden a",
+      "storyId": "authorities warn of continued flood risk along bhotekoshi trishuli for 24 hours",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "रास्वपा संसदीय दलको आकस्मिक बैठक बस्दै",
+      "link": "https://www.onlinekhabar.com/2026/08/2004196/emergency-meeting-of-the-rsvp-parliamentary-party-is-being-held",
+      "pubDate": "Wed, 26 Aug 2026 09:54:13 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "१० भदौ, काठमाडौं । राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) ले संसदीय दलको बैठक बोलाएको छ । दिउँसो ४ बजे बस्ने गरी संसदीय दलको आकस्मिक बैठक बोलाइएको हो । बुधबार बिहान तिब्बततिरबाट आएको भिषण बाढीले पुर्‍याएको क्षति र राहत तथा",
+      "storyId": "रास्वपा संसदीय दलको आकस्मिक बैठक बस्दै",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीबाट क्षति, उच्च जोखिम, उद्धार तथा राहत कार्यमा जुट्न महासंघको अपिल",
+      "link": "https://www.onlinekhabar.com/2026/08/2004198/federation-appeals-to-join-rescue-and-relief-efforts-amid-flood-damage-high-risk",
+      "pubDate": "Wed, 26 Aug 2026 09:53:04 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बाढीको सघन असर मुग्लिन हुँदै चितवनसम्म पर्न सक्ने र त्रिशूली नदी जोडिएका सबै तटीय क्षेत्र उच्च जोखिममा रहेकाले तत्काल सतर्कता अपनाउन महासंघले आग्रह गरेको छ ।",
+      "storyId": "बाढीबाट क्षति उच्च जोखिम उद्धार तथा राहत कार्यमा जुट्न महासंघको अपिल",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीको क्षतिले हाइड्रोपावर र निर्जीवन बीमा कम्पनीमा तरंग, नेप्से ३५.९२ अंकले घट्यो",
+      "link": "https://bankingkhabar.com/archives/167399",
+      "pubDate": "Wed, 26 Aug 2026 09:52:40 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / रसुवाको भोटेकोशी क्षेत्रमा आएको भीषण बाढीको प्रभाव नेपाली सेयर बजारमा समेत देखिएको छ । बाढीबाट जलविद्युत् आयोजनाहरूमा भएको क्षति र त्यसबाट निर्जीवन बीमा कम्पनीमा पर्न सक्ने वित्तीय दायित्वको चिन्ताले बुधबार ",
+      "storyId": "बाढीको क्षतिले हाइड्रोपावर र निर्जीवन बीमा कम्पनीमा तरंग नेप्से ३५ ९२ अंकले घट्यो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "१३ घाइतेलाई उपचारका लागि हेलिकप्टरमार्फत काठमाडौं ल्याइयो (नामसहित)",
+      "link": "https://www.onlinekhabar.com/2026/08/2004188/13-injured-brought-to-kathmandu-by-helicopter-for-treatment-with-names",
+      "pubDate": "Wed, 26 Aug 2026 09:51:53 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवामा आएको बाढीमा घाइते भएका मध्ये १३ जनालाई उद्धार गरेर उपचारका लागि काठमाडौं ल्याइएको छ ।",
+      "storyId": "१३ घाइतेलाई उपचारका लागि हेलिकप्टरमार्फत काठमाडौं ल्याइयो नामसहित",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "इस्टु कार्कीले अनामनगरमा थालिन् क्याफे व्यवसाय",
+      "link": "https://www.onlinekhabar.com/2026/08/2004189/istu-karki-starts-cafe-business-in-anamnagar",
+      "pubDate": "Wed, 26 Aug 2026 09:51:51 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । कन्टेन्ट क्रियटर तथा कलाकार इस्टु कार्कीले व्यवसाय थालेकी छन् । उनले अनामनगरमा ‘फ्लिप एन्ड इट’ क्याफे संचालनमा ल्याएकी छन् । ८० वर्षिया हजुरआमाको हातबाट केक काटेर क्याफे उद्घाटन गराइन् । सो अवसरमा कलाकार तथा क",
+      "storyId": "इस्टु कार्कीले अनामनगरमा थालिन् क्याफे व्यवसाय",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "सेयर बजार : जलविद्युत् र निर्जीवन बीमामा उच्च गिरावट, ३५ अंक घट्यो नेप्से",
+      "link": "https://www.onlinekhabar.com/2026/08/2004187/stock-market-high-decline-in-hydropower-and-non-life-insurance-nepse-drops-35-points",
+      "pubDate": "Wed, 26 Aug 2026 09:51:23 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "१० भदौ, काठमाडौं । बुधबार सेयर बजार ३५.९२ अंक घटेको छ । सो अंकको कमीपछि बजार परिसूचक नेप्से २५५८ अंकमा झरेको छ । आज ४ अर्ब ७७ करोड रुपैयाँ बराबरको कारोबार भयो । यो कारोबार रकम अघिल्लो दिनको तुलनामा बढी हो । २३ कम्पनीको म",
+      "storyId": "सेयर बजार जलविद्युत् र निर्जीवन बीमामा उच्च गिरावट ३५ अंक घट्यो नेप्से",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "प्रधानमन्त्री, गृहमन्त्री, स्वास्थ्यमन्त्रीसँग निरन्तर छलफलमा रवि लामिछाने",
+      "link": "https://www.onlinekhabar.com/2026/08/2004181/rabi-lamichhane-in-continuous-discussions-with-the-prime-minister-home-minister-health-minister-etc",
+      "pubDate": "Wed, 26 Aug 2026 09:45:51 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "राष्ट्रिय स्वतन्त्र पार्टीका सभापति रवि लामिछाने रसुवा बाढीपछिको अवस्थामा सरकार र सरोकारवालाहरूसँग निरन्तर संवाद र छलफलमा रहेका छन् ।",
+      "storyId": "प्रधानमन्त्री गृहमन्त्री स्वास्थ्यमन्त्रीसँग निरन्तर छलफलमा रवि लामिछाने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "ट्रमा र टिचिङमा १५ जनाको उपचार हुँदै, अधिकांशको अवस्था गम्भीर",
+      "link": "https://www.onlinekhabar.com/2026/08/2004178/15-people-are-being-treated-in-trauma-and-teaching-most-of-them-in-critical-condition",
+      "pubDate": "Wed, 26 Aug 2026 09:44:37 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "आईसीयू, भेन्टिलेटरसहितका शय्या तयारी अवस्थामा राखिएको र थप घाइते आएमा पनि तत्काल उपचार गर्न सकिने व्यवस्था मिलाइएको छ ।",
+      "storyId": "ट्रमा र टिचिङमा १५ जनाको उपचार हुँदै अधिकांशको अवस्था गम्भीर",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढीको चपेटामा वाणिज्य बैंक, ९ शाखामा क्षति, आधाभन्दा बढी कर्मचारी सम्पर्कविहीन",
+      "link": "https://bankingkhabar.com/archives/167395",
+      "pubDate": "Wed, 26 Aug 2026 09:44:03 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / काठमाडौँ । रसुवामा आएको विनाशकारी बाढीले वाणिज्य बैंकका शाखा कार्यालयहरूमा समेत ठूलो क्षति पुर्‍याएको छ । बाढीका कारण प्रभावित क्षेत्रमा सञ्चालनमा रहेका वाणिज्य बैंकका नौ वटा शाखा कार्यालयमा क्षति पुगेको प्र",
+      "storyId": "रसुवा बाढीको चपेटामा वाणिज्य बैंक ९ शाखामा क्षति आधाभन्दा बढी कर्मचारी सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "मन्त्रिपरिषद्को आकस्मिक बैठकले गर्‍यो १० निर्णय",
+      "link": "https://nepalpress.com/2026/08/26/757317/emergency-cabinet-meeting-makes-10-decisions/",
+      "pubDate": "Wed, 26 Aug 2026 09:42:17 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "सरकारले बाढीबाट प्रभावित क्षेत्रलाई 'विपद् संकटग्रस्त क्षेत्र’ घोषणा गरेको छ ।",
+      "storyId": "मन्त्रिपरिषद्को आकस्मिक बैठकले गर् यो १० निर्णय",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बुधबारदेखि हलमा लाग्यो ‘टक्सिक’",
+      "link": "https://www.onlinekhabar.com/2026/08/2004176/toxic-hits-theaters-from-wednesday",
+      "pubDate": "Wed, 26 Aug 2026 09:39:55 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । यश स्टारर प्रतीक्षित दक्षिण भारतीय फिल्म ‘टक्सिक’ बुधबारदेखि देशब्यापी प्रदर्शनमा आएको छ । नेपालका मल्टिप्लेक्सले उच्च शोसहित यो फिल्म प्रदर्शन थालेका छन् । यशको शीर्ष भूमिका रहेको यो फिल्मलाई नेपालमा १६ भन्दा",
+      "storyId": "बुधबारदेखि हलमा लाग्यो टक्सिक",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बुधबार ३५.९२ अंकले घट्यो नेप्से परिसूचक, बजार २५५८.३५ बिन्दुमा",
+      "link": "https://arthasarokar.com/2026/08/on-wednesday-the-nepse-index-decreased-by-35-92-points-to-close-at-2558-35-points.html",
+      "pubDate": "Wed, 26 Aug 2026 09:38:11 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । साताको कारोबारको तेश्रो दिन बुधबार सेयर बजार मापक नेप्से परिसूचक घटेको छ । बुधबार नेप्से परिसूचक ३५.९२ अंकले घटेर २५५८.३५ बिन्दुमा पुगेको हो । नेप्सेमा कुल ३४८ कम्पनीको १ करोड ३५ लाख ८२ हजार ३२० कित्ता सेयर खर",
+      "storyId": "बुधबार ३५ ९२ अंकले घट्यो नेप्से परिसूचक बजार २५५८ ३५ बिन्दुमा",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "नेपाल–चीन सीमा क्षेत्रको बाढीमा परेकाहरूको उद्धारमा खटिन चिनियाँ राष्ट्रपतिको निर्देशन",
+      "link": "https://www.onlinekhabar.com/2026/08/2004174/chinese-president-directs-to-work-to-rescue-flood-victims-in-nepal-china-border-area",
+      "pubDate": "Wed, 26 Aug 2026 09:36:48 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "चीनका राष्ट्रपति सी जिनपिङले नेपाल–चीन सीमावर्ती क्षेत्रमा गएको बाढीपहिरोमा बेपत्ता भएका मानिसहरूको खोज तथा उद्धारका लागि निर्देशन दिएका छन् ।",
+      "storyId": "नेपाल चीन सीमा क्षेत्रको बाढीमा परेकाहरूको उद्धारमा खटिन चिनियाँ राष्ट्रपतिको निर्देशन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "‘हिमताल विस्फोट नभई यति ठूलो विध्वंश सम्भव छैन’",
+      "link": "https://www.onlinekhabar.com/2026/08/2004165/such-a-large-scale-destruction-would-not-have-been-possible-without-a-glacial-lake-eruption",
+      "pubDate": "Wed, 26 Aug 2026 09:34:54 +0000",
+      "source": "ONLINEKHABAR",
+      "sourceUrl": "https://www.onlinekhabar.com/feed",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "माथिबाट ताल नै फुटेर बाढी आएको हुनुपर्छ भन्ने अनुमान गरेका छौं । जुन खालको बाढी छ, ताल नफुटी त्यो तहको विध्वंश सम्भव छैन ।",
+      "storyId": "हिमताल विस्फोट नभई यति ठूलो विध्वंश सम्भव छैन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ONLINEKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "‘तिब्बतमा हिमपहिरोले थुनिएको नदी अचानक खुल्दा नेपालमा भीषण बाढी, अझै २४ घण्टासम्म उच्च सतर्कता अपनाउनू’",
+      "link": "https://techpana.com/2026/158712/tibet-landslide-blocked-river-caused-nepal-flood-high-alert-24-hours",
+      "pubDate": "Wed, 26 Aug 2026 09:19:17 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । तिब्बत क्षेत्रमा गएको हिमपहिरोले नदी थुनिएर ताल बनेपछि त्यो पानी अचानक खुल्दा नेपालको भोटेकोशी नदीमा भीषण बाढी आएको राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले जनाएको छ । बाढीबाट रसुवा, नुवाकोट ",
+      "storyId": "तिब्बतमा हिमपहिरोले थुनिएको नदी अचानक खुल्दा नेपालमा भीषण बाढी अझै २४ घण्टासम्म उच्च सतर्कता अपनाउनू",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Armed Police Deploys Drones, Sniffer Dogs to Search Flood-Hit Areas in Rasuwa, Nuwakot and Dhading",
+      "link": "https://techpana.com/2026/158711/armed-police-deploys-drones-sniffer-dogs-search-flood-hit-rasuwa-nuwakot-dhading",
+      "pubDate": "Wed, 26 Aug 2026 09:17:32 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. The Armed Police Force (APF) has deployed drones and sniffer dogs to assist search and rescue operations following the devastating flood in the Bhotekoshi River on Wednesday morning, which caused significant d",
+      "storyId": "armed police deploys drones sniffer dogs to search flood hit areas in rasuwa nuwakot and dhading",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "कोशीमा पानीको बहाव बढ्यो, सुनसरी र सप्तरीको आसपास क्षेत्रमा सतर्कता अपनाउन आग्रह",
+      "link": "https://nepalpress.com/2026/08/26/757312/rasuwa-flood-affects-koshi-water-level-at-barrage-at-danger-level/",
+      "pubDate": "Wed, 26 Aug 2026 09:01:53 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "जनकपुरधाम । कोशी नदीमा पानीको बहाव बढेको छ । नदीमा पानीको वहाव बढेपछि सुनसरी र सप्तरीको आसपास क्षेत्रमा सतर्कता अपनाउन आग्रह गरिएको हो । कोशी ब्यारेजको पछिल्लो विवरणअनुसार पानीको बहाव १ लाख ३१ हजार ३४० क्युसेक पुगेको छ। ",
+      "storyId": "कोशीमा पानीको बहाव बढ्यो सुनसरी र सप्तरीको आसपास क्षेत्रमा सतर्कता अपनाउन आग्रह",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "Tuesday’s Phalakhu River Alert Warned of Rising Water Levels in Nuwakot, While Wednesday’s Sudden Bhotekoshi Flood Came From Tibet",
+      "link": "https://techpana.com/2026/158710/phalakhu-river-alert-nuwakot-bhotekoshi-flood-tibet-different-events",
+      "pubDate": "Wed, 26 Aug 2026 08:59:11 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. The Department of Hydrology and Meteorology&rsquo;s Flood Forecasting Division had issued a river alert on Tuesday night, but social media users have criticized the government for allegedly failing to take tim",
+      "storyId": "tuesday s phalakhu river alert warned of rising water levels in nuwakot while wednesday s sudden bho",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "बाढीग्रस्तक्षेत्रमा फ्युल लिएर उड्याे सेनाकाे हेलिकप्टर",
+      "link": "https://nepalpress.com/2026/08/26/757309/army-helicopter-flies-to-flood-hit-areas-with-fuel/",
+      "pubDate": "Wed, 26 Aug 2026 08:57:38 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "रसुवा बाढी प्रभावित क्षेत्रमा पिडितकाे खाेजी र उद्दारका लागि परिचालित हेलिकाेप्टरका लागि 'फ्युल' पठाइएकाे छ ।",
+      "storyId": "बाढीग्रस्तक्षेत्रमा फ्युल लिएर उड्याे सेनाकाे हेलिकप्टर",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "नेपाल इन्भेष्टमेण्ट मेगा बैंकको गाडी कर्जा योजना, ५.१३ प्रतिशत ब्याजदरमा कर्जा",
+      "link": "https://bankingkhabar.com/archives/167390",
+      "pubDate": "Wed, 26 Aug 2026 08:55:32 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / काठमाडौँ । नेपाल इन्भेष्टमेण्ट मेगा बैंक लिमिटेडले नयाँ सवारीसाधन खरिद गर्न चाहने ग्राहकलाई लक्षित गर्दै आकर्षक गाडी कर्जा योजना सार्वजनिक गरेको छ । बैंकले वार्षिक ५.१३ प्रतिशत ब्याजदरमा सवारीसाधन खरिदका लाग",
+      "storyId": "नेपाल इन्भेष्टमेण्ट मेगा बैंकको गाडी कर्जा योजना ५ १३ प्रतिशत ब्याजदरमा कर्जा",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "बाढीले त्रिशूली तट तहसनहस, केही व्यक्तिको हेलिकप्टरबाट उद्धार",
+      "link": "https://nepalpress.com/2026/08/26/757304/floods-cause-severe-damage-in-nuwakot/",
+      "pubDate": "Wed, 26 Aug 2026 08:49:25 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "नुवाकोट । भोटेकोशी बाढीका कारण नुवाकोटको त्रिशुलीस्थित तटीय क्षेत्र तहसनहस भएको छ । उक्त क्षेत्रका कुनै पनि घर बचेका छैनन् । प्रहरीका अनुसार ढुंगेबजारका करिब ७५ घर बाढीले बगाएको छ । बेत्रावती र देवीघाटका प्रायः घर बगाएको",
+      "storyId": "बाढीले त्रिशूली तट तहसनहस केही व्यक्तिको हेलिकप्टरबाट उद्धार",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा बेपत्ताको खोजी र क्षतिको मूल्यांकन गर्न सशस्त्र प्रहरीले गर्‍यो ड्रोन परिचालन",
+      "link": "https://techpana.com/2026/158709/sashastra-prahari-drone-flood-missing-search-damage-assessment",
+      "pubDate": "Wed, 26 Aug 2026 08:48:58 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । बुधबार बिहान भोटेकोसी नदीमा आएको बाढीका कारण रसुवा, नुवाकोट र धादिङ जिल्लामा ठुलो क्षति पुगेपछि सशस्त्र प्रहरी बलले खोजी तथा उद्धार कार्यका लागि ड्रोन परिचालन गरेको छ । बाढी प्रभावित क्षेत्रमा थुनिएका तथा हराइ",
+      "storyId": "बाढी प्रभावित क्षेत्रमा बेपत्ताको खोजी र क्षतिको मूल्यांकन गर्न सशस्त्र प्रहरीले गर् यो ड्रोन परिचाल",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "सेयर बजारमा पनि देखियो बाढीको प्रभाव, आधा दर्जन बढी हाइड्रोमा क्षति हुँदा सेयर मूल्यमा ‘नेगेटिभ सर्किट’ !",
+      "link": "https://arthasarokar.com/2026/08/flood-impact-seen-in-stock-market-negative-circuit-in-share-price-due-to-damage-to-more-than-half-a-dozen-hydro.html",
+      "pubDate": "Wed, 26 Aug 2026 08:39:53 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । भोटेकोशीमा आएको बाढीका कारण आधा दर्जन बढी हाइड्रोपावर कम्पनीका क्षति पुगेपछि त्यसको असर सेयर बजारमा पनि देखिएको छ । बुधबार अधिकांश हाइड्रोपावर कम्पनीको सेयर मूल्य ओरालो लागेको हो । बाढीबाट प्रत्यक्ष प्रभावित भ",
+      "storyId": "सेयर बजारमा पनि देखियो बाढीको प्रभाव आधा दर्जन बढी हाइड्रोमा क्षति हुँदा सेयर मूल्यमा नेगेटिभ सर्किट",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "गोसाइँकुण्ड गाउँपालिका उपाध्यक्ष र वडाध्यक्ष सम्पर्कविहीन, अध्यक्ष भन्छन्- बेपत्ताको संख्या अकल्पनीय",
+      "link": "https://nepalpress.com/2026/08/26/757298/gosainkunda-rural-municipality-vice-chairman-and-ward-chair-out-of-contact-chair-says-number-of-missing-persons-unimaginable/",
+      "pubDate": "Wed, 26 Aug 2026 08:34:20 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "भोटेकोशी बाढीको इपिसेन्टर बनेको गोसाईंकुण्ड गाउँपालिकाका उपाध्यक्ष र एकजना अध्यक्षपनि सम्पर्कविहीन भएका छन् ।",
+      "storyId": "गोसाइँकुण्ड गाउँपालिका उपाध्यक्ष र वडाध्यक्ष सम्पर्कविहीन अध्यक्ष भन्छन् बेपत्ताको संख्या अकल्पनीय",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "Kathmandu Metropolitan City Invites Applications for Career Camp 2083 for Civil Engineering, Architecture Graduates",
+      "link": "https://techpana.com/2026/158708/kathmandu-metropolitan-city-invites-applications-for-career-camp-2083-for-civil-engineering-architecture-graduates",
+      "pubDate": "Wed, 26 Aug 2026 08:31:32 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Kathmandu. Kathmandu Metropolitan City (KMC) has invited applications from bachelor&#39;s degree holders in civil engineering and architecture for its Career Camp 2083 program. The program, being conducted under the Metr",
+      "storyId": "kathmandu metropolitan city invites applications for career camp 2083 for civil engineering architec",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "चिनियाँ मिडियाले भन्यो– केरुङ नाकानजिकै पहिरो, बन्दरगाहसम्म पुग्ने सडक अवरुद्ध",
+      "link": "https://nepalpress.com/2026/08/26/757291/chinese-media-says-landslide-near-kerung-port-blocks-road-to-port/",
+      "pubDate": "Wed, 26 Aug 2026 08:22:31 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "चीनको राज्य–नियन्त्रित मिडिया ‘पिपुल्स डेली’ ले चीनको दक्षिणपश्चिमी तिब्बत स्वायत्त क्षेत्रको केरुङ बन्दरगाहनजिकै पहिरो गएको जनाएको छ।",
+      "storyId": "चिनियाँ मिडियाले भन्यो केरुङ नाकानजिकै पहिरो बन्दरगाहसम्म पुग्ने सडक अवरुद्ध",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "एमालेले बोलायो सचिवालयको आकस्मिक बैठक",
+      "link": "https://nepalpress.com/2026/08/26/757293/uml-calls-emergency-meeting-of-secretariat/",
+      "pubDate": "Wed, 26 Aug 2026 08:19:56 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवा बाढीबारे छलफल गर्न नेकपा एमालेले ३ बजे सचिवालय बैठक बोलाएको छ । प्रचार प्रमुख नीरज आचार्यका अनुसार पार्टी केन्द्रीय कार्यालय, च्यासलमा बैठक बोलाइएको हो । उनका अनुसार बैठकमा रसुवा बाढीपछि उत्पन्न विषम परि",
+      "storyId": "एमालेले बोलायो सचिवालयको आकस्मिक बैठक",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "यी हुन् भोटेकोशी बाढीले बगाएका बैंकका शाखाहरु…. (विवरणसहित)",
+      "link": "https://arthasarokar.com/2026/08/these-are-the-branches-of-the-bank-swept-away-by-the-floods-with-details.html",
+      "pubDate": "Wed, 26 Aug 2026 08:19:04 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । भोटेकोशीमा आएको भीषण बाढीले आधा दर्जन बढी बैंकका शाखा कार्यालय बगाएको छ । बुधबार बिहान करिब सवा ९ बजे भोटेकोशीमा आएको बाढीले टिमुरेमा रहेका आधा दर्जन बढी बैंकका शाखा कार्यालय बगाएको हो । हालसम्म प्राप्त विवरण ",
+      "storyId": "यी हुन् भोटेकोशी बाढीले बगाएका बैंकका शाखाहरु विवरणसहित",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "हिजै अलर्ट जारी हुँदा पनि सरकारले विपत् नियन्त्रणमा बेवास्ता गरेको हो ?",
+      "link": "https://techpana.com/2026/158707/rasuwa-flood-alert-government-negligence",
+      "pubDate": "Wed, 26 Aug 2026 08:18:15 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । जल तथा मौसम विज्ञान विभाग, बाढी पूर्वानुमान महाशाखाले हिजो (मंगलबार) नै अलर्ट जारी गरे पनि सरकारले पहिले नै विपत् नियन्त्रणका लागि पहल नगरेको भन्दै सामाजिक सञ्जालमा आलोचना भएको छ । तर यो आलोचना भ्रामक र घटनाको",
+      "storyId": "हिजै अलर्ट जारी हुँदा पनि सरकारले विपत् नियन्त्रणमा बेवास्ता गरेको हो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "नाडा अटो शोमा बैंकहरूको सस्तो अटो लोन, कुनको कति ब्याजदर",
+      "link": "https://bankingkhabar.com/archives/167383",
+      "pubDate": "Wed, 26 Aug 2026 08:17:43 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / नाडा अटो शो २०२६ लाई लक्षित गर्दै बैंक तथा वित्तीय संस्थाहरूले सवारी कर्जामा आकर्षक योजना सार्वजनिक गरेका छन्। अटो शोमा सवारी खरिद गर्ने ग्राहकलाई लक्षित गर्दै बैंकहरूले कम ब्याजदर, लामो कर्जा अवधि तथा विभिन",
+      "storyId": "नाडा अटो शोमा बैंकहरूको सस्तो अटो लोन कुनको कति ब्याजदर",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "उद्धारमा सक्रिय हुन पार्टीपंक्तिलाई नेकपाको निर्देशन, बोलायो आकस्मिक बैठक",
+      "link": "https://nepalpress.com/2026/08/26/757287/ncp-directs-party-leaders-to-be-active-in-rescue-efforts-calls-emergency-meeting/",
+      "pubDate": "Wed, 26 Aug 2026 08:13:30 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । नेपाली कम्युनिस्ट पार्टीले यसका पार्टीका नेता, कार्यकर्ता, जनप्रतिनिधिलगायत सम्पूर्ण पार्टी पङ्क्तिलाई प्रभावित क्षेत्रमा तत्काल उद्धार र राहत कार्यमा सक्रिय रूपमा जुट्न निर्देशन दिएको छ। प्रवक्ता प्रकाश ज्वाल",
+      "storyId": "उद्धारमा सक्रिय हुन पार्टीपंक्तिलाई नेकपाको निर्देशन बोलायो आकस्मिक बैठक",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "क्षणभरमै घरबारविहीन बने राप्रपाका नुवाकोट अध्यक्ष, चार तल्ले घर बाढीमा बग्यो",
+      "link": "https://nepalpress.com/2026/08/26/757286/rpps-nuwakot-chairman-becomes-homeless-in-an-instant-four-story-house-washed-away-in-flood/",
+      "pubDate": "Wed, 26 Aug 2026 08:11:49 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "नुवाकोट जिल्लाका राप्रपा अध्यक्ष कुलबहादुर खड्गीको घर बाढीले बगाएको छ । उनी जसोजसो परिवारसहित भागेर ज्यान जोगाउन सफल भए ।",
+      "storyId": "क्षणभरमै घरबारविहीन बने राप्रपाका नुवाकोट अध्यक्ष चार तल्ले घर बाढीमा बग्यो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "प्रधानमन्त्रीले गरे बाढीबाट प्रभावित क्षेत्रका सांसदहरूसँग परामर्श, विस्थापितलाई स्थानान्तरण गर्न निर्देशन",
+      "link": "https://nepalpress.com/2026/08/26/757284/prime-minister-consults-with-mps-from-flood-affected-areas-directs-relocation-of-displaced-people/",
+      "pubDate": "Wed, 26 Aug 2026 08:07:41 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "प्रधानमन्त्री वालेन्द्र शाहले रसुवाको भोटेकोशी नदीमा आएको बाढीका कारण उत्पन्न परिस्थितिलाई लिएर बाढीबाट प्रभावित क्षेत्रका सङ्घीय सांसदहरूसँग परामर्श गरेका छन्।",
+      "storyId": "प्रधानमन्त्रीले गरे बाढीबाट प्रभावित क्षेत्रका सांसदहरूसँग परामर्श विस्थापितलाई स्थानान्तरण गर्न निर",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "प्रधानमन्त्रीसँग सांसदको प्रश्नोत्तर कार्यक्रम स्थगित",
+      "link": "https://arthasarokar.com/2026/08/lawmakers-question-answer-session-with-pm-postponed.html",
+      "pubDate": "Wed, 26 Aug 2026 08:05:27 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । प्रधानमन्त्रीसँग सांसदहरुको प्रश्नोत्तर कार्यक्रम स्थगित भएको छ । बुधबार हुने भनिएको प्रधानमन्त्रीसँग सांसदहरुको प्रश्नोत्तर कार्यक्रम स्थगित भएको हो । भोटेकोशीमा आएको भीषण बाढीका कारण विभिन्न जिल्लामा पुगेको ",
+      "storyId": "प्रधानमन्त्रीसँग सांसदको प्रश्नोत्तर कार्यक्रम स्थगित",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "खोज-उद्धार र राहतमा निजी हेलिकप्टरलाई अनुमति नचाहिने",
+      "link": "https://nepalpress.com/2026/08/26/757279/private-helicopters-will-not-need-permission-for-search-and-rescue-and-relief-operations/",
+      "pubDate": "Wed, 26 Aug 2026 07:47:31 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । सरकारले उद्धार, राहत र खोजी कार्यमा खटिने निजी क्षेत्रका हेलिकप्टरलाई पूर्वस्वीकृति (अनुमति) लिनु नपर्ने निर्णय गरेको छ । रसुवामा बाढीका कारण उत्पन्न संकटलाई ध्यानमा राख्दै यस्तो निर्णय गरेको हो । विपत्तिको सम",
+      "storyId": "खोज उद्धार र राहतमा निजी हेलिकप्टरलाई अनुमति नचाहिने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवामा ३ प्रहरी चौकी बगायो, नुवाकोटको कारागार डुबायो",
+      "link": "https://nepalpress.com/2026/08/26/757277/nuwakot-prison-and-three-police-posts-washed-away-by-floods/",
+      "pubDate": "Wed, 26 Aug 2026 07:45:23 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवामा आएको बाढीका कारण नेपाल प्रहरीका तीनवटा चौकी बगाएको छ । ३५ प्रहरी अझै सम्पर्कबाहिर छन् । प्रहरी प्रधान कार्यालयबाट प्राप्त अपडेटअनुसार बुधबार विहान ९ः१५ बजे रसुवागढी गाउँपालिका २ स्थित इप्रका टिमुरे, प्",
+      "storyId": "रसुवामा ३ प्रहरी चौकी बगायो नुवाकोटको कारागार डुबायो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीको वितण्डाः बैंक तथा वित्तीय संस्थाका शाखा कार्यालय पनि बगे, कर्मचारीहरुको उद्धारमा समस्या !",
+      "link": "https://arthasarokar.com/2026/08/floods-branches-of-banks-and-financial-institutions-swept-away-employees-facing-difficulty-in-rescue.html",
+      "pubDate": "Wed, 26 Aug 2026 07:42:07 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । भोटेकोशीमा आएको बाढीले बैंक तथा वित्तीय संस्थाका शाखा कार्यालय पनि बगाएको छ । तिब्बतबाट एक्कासि आएको बाढीले बस्ती र भौतिक संरचनासँगै बैंक तथा वित्तीय संस्थाका कार्यालय पनि बगाएको हो । बाढी प्रभावित क्षेत्रमा र",
+      "storyId": "बाढीको वितण्डाः बैंक तथा वित्तीय संस्थाका शाखा कार्यालय पनि बगे कर्मचारीहरुको उद्धारमा समस्या",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "एक्कासी अकल्पनीय बाढी कसरी आयो ? नेपालले चीनसँग समन्वय गर्दै",
+      "link": "https://nepalpress.com/2026/08/26/757261/the-cause-of-the-bhotekoshi-flood-is-still-unknown-the-government-is-coordinating-with-china/",
+      "pubDate": "Wed, 26 Aug 2026 07:39:10 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । भोटेकोशी नदीमा आएको भीषण बाढीको कारण पत्ता लगाउन नेपालले चीनसँग समन्वय गरिरहेको छ। राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणका अनुसार बाढीको मुख्य कारण अहिलेसम्म यकिन हुन सकेको छैन। चीनतर्फको भू",
+      "storyId": "एक्कासी अकल्पनीय बाढी कसरी आयो नेपालले चीनसँग समन्वय गर्दै",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीबारे गृहमन्त्रीले सदनलाई जानकारी गराउने, प्रधानमन्त्रीसँग प्रश्नोत्तर नहुने",
+      "link": "https://nepalpress.com/2026/08/26/757271/home-minister-to-brief-house-on-floods-no-qa-with-pm/",
+      "pubDate": "Wed, 26 Aug 2026 07:37:38 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "प्रतिनिधिसभाको बैठकको बैठकमा गृहमन्त्री सुधन गुरुङले भोटेकोशी बाढीबारे जानकारी गराउने भएका छन्।",
+      "storyId": "बाढीबारे गृहमन्त्रीले सदनलाई जानकारी गराउने प्रधानमन्त्रीसँग प्रश्नोत्तर नहुने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवामा सशस्त्र के गर्दैछ ?",
+      "link": "https://nepalpress.com/2026/08/26/757268/what-are-the-armed-forces-doing-in-rasuwa/",
+      "pubDate": "Wed, 26 Aug 2026 07:33:34 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । सशस्त्र प्रहरी बलले रसुवा बाढीबाट प्रभावित बासिन्दाको उद्धार र उपचारको कार्यलाई एकसाथ अगाडि बढाएको जनाएको छ । सशस्त्र प्रहरी मुख्यालयद्वारा प्रेषित विवरणअनुसार प्रभावित क्षेत्रका बासिन्दालाई सुरक्षित स्थानमा स",
+      "storyId": "रसुवामा सशस्त्र के गर्दैछ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "खोज तथा उद्धारका लागि ५ हेलिकप्टर त्रिशूलीतर्फ उड्यो",
+      "link": "https://nepalpress.com/2026/08/26/757267/5-helicopters-fly-to-trishuli-for-search-and-rescue/",
+      "pubDate": "Wed, 26 Aug 2026 07:33:19 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवा बाढीमा फसेका मानिसको खोजी तथा उद्धारका लागि काठमाडौंबाट पाँचवटा हेलिकप्टर त्रिशूलीतर्फ उडेको छ । प्रहरीस्रोतका अनुसार नेपाली सेनाको थप अर्को हेलिकप्टरसहित एभरेष्ट, कैलाश, अल्टिच्यूट र फिस्टेल एयरका हेलिक",
+      "storyId": "खोज तथा उद्धारका लागि ५ हेलिकप्टर त्रिशूलीतर्फ उड्यो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "भोटेकोशी बाढीः ३५ प्रहरी अझै सम्पर्कविहीन",
+      "link": "https://nepalpress.com/2026/08/26/757258/bhotekoshi-flood-35-police-officers-still-missing/",
+      "pubDate": "Wed, 26 Aug 2026 07:25:48 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । भोटेकोशी बाढीका कारण रसुवामा फसेका प्रहरीमध्ये अझै ३५ जना सम्पर्कविहीन छन् । केन्द्रीय प्रहरीस्रोतका अनुसार बाढीबाट अतिप्रभावित क्षेत्रमध्ये टिमुरेबाट १५, रसुवागढीबाट ८, स्याफ्रुबेसीबाट ५ र मैलुङबाट ७ जना प्रह",
+      "storyId": "भोटेकोशी बाढीः ३५ प्रहरी अझै सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावित क्षेत्रमा नेपाली सेना ‘स्ट्याण्डबाई’, हालसम्म १२ जनाको उद्धार, अन्यको उद्धार र खोजी तीव्र",
+      "link": "https://arthasarokar.com/2026/08/nepal-army-on-standby-in-flood-hit-areas-12-rescued-so-far.html",
+      "pubDate": "Wed, 26 Aug 2026 07:25:48 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । भोटेकोशीमा आएको बाढी प्रभावित क्षेत्रबाट नेपाली सेनाले हालसम्म १२ जनाको सकुशल उद्धार गरेको छ । सेनाको हेलिकप्टरमार्फत उनीहरुको उद्धार गरिएको हो । नेपाली सेनाका अनुसार स्याफ्रुबेँसीबाट ६, मैलुङबाट २ र धुन्चेबाट",
+      "storyId": "बाढी प्रभावित क्षेत्रमा नेपाली सेना स्ट्याण्डबाई हालसम्म १२ जनाको उद्धार अन्यको उद्धार र खोजी तीव्र",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "रसुवा बाढीलक्षित सशस्त्रको तयारी- अस्पतालमा सय शय्या तयार, नुवाकोटतर्फ ४५ को टोली प्रस्थान",
+      "link": "https://nepalpress.com/2026/08/26/757252/armed-forces-prepare-for-rasuwa-flood-100-beds-ready-in-hospital-45-strong-team-departs-for-nuwakot/",
+      "pubDate": "Wed, 26 Aug 2026 07:16:12 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवा बाढीलाई दृष्टिगत गर्दै नेपाल एपीएफ अस्पतालमा सय शय्या र स्वास्थ्यकर्मीको टोली तयारी हालतमा राखिएको छ । सशस्त्रका सहायक प्रवक्ता डीएसपी शैलेन्द्र थापाका अनुसार दंगा नियन्त्रण रेजिमेन्ट कीर्तिपुरबाट ३ प्ला",
+      "storyId": "रसुवा बाढीलक्षित सशस्त्रको तयारी अस्पतालमा सय शय्या तयार नुवाकोटतर्फ ४५ को टोली प्रस्थान",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "६ जिल्लामा उच्च सतर्कता अपनाउन र तटीय क्षेत्र खाली गर्न सरकारको अपिल",
+      "link": "https://nepalpress.com/2026/08/26/757246/government-appeals-to-adopt-high-alert-in-6-districts-and-evacuate-coastal-areas/",
+      "pubDate": "Wed, 26 Aug 2026 07:14:34 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले एक विशेष विज्ञप्ति जारी गर्दै अर्को सूचना नआउँदासम्म विशेष सावधानी अपनाउन र सम्भावित जोखिमबाट बच्न आग्रह गरेको छ ।",
+      "storyId": "६ जिल्लामा उच्च सतर्कता अपनाउन र तटीय क्षेत्र खाली गर्न सरकारको अपिल",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "कोटका १५ जलविद्युत् आयोजनामा क्षति, ७५३ मेगावाटका आयोजना प्रभावित",
+      "link": "https://bankingkhabar.com/archives/167375",
+      "pubDate": "Wed, 26 Aug 2026 07:14:32 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / रसुवामा आएको आकस्मिक बाढीका कारण कोटका १५ वटा जलविद्युत् आयोजनामा क्षति पुगेको छ। बाढीबाट ती आयोजनाको कुल ७५३ मेगावाट विद्युत् उत्पादन क्षमता प्रभावित भएको प्रारम्भिक विवरण सार्वजनिक भएको छ । बाढीका कारण जलव",
+      "storyId": "कोटका १५ जलविद्युत् आयोजनामा क्षति ७५३ मेगावाटका आयोजना प्रभावित",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "आपत्कालीन व्यवस्थापनका लागि नुवाकोट र रसुवालाई १/१ करोड र धादिङलाई ५० लाख पठाइने",
+      "link": "https://nepalpress.com/2026/08/26/757245/10-million-each-to-nuwakot-and-rasuwa-and-5-million-to-dhading-for-emergency-management/",
+      "pubDate": "Wed, 26 Aug 2026 07:11:15 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । सरकारले आपत्कालीन व्यवस्थापनका लागि प्रभावित जिल्लाका जिल्ला विपद् व्यवस्थापन समितिलाई तत्काल रकम पठाउने निर्णय गरेको छ। विपद् परिषद्को आपत्कालीन बैठकपछि सञ्चारकर्मीहरूसँग कुरा गर्दै विपद् जोखिम न्यूनीकरण विज्",
+      "storyId": "आपत्कालीन व्यवस्थापनका लागि नुवाकोट र रसुवालाई १ १ करोड र धादिङलाई ५० लाख पठाइने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा भन्सारबाट करिब पाँच सय गाडी बगाएको अनुमान, दुई दर्जन कर्मचारी सम्पर्कविहीन",
+      "link": "https://nepalpress.com/2026/08/26/757241/it-is-estimated-that-around-500-vehicles-have-been-diverted-from-rasuwa-customs-with-around-two-dozen-employees-missing/",
+      "pubDate": "Wed, 26 Aug 2026 07:09:47 +0000",
+      "source": "NEPALPRESS",
+      "sourceUrl": "https://nepalpress.com/feed/",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवामा आएको भीषण बाढीका कारण रसुवागढी भन्सारमा ठूलो क्षति पुगेको छ । बाढीले भन्सार जाँचपासका लागि राखिएका करिब ५०० वटा नयाँ गाडीहरू बगाएको प्रारम्भिक अनुमान गरिएको छ । ‘बाढीले कल्पनै गर्न नसकिने क्षति पुर्‍या",
+      "storyId": "रसुवा भन्सारबाट करिब पाँच सय गाडी बगाएको अनुमान दुई दर्जन कर्मचारी सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "NEPALPRESS"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : टिमुरेमा रहेका ९ बैंकका शाखा क्षतिग्रस्त",
+      "link": "https://bankingkhabar.com/archives/167372",
+      "pubDate": "Wed, 26 Aug 2026 07:06:04 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / रसुवाको टिमुरेमा आएको भीषण बाढीका कारण त्यहाँ सञ्चालनमा रहेका ९ वटा बैंकका शाखा कार्यालय क्षतिग्रस्त भएका छन्। बाढीले टिमुरे बजार नै प्रभावित बनाएपछि बैंकका शाखा कार्यालयमा समेत ठूलो क्षति पुगेको प्रारम्भिक ",
+      "storyId": "रसुवा बाढी टिमुरेमा रहेका ९ बैंकका शाखा क्षतिग्रस्त",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "भोटेकोशी बाढीले बैंकका शाखा बगायो, सञ्चार अवरुद्ध हुँदा क्षतिको विवरण संकलनमा कठिनाइ",
+      "link": "https://bankingkhabar.com/archives/167368",
+      "pubDate": "Wed, 26 Aug 2026 06:59:58 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / रसुवाको टिमुरे क्षेत्रमा बुधबार बिहान आएको भोटेकोशीको भीषण बाढीले बस्ती तथा बजार क्षेत्रसँगै बैंक तथा वित्तीय संस्थाका शाखा कार्यालयमा समेत ठूलो क्षति पुर्‍याएको छ। बाढीले टिमुरे बजारको ठूलो हिस्सा प्रभावित ",
+      "storyId": "भोटेकोशी बाढीले बैंकका शाखा बगायो सञ्चार अवरुद्ध हुँदा क्षतिको विवरण संकलनमा कठिनाइ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "उद्धार र खोजीमा खटिन निजी हेलिकप्टरलाई प्रधानमन्त्रीको निर्देशन, अनुमति लिनु नपर्ने !",
+      "link": "https://arthasarokar.com/2026/08/private-helicopters-do-not-need-permission-for-rescue-and-search.html",
+      "pubDate": "Wed, 26 Aug 2026 06:59:53 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । भोटेकोशीमा आएको बाढी प्रभावित क्षेत्रमा उद्धार र खोजीकार्यमा परिचालन हुने हेलिकप्टरले अनुमति लिनु नपर्ने भएको छ । बाढीबाट भएको ठूलो क्षतिलाई मध्यनजर गर्दै सरकारले उद्धार, राहत र खोजीकार्यमा प्रयोग हुने निजी हे",
+      "storyId": "उद्धार र खोजीमा खटिन निजी हेलिकप्टरलाई प्रधानमन्त्रीको निर्देशन अनुमति लिनु नपर्ने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "भोटेकोशी बाढी धादिङको गल्छी पुग्यो, उद्धारका लागि हेलिकप्टर परिचालन",
+      "link": "https://arthasarokar.com/2026/08/bhotekoshi-floods-reach-galchi-of-dhading-helicopters-deployed-for-rescue.html",
+      "pubDate": "Wed, 26 Aug 2026 06:06:55 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । रसुवाबाट प्रवेश गरेको ठूलो बाढी धादिङको गल्छीसम्म आइपुगेको राष्ट्रिय विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन प्राधिकरणले जनाएको छ । प्राधिकरणका उपसचिव, प्रवक्ता तथा सूचना अधिकारी शान्ति महतका अनुसार बाढी नेपाल प्",
+      "storyId": "भोटेकोशी बाढी धादिङको गल्छी पुग्यो उद्धारका लागि हेलिकप्टर परिचालन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "च्याटजीपीटीमा नयाँ फिचर, अब ह्वाट्सएप र आईमेसेजका लागि सजिलै कस्टम स्टिकर बनाउन सकिने",
+      "link": "https://techpana.com/2026/158706/chatgpt-custom-sticker-whatsapp-imessage-new-feature",
+      "pubDate": "Wed, 26 Aug 2026 05:40:16 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । के तपाईं आफ्ना तस्बिरहरूलाई च्याट गर्दा प्रयोग हुने स्टिकरमा बदल्न चाहनुहुन्छ ? च्याटजीपीटी निर्माता कम्पनी ओपनएआईले प्रयोगकर्ताहरूका लागि एउटा नयाँ र निकै उपयोगी फिचर सार्वजनिक गरेको हो । यससँगै च्याटजीपीटी प",
+      "storyId": "च्याटजीपीटीमा नयाँ फिचर अब ह्वाट्सएप र आईमेसेजका लागि सजिलै कस्टम स्टिकर बनाउन सकिने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Huawei MateBook Fold 2026: The Laptop That Unfolds Into an 18-Inch Display",
+      "link": "https://techsathi.com/huawei-matebook-fold-2026-price-in-nepal/",
+      "pubDate": "Wed, 26 Aug 2026 05:39:22 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Introduction What if your laptop could open into an 18-inch tablet without becoming a bulky desktop replacement? Huawei is making that idea a reality with the new MateBook Fold Ultimate Design 2026. Huawei launched the s",
+      "storyId": "huawei matebook fold 2026 the laptop that unfolds into an 18 inch display",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "सुनको मूल्य घट्यो, चाँदीको बढ्यो",
+      "link": "https://arthasarokar.com/2026/08/gold-price-falls-silver-price-rises.html",
+      "pubDate": "Wed, 26 Aug 2026 05:18:56 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । साताको कारोबारको चौथो दिन बुधबार सुनको मूल्य घटेको छ । कारोबारको अघिल्लो दिनको तुलनामा आज सुनको मूल्य प्रतितोला एक सय रुपैयाँले घटेको हो । कारोबारको अघिल्लो दिन प्रतितोला तीन लाख २२ हजार २ सय रुपैयाँमा कारोबार",
+      "storyId": "सुनको मूल्य घट्यो चाँदीको बढ्यो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "भोटेकोशी बाढीः प्रधानमन्त्रीले बोलाए आपतकालीन बैठक",
+      "link": "https://arthasarokar.com/2026/08/bhotekoshi-floods-pm-calls-emergency-meeting.html",
+      "pubDate": "Wed, 26 Aug 2026 05:15:14 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । प्रधानमन्त्री बालेन्द्र शाह (बालेन)ले आपतकालीन बैठक बोलाएका छन् । भोटेकोशीमा आएको बाढीपछि प्रधानमन्त्रीले आपतकालीन बैठक बोलाएका हुन् । बैठकमा राष्ट्रिय विपद् प्राधिकरणका पदाधिकारीसहित सुरक्षा निकायहरुको समेत उ",
+      "storyId": "भोटेकोशी बाढीः प्रधानमन्त्रीले बोलाए आपतकालीन बैठक",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "सिभिल इन्जिनियरिङ र आर्किटेक्चरका लागि काठमाडौं महानगरको 'करियर क्याम्प', अनलाइनबाटै आवेदन दिन सकिने",
+      "link": "https://techpana.com/2026/158705/kmc-career-camp-civil-engineering-architecture-online-application",
+      "pubDate": "Wed, 26 Aug 2026 05:04:40 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । काठमाडौं महानगरपालिकाले सिभिल इन्जिनियरिङ र आर्किटेक्चर विषयमा स्नातक तह उत्तीर्ण युवालाई लक्षित गर्दै &lsquo;करियर क्याम्प २०८३&rsquo; सञ्चालन गर्ने भएको छ । महानगरको शहरी योजना आयोगअन्तर्गत सञ्चालित यो कार्य",
+      "storyId": "सिभिल इन्जिनियरिङ र आर्किटेक्चरका लागि काठमाडौं महानगरको करियर क्याम्प अनलाइनबाटै आवेदन दिन सकिने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "भोटेकोशी बाढीले ३ प्रहरी कार्यालय बगायो, सेनाका २ हेलिकप्टर रसुवा उडे",
+      "link": "https://arthasarokar.com/2026/08/bhotekoshi-floods-sweep-away-3-police-offices-2-army-helicopters-fly-to-rasuwa.html",
+      "pubDate": "Wed, 26 Aug 2026 05:00:40 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । भोटेकोशीमा आएको बाढीले प्रहरीका तीन कार्यालय बगाएको छ । बाढीले इलाका प्रहरी कार्यालय टिमुरे, प्रहरी चौकी स्याफ्रुबेंसी र प्रहरी चौकी रसुवागढी बगाएको हो । बाढीका कारण यी तीन प्रहरी कार्यालयमा ठूलो क्षति भएको प्",
+      "storyId": "भोटेकोशी बाढीले ३ प्रहरी कार्यालय बगायो सेनाका २ हेलिकप्टर रसुवा उडे",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "भोटेकोशी बाढीः सबै हेलिकप्टर कम्पनीलाई तयार रहन प्रधानमन्त्री कार्यालयको निर्देशन",
+      "link": "https://arthasarokar.com/2026/08/bhotekoshi-floods-prime-ministers-office-directs-all-helicopter-companies-to-be-prepared.html",
+      "pubDate": "Wed, 26 Aug 2026 04:45:19 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । प्रधानमन्त्री कार्यालयले सबै हेलिकप्टर कम्पनीलाई तयार रहन निर्देशन दिएको छ । भोटेकोशी नदीमा ठूलो बाढी आएपछि प्रधानमन्त्री कार्यालयले सबै हेलिकप्टरलाई तयारी अवस्थामा रहन निर्देशन दिएको हो । भोटेकोशीमा एक्कासि ब",
+      "storyId": "भोटेकोशी बाढीः सबै हेलिकप्टर कम्पनीलाई तयार रहन प्रधानमन्त्री कार्यालयको निर्देशन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "अब देशभरका सबै जिल्ला अदालतका आदेश पनि सोही दिन वेबसाइटमै हेर्न सकिने",
+      "link": "https://techpana.com/2026/158704/district-court-orders-across-nepal-to-be-available-on-website-same-day",
+      "pubDate": "Wed, 26 Aug 2026 03:35:56 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । देशभरका जिल्ला अदालतबाट भएका आदेशहरू वेबसाइटमै हेर्न सकिने भएकाे छ । जिल्ला अदालतबाट भएका फैसला वा अन्तिम आदेशबाहेकका अन्य आदेश अब आदेश भएकै दिन अदालतको मुद्दा व्यवस्थापन प्रणाली (सीएमएस) मा प्रविष्ट हुने सर्व",
+      "storyId": "अब देशभरका सबै जिल्ला अदालतका आदेश पनि सोही दिन वेबसाइटमै हेर्न सकिने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "एपमार्फत कारोबार गर्ने व्यवस्था मिलाउन नेप्सेलाई धितोपत्र बोर्डको निर्देशन, भन्यो- ‘सिस्टम सुधार्नु, एआई कारोबार रोक्नू’",
+      "link": "https://arthasarokar.com/2026/08/securities-board-of-nepal-sebon-directs-nepse-to-improve-system-stop-ai-transactions.html",
+      "pubDate": "Wed, 26 Aug 2026 03:35:29 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौँ । नेपाल धितोपत्र बोर्ड (सेबोन)ले नेपाल स्टक एक्सचेञ्ज (नेप्से)लाई टिएमएसको आईटी अडिट र भिएपिटी गरेर प्रतिवेदन पेश गर्न निर्देशन दिएको छ । टिएमएसका सम्बन्धमा लगानीकर्ताको गुनासो बढेपछि बोर्डले नेप्सेलाई यस्तो निर",
+      "storyId": "एपमार्फत कारोबार गर्ने व्यवस्था मिलाउन नेप्सेलाई धितोपत्र बोर्डको निर्देशन भन्यो सिस्टम सुधार्नु एआई",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "पश्चिमी नाकाबाट नेपाल भित्रिने विदेशी पर्यटक बढे, एक वर्षमा १ करोड ५ लाख बढी राजस्व संकलन",
+      "link": "https://arthasarokar.com/2026/08/foreign-tourist-arrivals-from-western-border-point-soars-revenue-collected-more-than-10-5-million-in-a-year.html",
+      "pubDate": "Wed, 26 Aug 2026 02:48:09 +0000",
+      "source": "ARTHASAROKAR",
+      "sourceUrl": "https://arthasarokar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "कञ्चनपुर । कञ्चनपुरको पश्चिमी नाका गड्डाचौकीबाट नेपाल भित्रिने विदेशी पर्यटकको सङ्ख्या बढ्दै गएको छ । अध्यागमन कार्यालय गड्डाचौकीका अनुसार पछिल्ला केही वर्षयता यो नाका भएर नेपाल भित्रिने पर्यटकको संख्यामा वृद्धि हुँदै गए",
+      "storyId": "पश्चिमी नाकाबाट नेपाल भित्रिने विदेशी पर्यटक बढे एक वर्षमा १ करोड ५ लाख बढी राजस्व संकलन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ARTHASAROKAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "एक महिनामै नेपाल टेलिकमले गुमायो १८ हजार ३०० भन्दा बढी फाइबर इन्टरनेट ग्राहक, के होला कारण ?",
+      "link": "https://techpana.com/2026/158703/ntc-lost-more-than-18300-customers-in-one-month-what-could-be-the-reason",
+      "pubDate": "Wed, 26 Aug 2026 02:43:33 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । सरकारी स्वामित्वको दूरसञ्चार कम्पनी नेपाल टेलिकमलाई फिक्स्ड इन्टरनेट बजारमा ठुलो धक्का लागेको छ । नेपाल दूरसञ्चार प्राधिकरणको पछिल्लो प्रतिवेदन अनुसार केवल एक महिनाको अवधिमा नेपाल टेलिकमले आफ्नो उच्च गतिको फाइ",
+      "storyId": "एक महिनामै नेपाल टेलिकमले गुमायो १८ हजार ३०० भन्दा बढी फाइबर इन्टरनेट ग्राहक के होला कारण",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Yatri P2 launched with up to 207 km range, 3 battery options, price?",
+      "link": "https://techmandu.com/yatri-p2-electric-scooter-price-in-nepal/",
+      "pubDate": "Wed, 26 Aug 2026 01:56:16 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Sipradi and Yatri have collaborated to launch the Yatri P2 electric scooter at the NADA Auto Show 2026. The made-in-Nepal EV scooter is one of the highlights at the event. Specs wise, the two-wheeler comes with up to 5.2",
+      "storyId": "yatri p2 launched with up to 207 km range 3 battery options price",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "नाडा अटो शोमा फराइजनको 'भी७ई' इलेक्ट्रिक भ्यान सार्वजनिक, १२ मिनेटमै ८० प्रतिशत चार्ज हुने",
+      "link": "https://techpana.com/2026/158702/farizon-v7e-14-seat-electric-van-80-percent-charge-in-12-minutes",
+      "pubDate": "Wed, 26 Aug 2026 01:45:26 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । काठमाडौंको भृकुटीमण्डपमा मङ्गलबारदेखि जारी &lsquo;नाडा अटो शो २०२६&#39; मा चिनियाँ ईभी ब्रान्ड &#39;फराइजन&#39;को नयाँ इलेक्ट्रिक भ्यान &lsquo;भी७ई&rsquo; सार्वजनिक गरिएको छ । नेपालका लागि फराइजनको आधिकारिक वि",
+      "storyId": "नाडा अटो शोमा फराइजनको भी७ई इलेक्ट्रिक भ्यान सार्वजनिक १२ मिनेटमै ८० प्रतिशत चार्ज हुने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Bose QuietComfort Headphones (2nd Gen) Bring a Fresh Design and Lossless USB-C Audio",
+      "link": "https://techsathi.com/bose-quietcomfort-headphones-2nd-gen-price-in-nepal/",
+      "pubDate": "Wed, 19 Aug 2026 06:12:31 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Bose has officially introduced the QuietComfort Headphones (2nd Gen), bringing a substantial update to one of its most recognizable noise-cancelling headphone lines. The new model keeps Bose’s focus on comfort and active",
+      "storyId": "bose quietcomfort headphones 2nd gen bring a fresh design and lossless usb c audio",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "‘जेइको जे-फाइभ प्रो’ ईभीमा नाडा स्किम, पहिलो १०० जनाले ४७.९९ लाखमा खरिद गर्न पाउने",
+      "link": "https://techpana.com/2026/158701/jaecoo-j5-pro-ev-nada-offer-first-100-buyers",
+      "pubDate": "Tue, 25 Aug 2026 16:30:38 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । नेपालका लागि ओमोडा एन्ड जेइको ईभीको आधिकारिक वितरक एसपीजी अटोमोबाइल्स प्रालिले आफ्नो प्रिमियम इलेक्ट्रिक एसयूभी &lsquo;जेइको जे-फाइभ प्रो&rsquo; का लागि &lsquo;नाडा स्पेसल स्किम&rsquo; सार्वजनिक गरेको छ । हालै",
+      "storyId": "जेइको जे फाइभ प्रो ईभीमा नाडा स्किम पहिलो १०० जनाले ४७ ९९ लाखमा खरिद गर्न पाउने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "स्काइवेलको ‘बीई ११’ ईभी नेपाली बजारमा, नाडा अफर स्वरूप ३ लाख छुट",
+      "link": "https://techpana.com/2026/158700/skywell-be11-ev-launched-in-nepal-with-nada-offer",
+      "pubDate": "Tue, 25 Aug 2026 15:49:36 +0000",
+      "source": "TECHPANA",
+      "sourceUrl": "https://www.techpana.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं । एलआरआर मोटर्सले चिनियाँ विद्युतीय सवारी ब्रान्ड स्काइवेलको &lsquo;बीई ११&rsquo; (BE11) मोडेल नेपाली बजारमा भित्र्याएको छ । भृकुटीपण्डपमा मंगलबारदेखि सुरु भएको &lsquo;नाडा अटो शो २०२६&rsquo; को अवसर पारेर कम्पन",
+      "storyId": "स्काइवेलको बीई ११ ईभी नेपाली बजारमा नाडा अफर स्वरूप ३ लाख छुट",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHPANA"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "नबिल बैंकको डेपुटी सीईओमा गणेशप्रसाद अवस्थी नियुक्त",
+      "link": "https://bankingkhabar.com/archives/167363",
+      "pubDate": "Tue, 25 Aug 2026 11:47:13 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / नबिल बैंक लिमिटेडले गणेशप्रसाद अवस्थीलाई डेपुटी प्रमुख कार्यकारी अधिकृत (डेपुटी सीईओ) मा नियुक्त गरेको छ। बैंकको सञ्चालक समितिको बैठकले अवस्थीलाई डेपुटी सीईओको जिम्मेवारी दिने निर्णय गरेको हो । बैंकिङ क्षेत्",
+      "storyId": "नबिल बैंकको डेपुटी सीईओमा गणेशप्रसाद अवस्थी नियुक्त",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "नाफा कमाएका बैंकका लगानीकर्ताले दशैंअघि लाभांश पाउने सम्भावना",
+      "link": "https://bankingkhabar.com/archives/167361",
+      "pubDate": "Tue, 25 Aug 2026 11:37:43 +0000",
+      "source": "BANKINGKHABAR",
+      "sourceUrl": "https://bankingkhabar.com/feed",
+      "category": "finance",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "बैंकिङ खबर / गत आर्थिक वर्षमा नाफा कमाएका बैंक तथा वित्तीय संस्थाका लगानीकर्ताले दशैंअघि नै लाभांश पाउने सम्भावना देखिएको छ । नबिल बैंक, एभरेस्ट बैंक, सानिमा बैंक, माछापुच्छ्रे बैंक, कुमारी बैंक तथा नेपाल इन्फ्रास्ट्रक्च",
+      "storyId": "नाफा कमाएका बैंकका लगानीकर्ताले दशैंअघि लाभांश पाउने सम्भावना",
+      "sourceCount": 1,
+      "relatedSources": [
+        "BANKINGKHABAR"
+      ],
+      "isBreaking": false,
+      "storyCategory": "finance"
+    },
+    {
+      "title": "Huawei MatePad Pro 2026: Ultra-Thin Flagship Tablet with 144Hz OLED Display",
+      "link": "https://techsathi.com/huawei-matepad-pro-2026-price-in-nepal/",
+      "pubDate": "Tue, 25 Aug 2026 05:17:46 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Introduction Huawei is taking its flagship tablet lineup further with the MatePad Pro 2026, combining an ultra-thin design with a high-refresh-rate OLED display and Huawei’s latest Kirin processor. The tablet officially ",
+      "storyId": "huawei matepad pro 2026 ultra thin flagship tablet with 144hz oled display",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Meta Faces U.S. Trial Over Child Safety and Social Media Addiction",
+      "link": "https://techsathi.com/meta-us-trial-child-safety-social-media-addiction/",
+      "pubDate": "Tue, 18 Aug 2026 11:47:48 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Meta is facing one of its most consequential legal battles to date as U.S. states challenge how Facebook and Instagram are designed, particularly their impact on children and teenagers. A federal trial began in Oakland, ",
+      "storyId": "meta faces u s trial over child safety and social media addiction",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Pathao Commerce launched for businesses with a ‘free’ offer",
+      "link": "https://techmandu.com/pathao-commerce-for-businesses-price/",
+      "pubDate": "Tue, 11 Aug 2026 01:55:00 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Pathao launched a digital business management system called ‘Pathao Commerce’ for Nepali online entrepreneurs. The company has been effectively coordinating the delivery of goods to over 12,000 entrepreneurs across Nepal",
+      "storyId": "pathao commerce launched for businesses with a free offer",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Khalti payments are automatically enter taxpayer gift incentive",
+      "link": "https://techmandu.com/khalti-payments-are-automatically-enter-taxpayer-gift-incentive/",
+      "pubDate": "Tue, 11 Aug 2026 01:14:42 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Khalti has announced that users’ transactions via the Khalti platform automatically enter the government’s Taxpayer Incentive Prize Program. Under this program, lucky winners earn Rs 1 lakh every day, and every 15 days, ",
+      "storyId": "khalti payments are automatically enter taxpayer gift incentive",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "How to Block Your Global IME Bank Account in One Click?",
+      "link": "https://techmandu.com/how-to-block-your-global-ime-bank-account-in-one-click/",
+      "pubDate": "Tue, 04 Aug 2026 11:18:15 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Global IME Bank Ltd. has brought a feature that allows you to block your bank account in just one click. The move is expected to help users avoid phishing and scams and any type of banking fraud. The bank says that the r",
+      "storyId": "how to block your global ime bank account in one click",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "eSewa accredited ‘PCI DSS Version 4.0.1’ certification for transaction security",
+      "link": "https://techmandu.com/esewa-accredited-pci-dss-version-4-0-1-certification-for-transaction-security/",
+      "pubDate": "Thu, 20 Aug 2026 15:07:58 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Nepal’s leading payment service provider, eSewa, has been accredited with the world-class card data security standard ‘PCI DSS Version 4.0.1’. The certification is another reminder of the company’s commitment to the secu",
+      "storyId": "esewa accredited pci dss version 4 0 1 certification for transaction security",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Samsung Galaxy Z Fold8 Series Launches in Nepal With VIP Pre-Order Benefits Worth Up to NPR 68,000",
+      "link": "https://techsathi.com/samsung-galaxy-z-fold8-series-price-specs-availability-in-nepal/",
+      "pubDate": "Thu, 20 Aug 2026 05:52:17 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Samsung has officially introduced its latest foldable lineup in Nepal, bringing the Galaxy Z Fold8 Ultra, Galaxy Z Fold8 and Galaxy Z Flip8 to the market. The eighth-generation foldables combine redesigned hardware with ",
+      "storyId": "samsung galaxy z fold8 series launches in nepal with vip pre order benefits worth up to npr 68 000",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Lamina Labs: Nepali AI Startup Raises $4.8 Million to Make AI Explain Through Video",
+      "link": "https://techsathi.com/lamina-labs-nepali-ai-startup-raises-4-8-million/",
+      "pubDate": "Sun, 23 Aug 2026 05:50:31 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "A young Nepali-founded AI startup (Lamina Labs) is gaining international attention after raising $4.8 million to build a new generation of AI-powered video infrastructure. It is founded by Nepali entrepreneurs Sudip Roka",
+      "storyId": "lamina labs nepali ai startup raises 4 8 million to make ai explain through video",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Tata Tiago EV Facelift Price in Nepal | Latest update 2026",
+      "link": "https://techmandu.com/tata-tiago-ev-2025-price-in-nepal/",
+      "pubDate": "Sun, 16 Aug 2026 14:23:46 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Tata Motors has launched the Tata Tiago EV 2025 in Nepal at the NAIMA Nepal Mobility Expo 2026. It is a facelift variant of the originally launched hatchback – Tata Tiago EV from 2024. The new Tiago EV has a few cosmetic",
+      "storyId": "tata tiago ev facelift price in nepal latest update 2026",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Tata Punch EV facelift (2026) launched in Nepal with 40kWh battery",
+      "link": "https://techmandu.com/tata-punch-ev-facelift-2026-price-in-nepal/",
+      "pubDate": "Sun, 16 Aug 2026 13:54:22 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Tata Punch EV facelift 2026 has been launched in Nepal at the Nepal Automobile Importers and Manufacturers Association (NAIMA) Expo 2026. The lineup boasts up to a 40kWh battery, and its continuation with spec improvemen",
+      "storyId": "tata punch ev facelift 2026 launched in nepal with 40kwh battery",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Royal Enfield Classic 350 Gorkha Edition Launched in Nepal",
+      "link": "https://techmandu.com/royal-enfield-classic-350-gorkha-edition-price-in-nepal/",
+      "pubDate": "Sat, 22 Aug 2026 10:03:00 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Royal Enfield has officially launched the Classic 350 Gorkha Edition in Nepal, bringing a special military-inspired version of its popular classic 350cc motorcycle. Alpha Automotive, the official Royal Enfield distributo",
+      "storyId": "royal enfield classic 350 gorkha edition launched in nepal",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Arcfox T1 Launched in Nepal with a surprise price mechanism",
+      "link": "https://techmandu.com/arcfox-t1-crossover-ev-price-in-nepal/",
+      "pubDate": "Sat, 22 Aug 2026 09:12:00 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Premium electric crossover Arcfox T1 has been officially launched in Nepal at the Naima Mobility Expo. Built by Chinese automaker BAIC’s sub-brand Arcfox, the EV is brought into the country by Laxmi Motorhub, the authori",
+      "storyId": "arcfox t1 launched in nepal with a surprise price mechanism",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "HONOR 600 & 600 Pro: Big 7,000mAh Batteries and 200MP Cameras Arrive in Nepal",
+      "link": "https://techsathi.com/honor-600-600-pro-price-in-nepal/",
+      "pubDate": "Mon, 24 Aug 2026 05:11:07 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Introduction HONOR has brought its new HONOR 600 series to Nepal, consisting of the standard HONOR 600 and the more powerful HONOR 600 Pro. Both smartphones focus heavily on battery life, photography, AI features, and pr",
+      "storyId": "honor 600 600 pro big 7 000mah batteries and 200mp cameras arrive in nepal",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "HONOR Robot Phone: The Smartphone That Moves Its Camera Like a Robot",
+      "link": "https://techsathi.com/honor-robot-phone-that-moves-its-camera-like-a-robot/",
+      "pubDate": "Mon, 17 Aug 2026 04:49:22 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Smartphone design has barely changed in recent years. Most flagship phones now look similar, with manufacturers competing mainly on cameras, displays, processors and AI features. HONOR is taking a very different approach",
+      "storyId": "honor robot phone the smartphone that moves its camera like a robot",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Chery Q EV Price in Nepal: Specs, Range, Features and More",
+      "link": "https://techmandu.com/chery-q-ev-price-in-nepal/",
+      "pubDate": "Mon, 17 Aug 2026 02:16:18 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Chery Nepal has launched its compact electric crossover, Chery Q EV, in Nepal at the NAIMA Nepal Mobility Expo 2026, starting at a competitive price. The EV is aimed at people who want an EV experience at a budget price ",
+      "storyId": "chery q ev price in nepal specs range features and more",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Motorola Edge 70 Fusion: Big Battery and 144Hz AMOLED Display Arrive in Nepal",
+      "link": "https://techsathi.com/motorola-edge-70-fusion-price-in-nepal/",
+      "pubDate": "Fri, 21 Aug 2026 05:34:44 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Introduction Looking for a smartphone that combines a premium display, powerful performance, and a huge battery without reaching flagship pricing? The Motorola Edge 70 Fusion brings a strong combination of these features",
+      "storyId": "motorola edge 70 fusion big battery and 144hz amoled display arrive in nepal",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Pathao Commerce in Nepal: Game Changer or Just Another E-Commerce Platform?",
+      "link": "https://techsathi.com/pathao-commerce-nepal-features-pricing-how-it-works/",
+      "pubDate": "Fri, 14 Aug 2026 07:14:33 +0000",
+      "source": "TECHSATHI",
+      "sourceUrl": "https://techsathi.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Nepal’s online commerce market is moving beyond simple social-media selling. Businesses now need tools to manage orders, inventory, customer conversations, payments, websites and deliveries without maintaining several di",
+      "storyId": "pathao commerce in nepal game changer or just another e commerce platform",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHSATHI"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "Leapmotor B03X EV Arrives in Nepal with 505 km Range, Booking Opens",
+      "link": "https://techmandu.com/leapmotor-b03x-ev-price-in-nepal/",
+      "pubDate": "Fri, 07 Aug 2026 14:02:55 +0000",
+      "source": "TECHMANDU",
+      "sourceUrl": "https://techmandu.com/feed",
+      "category": "tech",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "Shangrila Motors Pvt. Ltd., the authorized distributor of Leapmotor vehicles in Nepal, has brought the new Leapmotor B03X electric SUV into the country. The EV comes with up to 505 km of CLTC range and a Level 2 ADAS sys",
+      "storyId": "leapmotor b03x ev arrives in nepal with 505 km range booking opens",
+      "sourceCount": 1,
+      "relatedSources": [
+        "TECHMANDU"
+      ],
+      "isBreaking": false,
+      "storyCategory": "tech"
+    },
+    {
+      "title": "त्रिशूलीमा आएको बाढीले गोरखा जोड्ने मोटरेबलसहित चार झोलुंगे पुल क्षतिग्रस्त",
+      "link": "http://annapurnapost.com/story/506141",
+      "pubDate": "2026-08-26T11:06:04.139664+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "गोरखा : रसुवाबाट आएको त्रिशूलीको बाढीले पृथ्वीराजमार्गसँग गोरखा जोड्ने एक मोटरेबलसहित चार झोलुंगे पुल क्षतिग्रस्त बनाएको छ । गण्डकी गाउँपालिका ८ र बेनिघाट जोड्ने मोटरेबल पुल बाढीको झोक्काले हल्लाएर क्षतिग्रस्त बनाएको स्थ",
+      "storyId": "त्रिशूलीमा आएको बाढीले गोरखा जोड्ने मोटरेबलसहित चार झोलुंगे पुल क्षतिग्रस्त",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "भोटेकोशीको बाढी नवलपरासीसम्म आउन सक्ने, सुस्तामा आश्रयस्थलको तयारी",
+      "link": "http://annapurnapost.com/story/506143",
+      "pubDate": "2026-08-26T11:06:04.139593+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "परासी : तिब्बतबाट आएको भोटेकोशी नदीको भीषण बाढीको असर नवलपरासीसम्म पर्न सक्ने भन्दै पूर्वी र पश्चिम नवलपरासी जिल्ला प्रशासनले तटीय क्षेत्रका स्थानीयलाई उच्च सतर्कता अपनाउन आग्रह गरेका छन्। बाढीको सबैभन्दा बढी असर सुस्ता ",
+      "storyId": "भोटेकोशीको बाढी नवलपरासीसम्म आउन सक्ने सुस्तामा आश्रयस्थलको तयारी",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढीपछि खण्डहर बने नदी किनारका बस्ती (भिडियो)",
+      "link": "http://annapurnapost.com/story/506144",
+      "pubDate": "2026-08-26T11:06:04.139557+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : रसुवाको भोटेकोशी नदीमा आएको अचानकको भीषण बाढीले नदी किनारका बस्ती, बजार र भौतिक संरचनामा ठूलो क्षति पुर्‍याएको छ। बाढीले स्याफ्रुबेसीदेखि तल्लो तटीय क्षेत्रसम्मका संरचना तहसनहस बनाउँदा कतिपय ठाउँ खण्डहरमा परिण",
+      "storyId": "बाढीपछि खण्डहर बने नदी किनारका बस्ती भिडियो",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "पार्टी विवादमा न्यायपालिकाको निर्णय स्वीकार्छौ : नेता सिंह",
+      "link": "http://annapurnapost.com/story/506145",
+      "pubDate": "2026-08-26T11:06:04.139523+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : नेपाली कांग्रेसका नेता प्रकाशमान सिंहले पार्टी विवादका बिषयमा न्यायपालिकाको निर्णय स्वीकार्ने स्पष्ट पारेका छन्। मंगलादेवी सिंहको स्मृति दिवसका अवसरमा बुधबार काठमाडौंमा आयोजित कार्यक्रममा नेता सिंहले पार्टीको ",
+      "storyId": "पार्टी विवादमा न्यायपालिकाको निर्णय स्वीकार्छौ नेता सिंह",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवामा बाढी प्रभावित क्षेत्रमा रहेका ३३ प्रहरी सम्पर्कमा,२८ जना अझै बेपत्ता",
+      "link": "http://annapurnapost.com/story/506146",
+      "pubDate": "2026-08-26T11:06:04.139489+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : रसुवाको बाढी प्रभावित क्षेत्रमा रहेका ३३ जना प्रहरी सम्पर्कमा आएका छन्। बाढीका कारण सम्पर्कविहीन भएका प्रहरीमध्ये ३३ जना सम्पर्कमा आएका हुन्। अझै २८ जना प्रहरी सम्पर्कविहीन रहेको प्रहरीले जनाएको छ।बाढी प्रभावि",
+      "storyId": "रसुवामा बाढी प्रभावित क्षेत्रमा रहेका ३३ प्रहरी सम्पर्कमा २८ जना अझै बेपत्ता",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "नेपालतर्फ हिमपहिरो गएपछि चिनियाँ राष्ट्रपति भन्छन्: राज्यका सम्पूर्ण संयन्त्रलाई उद्धारमा खटाउनू",
+      "link": "http://annapurnapost.com/story/506147",
+      "pubDate": "2026-08-26T11:06:04.139455+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : नेपाल र चीनको सीमावर्ती क्षेत्रको नेपालतर्फ हिमपहिरो गएपछि आएको विनाशकारी बाढीले दुवै देशमा ठूलो जनधनको क्षति भएकाे छ । दक्षिण-पश्चिम चीनको सिजाङ (तिब्बत) स्वायत्त क्षेत्रस्थित ग्यिरोङ सीमा नाकाको नेपालतर्फ हि",
+      "storyId": "नेपालतर्फ हिमपहिरो गएपछि चिनियाँ राष्ट्रपति भन्छन् राज्यका सम्पूर्ण संयन्त्रलाई उद्धारमा खटाउनू",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढी : प्रभावित क्षेत्रका नागरिकको उद्धार र राहत प्याकेज घोषणा गर्न सांसदहरूको माग",
+      "link": "http://annapurnapost.com/story/506149",
+      "pubDate": "2026-08-26T11:06:04.139390+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : भोटेकोशी नदीमा आएको बाढीबाट प्रभावित क्षेत्रका सांसदहरूले छिटो भन्दा छिटो नागरिकको उद्धार गर्न सरकारको ध्यानाकर्षण गराएका छन्।बुधबार बसेको प्रतिनिधिसभा बैठकको आकस्मिक समयमा उनीहरूले बाढीका कारण रसुवा र नुवाकोट",
+      "storyId": "रसुवा बाढी प्रभावित क्षेत्रका नागरिकको उद्धार र राहत प्याकेज घोषणा गर्न सांसदहरूको माग",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "दुई सन्तानकी आमाद्धारा प्रेमीसँग मिलेर श्रीमानको हत्या",
+      "link": "http://annapurnapost.com/story/506151",
+      "pubDate": "2026-08-26T11:06:04.139323+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "टीकापुर : दुई सन्तानकी आमाले आफ्ना प्रेमीसँग मिलेर फिल्मी शैलीमा श्रीमानको हत्या गरेको घटना बाहिरिएको छ। जिल्ला प्रहरी कार्यालय कैलालीका अनुसार लम्कीचुहा घर भई अमरावतीस्थित ससुरालीमा बस्दै आएका ३४ वर्षीय दीपक सुनारलाई उन",
+      "storyId": "दुई सन्तानकी आमाद्धारा प्रेमीसँग मिलेर श्रीमानको हत्या",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "विमानस्थल पुगे गृहमन्त्री गुरुङ",
+      "link": "http://annapurnapost.com/story/506152",
+      "pubDate": "2026-08-26T11:06:04.139299+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : रसुवा बाढीमा परेकाहरूको उद्धारमा जुट्न गृहमन्त्री त्रिभुवन अन्तर्राष्ट्रिय विमानस्थल पुगेका छन्। प्रभावित क्षेत्रबाट हवाई उद्धार गरी ल्याएकाहरूलाई सहजीकरण गर्न उनी आफैं विमानस्थल पुगेको सचिवालयले जनाएको छ।सचिव",
+      "storyId": "विमानस्थल पुगे गृहमन्त्री गुरुङ",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "थप उद्धार सामग्रीसहित सुरक्षा टोली बाढी प्रभावित क्षेत्रमा प्रस्थान",
+      "link": "http://annapurnapost.com/story/506153",
+      "pubDate": "2026-08-26T11:06:04.139265+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : सरकारले रसुवा बाढी प्रभावित क्षेत्रमा थप उद्धार सामग्रीसहित सुरक्षा टोली परिचालन गरेको छ। गृहमन्त्री सुधन गुरुङले त्रिभुवन अन्तर्राष्ट्रिय विमानस्थलमा नेपाली सेना, नेपाल प्रहरी र सशस्त्र प्रहरी बल (एपीएफ)का टो",
+      "storyId": "थप उद्धार सामग्रीसहित सुरक्षा टोली बाढी प्रभावित क्षेत्रमा प्रस्थान",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "सेयर बजारमा करिब ३६ अंकको गिरावट",
+      "link": "http://annapurnapost.com/story/506154",
+      "pubDate": "2026-08-26T11:06:04.139227+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं :सेयर बजारमा करिब ३६ अंकको गिरावट आएको छ। बुधबार नेप्से परिसूचक ३५.९२ अंकले घटेर २५५८.३५ विन्दुमा अडिएको छ। मंगलबार नेप्से परिसूचक ५.३० अंकले घटेर २५९४.२७ विन्दुमा अडिएको थियो।नेप्से घटे पनि कारोबार रकम भने मंगल",
+      "storyId": "सेयर बजारमा करिब ३६ अंकको गिरावट",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "बाढी प्रभावितको उद्धारमा सरकारले कुनै कसर बाँकी राख्दैन् : सभापति लामिछाने",
+      "link": "http://annapurnapost.com/story/506155",
+      "pubDate": "2026-08-26T11:06:04.139193+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : सत्तारुढ राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा)का सभापति रवि लामिछानेले बाढी प्रभावितहरुको उद्धारका लागी सरकारले कुनै कसर बाँकी नराख्ने प्रतिबद्धता व्यक्त गरेका छन्। भोटेकोशीमा आएको भिषण बाढीले पुगाएको अपुरणीय क",
+      "storyId": "बाढी प्रभावितको उद्धारमा सरकारले कुनै कसर बाँकी राख्दैन् सभापति लामिछाने",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवाको बाढीमा टीकापुरका केही व्यक्ति सम्पर्कविहीन",
+      "link": "http://annapurnapost.com/story/506157",
+      "pubDate": "2026-08-26T11:06:04.139102+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "टीकापुर : रसुवामा आएको बाढीमा परेर कैलालीका केही व्यक्ति सम्पर्कविहीन भएका छन्। उनीहरु रोजगारीका क्रममा त्यहाँ रहेका थिए। रसुवास्थित धुन्चे हाइड्रो पावरमा कार्यरत टीकापुर–१ समितिपुरका मात्रै ८–१० जना सम्पर्कविहीन छन्। उन",
+      "storyId": "रसुवाको बाढीमा टीकापुरका केही व्यक्ति सम्पर्कविहीन",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    },
+    {
+      "title": "रसुवा बाढीमा परी घाइते भएका १३ जनाको उपचार काठमाडौं हुँदै",
+      "link": "http://annapurnapost.com/story/506159",
+      "pubDate": "2026-08-26T11:06:04.138967+00:00",
+      "source": "ANNAPURNAPOST",
+      "sourceUrl": "https://www.annapurnapost.com/rss",
+      "category": "nepal",
+      "thumb": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80",
+      "desc": "काठमाडौं : रसुवा बाढीमा परी घाइते भएका १३ जनाको काठमाडौंका विभिन्न अस्पतालमा भर्ना गरिएको छ।गृह मन्त्रालयका अनुसार नुवाकोटबाट उद्धार गरिएका तीन जना र ठेगना नखुलेका १० जनालाई विभिन्न अस्पतालमा उपचार भइरहेको छ। उनीहरूको रा",
+      "storyId": "रसुवा बाढीमा परी घाइते भएका १३ जनाको उपचार काठमाडौं हुँदै",
+      "sourceCount": 1,
+      "relatedSources": [
+        "ANNAPURNAPOST"
+      ],
+      "isBreaking": false,
+      "storyCategory": "nepal"
+    }
+  ],
+  "clusters": 202,
+  "breakingCount": 14
+}
