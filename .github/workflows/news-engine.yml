@@ -1,0 +1,66 @@
+name: Nepal News Engine
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'js/story-platform.js'
+      - '.github/workflows/news-engine.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-engine
+  cancel-in-progress: true
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Fetch RSS feeds
+        run: python scripts/fetch_news.py
+      - name: Run intelligence layer
+        run: python scripts/news_intelligence.py
+      - name: Build trending clusters
+        run: python scripts/build_trending.py
+      - name: Generate source health
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          data=json.loads(Path('news.json').read_text(encoding='utf-8'))
+          failed={x['url']:x.get('error','unknown') for x in data.get('failedSources',[])}
+          from scripts.fetch_news import FEEDS
+          health=[{'url':u,'category':c,'ok':u not in failed,'error':failed.get(u)} for c,urls in FEEDS.items() for u in urls]
+          Path('data/source-health.json').write_text(json.dumps({'updatedAt':datetime.now(timezone.utc).isoformat(),'sources':health},ensure_ascii=False,indent=2),encoding='utf-8')
+          PY
+      - name: Generate SEO pages
+        run: python scripts/generate_seo.py
+      - name: Inject story-first frontend
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          text=p.read_text(encoding='utf-8')
+          tag='<script src="./js/story-platform.js" defer></script>'
+          if tag not in text:
+              text=text.replace('</body>', tag+'\n</body>')
+              p.write_text(text,encoding='utf-8')
+          PY
+      - name: Commit generated data and frontend
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html news.json data/source-health.json data/trending.json news-pages sitemap.xml js/story-platform.js
+          git diff --cached --quiet || git commit -m 'chore: refresh newsroom and story-first frontend'
+          git push
