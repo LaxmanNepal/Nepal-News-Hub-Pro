@@ -22,13 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
       - name: Fetch RSS feeds
         run: python scripts/fetch_news.py
       - name: Run intelligence layer
         run: python scripts/news_intelligence.py
+      - name: Build trending clusters
+        run: python scripts/build_trending.py
       - name: Generate source health
         run: |
           python - <<'PY'
@@ -47,6 +49,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add news.json data/source-health.json news-pages sitemap.xml
-          git diff --cached --quiet || git commit -m 'chore: refresh news, intelligence and SEO pages'
+          git add news.json data/source-health.json data/trending.json news-pages sitemap.xml
+          git diff --cached --quiet || git commit -m 'chore: refresh news intelligence and trending data'
           git push
