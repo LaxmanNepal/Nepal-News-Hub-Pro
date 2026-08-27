@@ -1,71 +1,13 @@
 (() => {
-  'use strict';
-  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const safeUrl = (s) => { try { const u = new URL(String(s || ''), location.href); return /^https?:$/.test(u.protocol) ? u.href : '#'; } catch { return '#'; } };
-  const state = { story: null };
-  const normalize = s => String(s || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}\u0900-\u097f ]/gu,' ').replace(/\s+/g,' ').trim();
-  const clusterKey = item => item.storyId || normalize(item.title).split(' ').filter(Boolean).slice(0,14).join(' ');
-  const grouped = () => {
-    const map = new Map();
-    (window.allNews || []).forEach(item => {
-      const key = clusterKey(item);
-      if (!map.has(key)) map.set(key, {key, items: [], sources: new Set(), breaking:false});
-      const g = map.get(key); g.items.push(item); if(item.source) g.sources.add(item.source); g.breaking ||= !!item.isBreaking;
-    });
-    return [...map.values()].map(g => {
-      g.items.sort((a,b)=>new Date(b.pubDate||0)-new Date(a.pubDate||0));
-      g.sources = [...g.sources];
-      g.lead = g.items[0];
-      g.score = (g.sources.length*25) + (g.breaking?35:0) + Math.max(0,30-Math.floor((Date.now()-new Date(g.lead.pubDate||0))/3600000));
-      return g;
-    }).sort((a,b)=>b.score-a.score);
-  };
-  const ensureModal = () => {
-    if (document.getElementById('storyPlatformModal')) return;
-    const el = document.createElement('div'); el.id='storyPlatformModal'; el.className='sp-modal';
-    el.innerHTML = `<div class="sp-backdrop" data-sp-close></div><section class="sp-dialog" role="dialog" aria-modal="true"><button class="sp-close" data-sp-close aria-label="Close">×</button><div id="spContent"></div></section>`;
-    document.body.appendChild(el);
-    el.addEventListener('click', e => { if(e.target.matches('[data-sp-close]')) close(); });
-  };
-  const open = key => {
-    const g = grouped().find(x=>x.key===key); if(!g) return;
-    ensureModal(); state.story=g; const lead=g.lead;
-    document.getElementById('spContent').innerHTML = `<div class="sp-kicker">${g.breaking?'BREAKING STORY':'STORY'} · ${g.sources.length} SOURCES</div><h2>${esc(lead.title)}</h2><p class="sp-summary">${esc(lead.desc || 'Multiple publishers are reporting this story.')}</p><div class="sp-meta">${esc(lead.storyCategory||lead.category||'Nepal')} · ${esc(lead.source||'News source')} · ${esc(lead.pubDate||'')}</div><div class="sp-sources">${g.items.slice(0,10).map((x,i)=>`<a href="${safeUrl(x.link)}" target="_blank" rel="noopener noreferrer"><b>${i+1}</b><span><strong>${esc(x.source||'Source')}</strong><small>${esc(x.title)}</small></span><i>↗</i></a>`).join('')}</div>`;
-    document.getElementById('storyPlatformModal').classList.add('open'); document.body.classList.add('sp-locked');
-  };
-  const close = () => { document.getElementById('storyPlatformModal')?.classList.remove('open'); document.body.classList.remove('sp-locked'); state.story=null; };
-  window.openStoryPlatform = open;
-  window.closeStoryPlatform = close;
-  const install = () => {
-    ensureModal();
-    const style=document.createElement('style'); style.textContent=`
-      .sp-locked{overflow:hidden}.sp-modal{position:fixed;inset:0;z-index:300;display:none}.sp-modal.open{display:block}.sp-backdrop{position:absolute;inset:0;background:#050505b8;backdrop-filter:blur(8px)}.sp-dialog{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(760px,calc(100vw - 28px));max-height:min(86vh,820px);overflow:auto;background:#fff;color:#111;border-radius:28px;padding:30px;box-shadow:0 30px 100px #0008}.sp-close{position:absolute;right:16px;top:14px;width:40px;height:40px;border:0;border-radius:50%;background:#f4f4f5;font-size:25px}.sp-kicker{font-size:10px;font-weight:900;letter-spacing:.14em;color:#e11d48}.sp-dialog h2{font-family:Inter,'Noto Sans Devanagari',system-ui,sans-serif;font-size:clamp(25px,4vw,42px);line-height:1.08;letter-spacing:-.04em;margin:12px 40px 14px 0}.sp-summary{font-size:14px;line-height:1.7;color:#525252}.sp-meta{font-size:10px;font-weight:800;color:#a3a3a3;margin:16px 0}.sp-sources{border-top:1px solid #e7e5e4}.sp-sources a{display:flex;align-items:center;gap:12px;padding:15px 0;border-bottom:1px solid #e7e5e4;text-decoration:none;color:#111}.sp-sources b{width:28px;height:28px;border-radius:50%;background:#111;color:#fff;display:grid;place-items:center;font-size:11px}.sp-sources span{flex:1}.sp-sources strong{display:block;font-size:11px;color:#e11d48}.sp-sources small{display:block;font-size:11px;line-height:1.4;margin-top:3px}.sp-sources i{font-style:normal;color:#999}@media(max-width:600px){.sp-dialog{padding:22px;border-radius:22px}.sp-dialog h2{font-size:27px}}
-    `; document.head.appendChild(style);
-  };
-  const wire = () => {
-    install();
-    document.addEventListener('click', e => {
-      const card=e.target.closest('.card,.breakcard,.rank'); if(!card || e.target.closest('a,button')) return;
-      const title=card.querySelector('h3,h2'); if(!title) return;
-      const g=grouped().find(x=>normalize(x.lead.title)===normalize(title.textContent)); if(g) open(g.key);
-    });
-    const originalRender = window.render;
-    if(typeof originalRender==='function'){
-      window.render = function(){ originalRender(); setTimeout(enhanceFeed,0); };
-      if(window.search) window.search.oninput=window.render;
-      setTimeout(enhanceFeed,50);
-    }
-  };
-  const enhanceFeed = () => {
-    const feed=document.getElementById('feed'); if(!feed) return;
-    const seen=new Set();
-    [...feed.children].forEach(card=>{
-      const title=card.querySelector('h3'); if(!title) return;
-      const g=grouped().find(x=>normalize(x.lead.title)===normalize(title.textContent));
-      if(!g) return;
-      if(seen.has(g.key)){card.remove();return} seen.add(g.key);
-      const body=card.querySelector('.cardbody'); if(body && !body.querySelector('.story-coverage')){ const d=document.createElement('button'); d.className='story-coverage'; d.type='button'; d.textContent=`${g.sources.length} outlets · View story`; d.onclick=()=>open(g.key); body.insertBefore(d, body.querySelector('.cardfoot')); }
-    });
-  };
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',wire); else wire();
+'use strict';
+const esc=(s)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s||'').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}\u0900-\u097f ]/gu,' ').replace(/\s+/g,' ').trim();
+const groups=()=>{const m=new Map();(window.allNews||[]).forEach(x=>{const k=x.storyId||norm(x.title).split(' ').slice(0,14).join(' ');if(!m.has(k))m.set(k,{key:k,items:[],sources:new Set(),breaking:false});const g=m.get(k);g.items.push(x);if(x.source)g.sources.add(x.source);g.breaking ||= !!x.isBreaking});return [...m.values()].map(g=>{g.sources=[...g.sources];g.items.sort((a,b)=>new Date(b.pubDate||0)-new Date(a.pubDate||0));g.lead=g.items[0];g.score=g.sources.length*25+(g.breaking?35:0)+Math.max(0,30-Math.floor((Date.now()-new Date(g.lead.pubDate||0))/3600000));return g}).sort((a,b)=>b.score-a.score)};
+const ensure=()=>{if(document.getElementById('nhx'))return;const s=document.createElement('style');s.id='nhx';s.textContent=`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&display=swap');:root{--glass:rgba(255,255,255,.68);--glass2:rgba(255,255,255,.42);--stroke:rgba(255,255,255,.72);--shadow:0 18px 55px rgba(15,23,42,.10)}body{font-family:Poppins,'Noto Sans Devanagari',system-ui,sans-serif;background:linear-gradient(135deg,#f8fafc,#eef2ff 48%,#fff1f2);background-attachment:fixed}body:before{content:'';position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 10% 5%,rgba(244,63,94,.12),transparent 28%),radial-gradient(circle at 90% 20%,rgba(99,102,241,.12),transparent 30%);z-index:-1}.mast,.nav,.ticker,.panel,.card,.hero,.story,.breakcard,.filters button,.bottom{backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%)}.mast,.nav,.ticker,.panel,.card,.bottom{background:var(--glass)!important;border-color:var(--stroke)!important;box-shadow:var(--shadow)}.brand{font-family:Poppins,sans-serif}.section-head h2,.hero-copy h1,.card h3,.mini-copy h3,.breakcopy h3{font-family:Poppins,'Noto Sans Devanagari',sans-serif}.glass-trend{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.trendbox{background:var(--glass2);border:1px solid var(--stroke);border-radius:20px;padding:16px;box-shadow:var(--shadow)}.trendbox h3{margin:0 0 12px;font-size:13px}.trendrow{display:flex;gap:10px;align-items:center;padding:9px 0;border-top:1px solid rgba(100,116,139,.13);font-size:11px}.trendrow:first-child{border-top:0}.trendnum{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#111;color:#fff;font-size:9px;font-weight:800}.person{width:34px;height:34px;border-radius:50%;object-fit:cover;background:#e2e8f0}.np-person{font-weight:700}.glass-chip{display:inline-flex;padding:7px 11px;border-radius:999px;background:rgba(255,255,255,.62);border:1px solid var(--stroke);font-size:10px;font-weight:700;margin:3px}.sp-dialog{font-family:Poppins,'Noto Sans Devanagari',sans-serif!important;background:rgba(255,255,255,.82)!important;backdrop-filter:blur(30px)!important;-webkit-backdrop-filter:blur(30px)!important;border:1px solid rgba(255,255,255,.9)!important}.story-coverage{width:100%;margin-top:10px;border:1px solid rgba(225,29,72,.15);background:rgba(255,241,242,.72);color:#be123c;border-radius:12px;padding:9px;font-size:10px;font-weight:800}@media(max-width:720px){.glass-trend{grid-template-columns:1fr}.panel,.card{border-radius:20px}.hero{box-shadow:0 20px 50px rgba(15,23,42,.14)}}`;
+document.head.appendChild(s);
+const nepali={'Stories':'स्टोरी','Breaking Now':'ब्रेकिङ समाचार','Trending':'ट्रेन्डिङ','News Sources':'समाचार स्रोत','Most Covered':'धेरै स्रोतले रिपोर्ट गरेका','Latest News':'ताजा समाचार','Latest Headlines':'ताजा हेडलाइन','Search headlines, sources, topics…':'समाचार, स्रोत वा विषय खोज्नुहोस्…','Refresh':'रिफ्रेस','News Reels':'समाचार रिल्स','Live newsroom':'लाइभ न्यूजरुम','Updating every 15 minutes':'हरेक १५ मिनेटमा अपडेट','Fresh stories from across Nepal and beyond.':'नेपाल तथा विश्वभरका ताजा समाचार।','Tap a publisher to enter the news reels.':'समाचार रिल्स हेर्न स्रोत छान्नुहोस्।'};
+const translate=()=>{document.querySelectorAll('body *').forEach(el=>{if(el.children.length===0){const t=el.textContent.trim();if(nepali[t])el.textContent=nepali[t]}});const q=document.getElementById('search');if(q)q.placeholder=nepali[q.placeholder]||'समाचार, स्रोत वा विषय खोज्नुहोस्…'};
+const addTrends=()=>{if(document.getElementById('trendPlus'))return;const data=window.allNews||[],words=new Map(),people=new Map();const stop=new Set(['नेपाल','सरकार','गरेको','गर्ने','भएको','भने','का','को','मा','ले','र','यो','आज','the','and','for','with']);data.forEach(x=>{const t=norm(x.title).split(' ');t.forEach(w=>{if(w.length>3&&!stop.has(w))words.set(w,(words.get(w)||0)+1)});const m=x.title.match(/[\u0900-\u097fA-Za-z]{2,}(?:\s+[\u0900-\u097fA-Za-z]{2,})?/g)||[];m.slice(0,4).forEach(p=>{if(p.length>4&&!stop.has(norm(p)))people.set(p.trim(),(people.get(p.trim())||0)+1)})});const topics=[...words.entries()].sort((a,b)=>b[1]-a[1]).slice(0,8);const persons=[...people.entries()].sort((a,b)=>b[1]-a[1]).slice(0,6);const sec=document.createElement('section');sec.id='trendPlus';sec.className='section';sec.innerHTML=`<div class="section-head"><div><h2>ट्रेन्डिङ विषय र व्यक्ति</h2><p>समाचारमा अहिले सबैभन्दा धेरै देखिएका विषय</p></div></div><div class="glass-trend"><div class="trendbox"><h3>🔥 ट्रेन्डिङ विषय</h3>${topics.map((x,i)=>`<div class="trendrow"><span class="trendnum">${i+1}</span><b>${esc(x[0])}</b><small>${x[1]} समाचार</small></div>`).join('')}</div><div class="trendbox"><h3>👤 ट्रेन्डिङ व्यक्ति</h3>${persons.map((x,i)=>`<div class="trendrow"><span class="trendnum">${i+1}</span><b class="np-person">${esc(x[0])}</b><small>${x[1]} उल्लेख</small></div>`).join('')}</div></div>`;const feed=document.getElementById('feed');feed?.closest('.section')?.before(sec)};
+const oldOpen=window.openStoryPlatform;window.openStoryPlatform=(key)=>{if(oldOpen)oldOpen(key)};
+const boot=()=>{ensure();translate();setTimeout(addTrends,700);setInterval(translate,2500)};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
 })();
