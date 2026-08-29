@@ -1,61 +1,51 @@
 # Nepal News Hub Pro - build, refresh and deploy
 name: Nepal News Hub Pro - Live Feed Deploy
-
 on:
   push:
     branches: ["main"]
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Fetch live Nepal news
         run: python scripts/fetch_news.py
-
-      - name: Inject static-first news engine
-        run: |
-          python - <<'PY'
+      - name: Validate generated news JSON
+        run: python - <<'PY'
+          import json
           from pathlib import Path
-          p = Path("index.html")
-          html = p.read_text(encoding="utf-8")
-          tag = '<script src="js/news-engine.js"></script>'
-          if tag not in html:
-              html = html.replace('</body>', f'{tag}\n</body>')
-              p.write_text(html, encoding='utf-8')
+          p=Path('news.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          assert isinstance(data,dict) and isinstance(data.get('items'),list), 'Invalid news.json schema'
+          for i,item in enumerate(data['items']):
+              assert item.get('title'), f'Missing title at item {i}'
+              assert item.get('link'), f'Missing link at item {i}'
+          print(f"Validated {len(data['items'])} news items")
           PY
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
   deploy:
     environment:
       name: github-pages
