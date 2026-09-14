@@ -10,11 +10,12 @@ for x in items:
     clusters.setdefault(sid,[]).append(x)
 rows=[]
 for sid, group in clusters.items():
-    best=max(group,key=lambda x: len(x.get('desc','')))
+    best=max(group,key=lambda x: float(x.get('importanceScore',0)))
     sources=sorted({x.get('source','') for x in group if x.get('source')})
-    score=min(100, len(sources)*22 + (15 if any(x.get('isBreaking') for x in group) else 0) + min(30,len(group)*2))
+    score=min(100, round(max(float(x.get('importanceScore',0)) for x in group) + min(20,len(sources)*3),2))
     rows.append({'storyId':sid,'title':best.get('title',''),'desc':best.get('desc',''),'thumb':best.get('thumb',''),'category':best.get('storyCategory',best.get('category','nepal')),'sourceCount':len(sources),'sources':sources,'score':score,'isBreaking':any(x.get('isBreaking') for x in group),'link':best.get('link',''),'pubDate':best.get('pubDate','')})
 rows.sort(key=lambda x:(x['isBreaking'],x['score'],x['pubDate']),reverse=True)
-out={'updatedAt':datetime.now(timezone.utc).isoformat(),'trending':rows[:30]}
+by_category={c:sum(1 for x in rows if x['category']==c) for c in ['nepal','politics','finance','sports','tech','entertainment','world']}
+out={'updatedAt':datetime.now(timezone.utc).isoformat(),'trending':rows[:50],'categoryCounts':by_category}
 Path('data/trending.json').parent.mkdir(exist_ok=True); Path('data/trending.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Built {len(out["trending"])} trending clusters')
