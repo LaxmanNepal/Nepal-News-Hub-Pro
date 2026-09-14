@@ -5,7 +5,12 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/**','js/news-hub-v2.js','.github/workflows/news-engine.yml']
+    paths:
+      - 'scripts/**'
+      - 'js/**'
+      - 'css/**'
+      - 'index.html'
+      - '.github/workflows/news-engine.yml'
 permissions:
   contents: write
 concurrency:
@@ -19,8 +24,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Fetch RSS feeds
+      - name: Fetch RSS and Atom feeds
         run: python scripts/fetch_news.py
+      - name: Validate news feed and images
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('news.json').read_text(encoding='utf-8'))
+          assert isinstance(d.get('items'), list) and d['items'], 'No news items generated'
+          assert d.get('sourcesAttempted', 0) >= 40, 'Feed coverage unexpectedly low'
+          assert all(x.get('title') and x.get('link') for x in d['items']), 'Invalid story found'
+          print(f"Validated {len(d['items'])} stories; feeds={d.get('sourcesAttempted')}; imageCoverage={d.get('imageCoverage',0)}")
+          PY
       - name: Run intelligence layer
         run: python scripts/news_intelligence.py
       - name: Build trending clusters
